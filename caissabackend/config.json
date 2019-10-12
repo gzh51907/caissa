@@ -1,0 +1,7 @@
+{
+    "port": 4399,
+    "mongourl": "mongodb://localhost:27017",
+    "mongoname": "myapp",
+    "homedata":"homedata",
+    "secret":"tjfljhlhx"
+}
