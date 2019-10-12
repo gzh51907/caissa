@@ -9,12 +9,13 @@
 
 export default {
   name: 'app',
-  components: {
-    
-  }
+  components: {}
 }
 </script>
 
 <style>
-
+*{
+  padding: 0;
+  margin: 0;
+}
 </style>
