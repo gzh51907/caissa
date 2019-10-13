@@ -1,13 +1,11 @@
 <template>
     <div>
-
         <bookinf>
         </bookinf>
         <commoninf></commoninf>
         <detailinf></detailinf>
         <inquiryinf></inquiryinf>
         <navjump></navjump>
-
     </div>
 </template>
 <script>
