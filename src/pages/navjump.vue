@@ -1,5 +1,4 @@
 <template>
-     <el-footer>
       <div class="footer_cs">
       <ul>
           <div v-for="(item,index) in menus" :key="item.name" >
@@ -14,7 +13,6 @@
       </div>
       </ul>
       </div>
-      </el-footer>
 </template>
 <script>
 export default {
