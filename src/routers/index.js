@@ -8,6 +8,6 @@ Vue.use(VueRouter);
 
 //实例化router并配置参数
 let router = new VueRouter({
-    routes:[]
+    routes: []
 })
 export default router;
