@@ -102,7 +102,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 //局部引入外部css文件
-@import "../lib/base.css";
+@import "../lib_base/base.css";
 // body {
 //   width: 100%;
 //   background-color: #eee;

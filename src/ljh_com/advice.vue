@@ -1,34 +1,34 @@
 <template>
-    <div class="advice">
-        <el-input class="text" type="textarea" :rows="8" placeholder="感谢您宝贵的反馈信息,我们将不断努力改进" v-model="textarea">
-        </el-input>
-        <p>反馈内容类型</p>
-        <div style="padding-bottom:15px;border-bottom:1px solid #ccc;">
-            <el-row :gutter="10">
-                <el-col :span="8" v-for="item in btnlist" :key="item.content">
-                    <el-checkbox class="input" v-model="item.checked" :label="item.content" border size="medium"></el-checkbox>
-                </el-col>
-            </el-row>
-        </div>
-        <ul>
-            <li>
-                <i class="fl el-icon-s-custom"></i>
-                <input class="fl" type="text" style="width:160px;border:0px;" placeholder="联系人姓名" v-model="username">
-                <el-checkbox class="fr" v-model="check" style="height:50px;line-height:50px;">匿名反馈</el-checkbox>
-            </li>
-            <li>
-                <i class="fl el-icon-mobile-phone"></i>
-                <input type="text" style="width:160px;border:0px;" placeholder="手机号码" v-model="tellphone">
-            </li>
-            <li>
-                <i class="fl el-icon-location-outline"></i>
-                <input type="text" style="width:160px;border:0px;" placeholder="广州市" v-model="address">
-            </li>
-        </ul>
-        <div style="text-align: center;">
-            <el-button class="submit" type="primary" @click="checkout(textarea)">提交</el-button>
-        </div>
+  <div class="advice">
+    <el-input class="text" type="textarea" :rows="8" placeholder="感谢您宝贵的反馈信息,我们将不断努力改进" v-model="textarea">
+    </el-input>
+    <p>反馈内容类型</p>
+    <div style="padding-bottom:15px;border-bottom:1px solid #ccc;">
+      <el-row :gutter="10">
+        <el-col :span="8" v-for="item in btnlist" :key="item.content">
+          <el-checkbox class="input" v-model="item.checked" :label="item.content" border size="medium"></el-checkbox>
+        </el-col>
+      </el-row>
     </div>
+    <ul>
+      <li>
+        <i class="fl el-icon-s-custom"></i>
+        <input class="fl" type="text" style="width:160px;border:0px;" placeholder="联系人姓名" v-model="username">
+        <el-checkbox class="fr" v-model="check" style="height:50px;line-height:50px;">匿名反馈</el-checkbox>
+      </li>
+      <li>
+        <i class="fl el-icon-mobile-phone"></i>
+        <input type="text" style="width:160px;border:0px;" placeholder="手机号码" v-model="tellphone">
+      </li>
+      <li>
+        <i class="fl el-icon-location-outline"></i>
+        <input type="text" style="width:160px;border:0px;" placeholder="广州市" v-model="address">
+      </li>
+    </ul>
+    <div style="text-align: center;">
+      <el-button class="submit" type="primary" @click="checkout(textarea)">提交</el-button>
+    </div>
+  </div>
 </template>
 <script>
 export default {
@@ -78,7 +78,7 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "../lib/base.css";
+@import "../lib_base/base.css";
 .advice {
   position: absolute;
   top: 0;

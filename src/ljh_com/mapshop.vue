@@ -31,7 +31,7 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "../lib/base.css";
+@import "../lib_base/base.css";
 .mapshop {
   > p {
     height: 50px;

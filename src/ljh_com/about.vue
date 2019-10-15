@@ -73,7 +73,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import "../lib/base.css";
+@import "../lib_base/base.css";
 .about {
   padding: 10px;
   position: absolute;
