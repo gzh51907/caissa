@@ -11,6 +11,7 @@ import about from '../ljh_com/about.vue';
 import advice from '../ljh_com/advice.vue';
 import evaluate from '../ljh_com/evaluate.vue';
 import mapshop from '../ljh_com/mapshop.vue';
+import sales from '../ljh_com/sales.vue';
 
 let router = new VueRouter({
     routes: [
@@ -55,6 +56,12 @@ let router = new VueRouter({
             name: 'advice',
             path: '/more/advice',
             component: advice
+        },
+        // 优惠券sales
+        {
+            name: 'sales',
+            path: '/more/sales',
+            component: sales
         },
 
     ]

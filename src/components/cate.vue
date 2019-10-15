@@ -4,13 +4,14 @@
       <!-- <span class="pic el-icon-search"></span> -->
       <input type="text" class="search" placeholder="搜索目的地国家/城市/关键词" v-model="input" @click="changeMain()" />
     </div>
-    <div class="content">
-      <!-- <div > -->
-      <ul class="fl aside">
-        <li :class="asideIdx===currentIdx?'active':''" v-for="(item,asideIdx) in addInf" :key="item.id" @click="changeIdx(asideIdx)">{{item.title}}</li>
-      </ul>
+    <div class="content" v-if="play === true">
+      <div class="fl asideBox">
+        <ul class="aside">
+          <li :class="asideIdx===currentIdx?'active':''" v-for="(item,asideIdx) in addInf" :key="item.id" @click="changeIdx(asideIdx)">{{item.title}}</li>
+        </ul>
+      </div>
       <div class="fr main" v-for="(mainItem,idx) in addInf" :key="mainItem.id" v-show="idx==currentIdx">
-        <div class="mainOutside">
+        <div class="mainBox">
           <div v-if="currentIdx !=0">
             <div class="headImg">
               <img class="imgTop" :src="mainItem.imageUrl" alt="">
@@ -54,12 +55,27 @@
           </div>
         </div>
       </div>
-      <!-- </div> -->
     </div>
+    <div v-else class="contentHide">
+      <h6>热门搜索</h6>
+      <ul>
+        <li>日本</li>
+        <li>英国</li>
+        <li>新加坡</li>
+        <li>俄罗斯</li>
+        <li>希腊</li>
+        <li>泰国</li>
+        <li>法国</li>
+        <li>马尔代夫</li>
+        <li>巴厘岛</li>
+      </ul>
+    </div>
+    <navjump></navjump>
   </div>
 </template>
 
 <script>
+import navjump from "../pages/navjump.vue";
 export default {
   name: "cate",
   data() {
@@ -86,10 +102,17 @@ export default {
     changeIdx(idx) {
       this.currentIdx = idx;
     },
-    changeMain() {}
+    changeMain() {
+      this.play = !this.play;
+    }
+  },
+  components: {
+    navjump
   }
 };
 </script>
+
+
 <style lang="scss">
 html,
 body {
@@ -110,8 +133,6 @@ body {
     width: 100%;
     background-color: #00b0ec;
     position: relative;
-    // top: 0;
-    // left: 0;
     text-align: center;
     .search {
       width: 88%;
@@ -136,29 +157,35 @@ body {
   .content {
     width: 100%;
     // height: 8.1867rem;
-    height: 80%;
-    // margin-top: 11.5%;
+    height: calc(92% - 0.7067rem);
     position: relative;
-    .aside {
+    .asideBox {
       width: 1.2667rem;
-      height: 7.48rem;
-      text-align: center;
-      overflow: auto;
+      height: 100%;
       border-right: 0.0133rem solid rgb(241, 237, 237);
-      background-color: #fff;
-      li {
+      box-sizing: border-box;
+      .aside {
+        overflow: auto;
+        // box-sizing: border-box;
         width: 100%;
-        height: 0.6667rem;
-        line-height: 0.6667rem;
-        font-size: 0.1867rem;
-        border-bottom: 0.0133rem solid #ccc;
+        height: 100%;
+        text-align: center;
+        li {
+          background-color: #fff;
+          box-sizing: border-box;
+          width: 100%;
+          height: 0.6667rem;
+          line-height: 0.6667rem;
+          font-size: 0.1867rem;
+          border-bottom: 0.0133rem solid #ccc;
+        }
       }
     }
     .main {
-      width: calc(100% - 1.28rem);
+      width: calc(100% - 1.2667rem);
       height: 100%;
       overflow: auto;
-      .mainOutside {
+      .mainBox {
         width: 100%;
         height: 100%;
         padding: 0 0.0667rem;
@@ -282,6 +309,37 @@ body {
       }
     }
   }
+  .contentHide {
+    width: 100%;
+    height: 80%;
+    padding: 0.1333rem 0.4667rem;
+    box-sizing: border-box;
+    h6 {
+      width: 100%;
+      height: 0.24rem;
+      font-size: 0.16rem;
+      margin-bottom: 0.2667rem;
+    }
+    > ul {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      z-index: 3;
+      color: #00b0ec;
+      li {
+        width: 30%;
+        height: 0.3733rem;
+        line-height: 0.3733rem;
+        text-align: center;
+        font-size: 0.16rem;
+        border: 0.0133rem solid #00b0ec;
+        border-radius: 0.0667rem;
+        margin-bottom: 0.1333rem;
+      }
+    }
+  }
+
   .active {
     color: #ffaa01;
     border-left: 0.0267rem solid #ffaa01;

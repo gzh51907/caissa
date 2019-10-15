@@ -10,15 +10,15 @@
     <ul>
       <li>
         <i class="fl el-icon-s-custom"></i>
-        <input class="fl" type="text" style="width:160px;border:0px;" placeholder="姓名" v-model="username">
+        <input class="fl" type="text" style="width:2.1333rem;border:0;" placeholder="姓名" v-model="username">
       </li>
       <li>
         <i class="fl el-icon-mobile-phone"></i>
-        <input type="text" style="width:160px;border:0px;" placeholder="手机号" v-model="tellphone">
+        <input class="fl" type="text" style="width:2.1333rem;border:0;" placeholder="手机号" v-model="tellphone">
       </li>
       <li>
         <i class="fl el-icon-lock"></i>
-        <input class="fl" type="text" style="width:160px;border:0px;" placeholder="输入验证码" v-model="code">
+        <input class="fl" type="text" style="width:2.1333rem;border:0;" placeholder="输入验证码" v-model="code">
         <el-button class="fr code" type="primary" size="small">获取验证码</el-button>
       </li>
     </ul>
@@ -48,60 +48,61 @@ export default {
 @import "../lib_base/base.css";
 .evaluate {
   > p {
-    height: 50px;
-    line-height: 50px;
-    font-size: 20px;
+    height: 0.6667rem;
+    line-height: 0.6667rem;
+    font-size: 0.2667rem;
     text-align: center;
     color: #fff;
     background-color: #00b0ec;
     position: relative;
     i {
       position: absolute;
-      left: 5px;
+      left: 0.0667rem;
       height: 100%;
-      font-size: 30px;
-      line-height: 50px;
+      font-size: 0.4rem;
+      line-height: 0.6667rem;
     }
   }
   h6 {
-    padding: 15px 15px 10px;
-    font-size: 14px;
-    line-height: 24px;
+    padding: 0.2rem 0.2rem 0.1333rem;
+    font-size: 0.1867rem;
+    line-height: 0.32rem;
     background-color: #fff;
   }
   ul {
-    margin-top: 20px;
-    padding: 0 10px;
-    box-shadow: 0px 2px 0px #e9e7e9;
+    margin-top: 0.2667rem;
+    padding: 0 0.1333rem;
+    box-shadow: 0 0.0267rem 0 #e9e7e9;
     li {
-      height: 50px;
-      border-bottom: 1px solid #ccc;
-      padding: 0 10px;
+      height: 0.6667rem;
+      border-bottom: 0.0133rem solid #ccc;
+      padding: 0 0.1333rem;
       i {
         height: 100%;
-        line-height: 50px;
-        font-size: 20px;
+        line-height: 0.6667rem;
+        font-size: 0.2667rem;
         color: #e98426;
       }
       > input {
         height: 100%;
-        width: 160px;
-        margin-left: 20px;
+        line-height: 0.6667rem;
+        width: 2.1333rem;
+        margin-left: 0.2667rem;
       }
       .code {
-        height: 40px;
-        margin-top: 5px;
-        font-size: 14px;
+        height: 0.5333rem;
+        margin-top: 0.0667rem;
+        font-size: 0.1867rem;
       }
     }
   }
   > div {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0.2667rem;
     .starteval {
-      width: 372px;
-      height: 50px;
-      font-size: 14px;
+      width: 4.96rem;
+      height: 0.6667rem;
+      font-size: 0.1867rem;
       color: #fff;
     }
   }
