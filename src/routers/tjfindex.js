@@ -12,6 +12,13 @@ import home from '../components/shouye.vue';
 import cate from '../components/cate.vue';
 import more from '../components/more.vue';
 import profiles from '../components/profiles.vue';
+import logs from '../pages/log.vue';
+import login from '../pages/login.vue';
+import loading from '../pages/loading.vue';
+import bookinf from "../pages/book_inf";
+import commoninf from "../pages/common_inf";
+import detailinf from "../pages/detail_inf";
+import inquiryinf from "../pages/inquiry_inf";
 
 
 let router = new VueRouter({
@@ -37,7 +44,44 @@ let router = new VueRouter({
         {
             name: 'profiles',
             path: "/profiles",
-            component: profiles
+            component: profiles,
+
+        },
+        {
+            name: 'log',
+            path: "/log",
+            component: logs
+        },
+        {
+            name: 'login',
+            path: "/login",
+            component: login
+        },
+        {
+            name: 'loading',
+            path: "/loading",
+            component: loading
+        },
+
+        {
+            name: 'bookinf',
+            path: "/bookinf",
+            component: bookinf
+        },
+        {
+            name: 'commoninf',
+            path: "/commoninf",
+            component: commoninf
+        },
+        {
+            name: 'detailinf',
+            path: "/detailinf",
+            component: detailinf
+        },
+        {
+            name: 'inquiryinf',
+            path: "/inquiryinf",
+            component: inquiryinf
         }
     ]
 })
