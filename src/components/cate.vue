@@ -44,7 +44,7 @@
           </div>
           <div class="theme" v-else>
             <ul>
-              <li v-for="themeItem in addInf[0].hotdests" :key="themeItem.imageUrl">
+              <li v-for="themeItem in addInf[0].hotdests" :key="themeItem.imageUrl" @click="goto('/searchlist')">
                 <img :src="themeItem.imageUrl" alt="">
                 <span>
                   <i>{{themeItem.title}}</i>
@@ -104,6 +104,9 @@ export default {
     },
     changeMain() {
       this.play = !this.play;
+    },
+    goto(key) {
+      this.$router.push(key);
     }
   },
   components: {
@@ -118,6 +121,9 @@ html,
 body {
   width: 100%;
   height: 100%;
+}
+* {
+  box-sizing: border-box;
 }
 .cate {
   width: 100%;
@@ -157,7 +163,7 @@ body {
   .content {
     width: 100%;
     // height: 8.1867rem;
-    height: calc(92% - 0.7067rem);
+    height: calc(90% - 0.8rem);
     position: relative;
     .asideBox {
       width: 1.2667rem;
