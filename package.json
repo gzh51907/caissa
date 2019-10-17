@@ -52,5 +52,17 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "<<<<<<< HEAD",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzh51907/caissa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzh51907/caissa/issues"
+  },
+  "homepage": "https://github.com/gzh51907/caissa#readme"
 }

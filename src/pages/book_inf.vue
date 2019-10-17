@@ -1,10 +1,4 @@
 <template>
-<<<<<<< HEAD
-    <div>
-        <el-card class="box-card" type=flex>
-            <el-row>
-                <i class="el-icon-edit"></i>
-=======
         <el-card class="box-card">
             <el-row>
                     <div class="grid-content bg-purple-dark" @click="quit">
@@ -47,7 +41,6 @@
                         </div>    
 
                 </el-col>
->>>>>>> tjf
             </el-row>
 
             <div class="alertive"></div>
@@ -58,11 +51,6 @@
 export default {
     data() {
         return {
-<<<<<<< HEAD
-            
-        }
-    },
-=======
             token:'',  
         }
     },
@@ -107,7 +95,6 @@ export default {
         this.token= localStorage.getItem("Authorization")
         // console.log(this.token)
     },
->>>>>>> tjf
 }
 </script>
 <style lang="scss" scoped>
@@ -115,9 +102,5 @@ export default {
     // height: 133px;
     background-image: url(http://m.caissa.com.cn/static/images/percentre/header_bg.png);
 
-<<<<<<< HEAD
-
-=======
->>>>>>> tjf
 }
 </style>
