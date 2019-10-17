@@ -1,38 +1,38 @@
 <template>
-    <div class="confirmorder">
-        <h5>
-            恭喜，您的订单已提交，余位我们将为您保留60min，您即可完成在线支付。后续我们将有专业的销售顾问与您联络提供服务。若您无法线上支付完成，您可以到门店持订单号码线下支付。
-        </h5>
-        <ul v-bind="confirmInf">
-            <li>
-                <span>订单编号</span>
-                <em>{{confirmInf.orderNo}}</em>
-            </li>
-            <li>
-                <span>联系人</span>
-                <i>{{confirmInf.linkMan}}</i>
-            </li>
-            <li>
-                <span>联系电话</span>
-                <i>{{confirmInf.linkPhone}}</i>
-            </li>
-            <li>
-                <span>联系邮箱</span>
-                <i>{{confirmInf.linkEmail}}</i>
-            </li>
-            <li>
-                <span>服务方式</span>
-                <i>{{confirmInf.serve}}</i>
-            </li>
-        </ul>
-        <bookshead></bookshead>
-        <footer class="book">
-            <span>订单总计:</span>
-            <em>￥{{total}}</em>
-            <i>费用明细</i>
-            <b class="fr" @click="goto('/pay')">立即支付</b>
-        </footer>
-    </div>
+  <div class="confirmorder">
+    <h5>
+      恭喜，您的订单已提交，余位我们将为您保留60min，您即可完成在线支付。后续我们将有专业的销售顾问与您联络提供服务。若您无法线上支付完成，您可以到门店持订单号码线下支付。
+    </h5>
+    <ul v-bind="confirmInf">
+      <li>
+        <span>订单编号</span>
+        <em>{{confirmInf.orderNo}}</em>
+      </li>
+      <li>
+        <span>联系人</span>
+        <i>{{confirmInf.linkMan}}</i>
+      </li>
+      <li>
+        <span>联系电话</span>
+        <i>{{confirmInf.linkPhone}}</i>
+      </li>
+      <li>
+        <span>联系邮箱</span>
+        <i>{{confirmInf.linkEmail}}</i>
+      </li>
+      <li>
+        <span>服务方式</span>
+        <i>{{confirmInf.serve}}</i>
+      </li>
+    </ul>
+    <bookshead></bookshead>
+    <footer class="book">
+      <span>订单总计:</span>
+      <em>￥{{total}}</em>
+      <i>费用明细</i>
+      <b class="fr" @click="goto('/pay')">立即支付</b>
+    </footer>
+  </div>
 </template>
 
 <script>
@@ -43,20 +43,18 @@ export default {
     return {
       total: "1000",
       // 确认信息
-      confirmInf: {
-        orderNo: "11111111111",
-        linkMan: "小钢炮",
-        linkPhone: "13245689",
-        linkEmail: "13246598@qq.com",
-        serve: "小钢炮"
-      }
-      //   confirmInf:{}
+      confirmInf: {}
     };
   },
   methods: {
-    goto(key) {
+    async goto(key) {
+      await this.$axios.post("http://10.3.133.2:4399/order/pay", {
+        name: this.confirmInf.linkMan,
+        phonenumber: this.confirmInf.linkPhone,
+        email: this.confirmInf.linkEmail,
+        serveshop: this.confirmInf.serve
+      });
       this.$router.push(key);
-      //   console.log(this.$route.query);
     }
   },
   created() {

@@ -15,6 +15,7 @@ import sales from '../ljh_com/sales.vue';
 import orderinf from '../ljh_com/orderinf.vue';
 import confirmorder from '../ljh_com/confirmorder.vue';
 import pay from '../ljh_com/pay.vue';
+import result from '../ljh_com/result.vue';
 
 let router = new VueRouter({
     routes: [
@@ -89,7 +90,12 @@ let router = new VueRouter({
             path: '/orderinf',
             component: orderinf
         },
-
+        // 反馈结果成页result
+        {
+            name: 'result',
+            path: '/more/evaluate/result',
+            component: result
+        },
     ]
 });
 

@@ -1,74 +1,74 @@
 <template>
-    <div class="orderinf">
-        <bookshead></bookshead>
-        <h5>可选服务</h5>
-        <ul>
-            <li style="border-bottom:0.0133rem solid #ccc;" @click="change1()">
-                <p>
-                    <i :class="checked1===true?'active':''"></i>
-                    <span>单房差</span>
-                    <em>说明</em>
-                </p>
-            </li>
-            <li @click="change2()">
-                <p>
-                    <i :class="checked2===true?'active':''"></i>
-                    <span>机票升舱</span>
-                    <em>说明</em>
-                </p>
-            </li>
-        </ul>
-        <h5>订单联系人信息</h5>
-        <ol ref="orderForm">
-            <li>
-                <i class="fl el-icon-user"></i>
-                <span class="fl">姓名</span>
-                <input class="fr" type="text" placeholder="请输入联系人姓名" v-model="username" v-on:blur.stop="checkName()">
-            </li>
-            <li>
-                <i class="fl el-icon-phone"></i>
-                <span class="fl">联系电话</span>
-                <input class="fr" type="text" placeholder="请输入联系电话" v-model="tellphone" v-on:blur.stop="checkTellphone()">
-            </li>
-            <li>
-                <i class="fl el-icon-s-comment"></i>
-                <span class="fl">联系邮箱</span>
-                <input class="fr" type="text" placeholder="请输入邮箱地址" v-model="email" v-on:blur.stop="checkEmail()">
-            </li>
-            <li>
-                <i class="fl el-icon-s-home"></i>
-                <span class="fl">服务门店</span>
-                <input class="fr" type="text" placeholder="请选择服务门店 >" v-model="shop">
-            </li>
-            <li>
-                <i class="fl el-icon-s-shop"></i>
-                <span class="fl">选择专属顾问</span>
-                <input class="fr" type="text" placeholder="可指定该店专属顾问 >" v-model="counselor">
-            </li>
-            <li>
-                <i class="fl el-icon-s-ticket"></i>
-                <span class="fl">优惠券</span>
-                <input class="fr" type="text" placeholder="使用优惠券 >">
-            </li>
-        </ol>
-        <div class="agree">
-            <i @click="change3()" :class="checked3===true?'active':''"></i>
-            <u>我已认真阅读并同意《凯撒旅游预订产品退改签协议》</u>
-        </div>
-        <img style="width:100%;margin-bottom:0.2rem;" src="../assets/cate_img/tips.png">
-        <div class="book">
-            <span>订单总计:</span>
-            <em>￥{{total}}</em>
-            <i>费用明细</i>
-            <b class="fr" @click="checkAll('/confirmorder')">立即预订</b>
-        </div>
-
-        <!-- 弹窗 -->
-        <footer :class="tips===true?' show ':''">
-            <div class="bg" @click="close()"></div>
-            <div class="msg">{{msg}}</div>
-        </footer>
+  <div class="orderinf">
+    <bookshead></bookshead>
+    <h5>可选服务</h5>
+    <ul>
+      <li style="border-bottom:0.0133rem solid #ccc;" @click="change1()">
+        <p>
+          <i :class="checked1===true?'active':''"></i>
+          <span>单房差</span>
+          <em>说明</em>
+        </p>
+      </li>
+      <li @click="change2()">
+        <p>
+          <i :class="checked2===true?'active':''"></i>
+          <span>机票升舱</span>
+          <em>说明</em>
+        </p>
+      </li>
+    </ul>
+    <h5>订单联系人信息</h5>
+    <ol ref="orderForm">
+      <li>
+        <i class="fl el-icon-user"></i>
+        <span class="fl">姓名</span>
+        <input class="fr" type="text" placeholder="请输入联系人姓名" v-model="username" v-on:blur.stop="checkName()">
+      </li>
+      <li>
+        <i class="fl el-icon-phone"></i>
+        <span class="fl">联系电话</span>
+        <input class="fr" type="text" placeholder="请输入联系电话" v-model="tellphone" v-on:blur.stop="checkTellphone()">
+      </li>
+      <li>
+        <i class="fl el-icon-s-comment"></i>
+        <span class="fl">联系邮箱</span>
+        <input class="fr" type="text" placeholder="请输入邮箱地址" v-model="email" v-on:blur.stop="checkEmail()">
+      </li>
+      <li>
+        <i class="fl el-icon-s-home"></i>
+        <span class="fl">服务门店</span>
+        <input class="fr" type="text" placeholder="请选择服务门店 >" v-model="shop">
+      </li>
+      <li>
+        <i class="fl el-icon-s-shop"></i>
+        <span class="fl">选择专属顾问</span>
+        <input class="fr" type="text" placeholder="可指定该店专属顾问 >" v-model="counselor">
+      </li>
+      <li>
+        <i class="fl el-icon-s-ticket"></i>
+        <span class="fl">优惠券</span>
+        <input class="fr" type="text" placeholder="使用优惠券 >">
+      </li>
+    </ol>
+    <div class="agree">
+      <i @click="change3()" :class="checked3===true?'active':''"></i>
+      <u>我已认真阅读并同意《凯撒旅游预订产品退改签协议》</u>
     </div>
+    <img style="width:100%;margin-bottom:1rem;" src="../assets/cate_img/tips.png">
+    <div class="book">
+      <span>订单总计:</span>
+      <em>￥{{total}}</em>
+      <i>费用明细</i>
+      <b class="fr" @click="checkAll('/confirmorder')">立即预订</b>
+    </div>
+
+    <!-- 弹窗 -->
+    <footer :class="tips===true?' show ':''">
+      <div class="bg" @click="close()"></div>
+      <div class="msg">{{msg}}</div>
+    </footer>
+  </div>
 </template>
 
 <script>
@@ -79,7 +79,7 @@ export default {
     return {
       shop: "广州分店",
       counselor: "静静",
-      total: "1000",
+      total: "0",
       msg: "", //提示信息
       checked1: false, //单房差
       checked2: false, //机票升舱
@@ -187,15 +187,25 @@ export default {
             username: this.username,
             tellphone: this.tellphone,
             email: this.email,
-            shop: this.shop
+            shop: this.shop,
+            id: this.id,
+            godate: this.godate
           }
         });
-        this.msg = "yes";
+        // this.$route.query;
       }
-      console.log(this.checked3);
       // 显示弹窗
       this.tips = !this.tips;
     }
+  },
+  async created() {
+    let { data } = await this.$axios.get("http://10.3.133.2:4399/searchlist", {
+      params: {
+        query: { id: this.id }
+      }
+    });
+    this.total = data[0].price;
+    // console.log(data);
   },
   components: {
     bookshead

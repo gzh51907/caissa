@@ -8,7 +8,7 @@
       </dt>
       <dd class="fl">
         <ul>
-          <li>{{orderInf.title}}</li>
+          <li style="height:0.5333rem">{{orderInf.title}}</li>
           <li>
             <span>团号：</span>
             <i>{{orderInf.groupno}}</i>
@@ -31,16 +31,29 @@
 export default {
   data() {
     return {
-      orderInf: {
-        imgUrl: require("../assets/cate_img/201704141652020109705_thumbnail.jpg"),
-        backgroundUrl: require("../assets/cate_img/jx.png"),
-        from: "北京出发",
-        title: "（预售）凯撒亲子营—日本本州冬日梦幻之旅7天6晚",
-        groupno: "CAI19-PEK0809-1502090",
-        date: "2019-12-01",
-        people: "成人x1"
-      }
+      id: "58", //默认
+      orderInf: {}
     };
+  },
+  async created() {
+    // query传来的id
+    this.id = this.$route.query.id;
+    let { data } = await this.$axios.get("http://10.3.133.2:4399/searchlist", {
+      params: {
+        query: { id: this.id }
+      }
+    });
+    let datas = data[0];
+    this.orderInf = {
+      imgUrl: datas.img,
+      backgroundUrl: require("../assets/cate_img/jx.png"),
+      from: datas.go,
+      title: datas.title,
+      groupno: "CAI19-PEK0809-1502090",
+      date: "2019-12-01" || this.$route.query.godata,
+      people: "成人x1"
+    };
+    console.log(datas);
   }
 };
 </script>
