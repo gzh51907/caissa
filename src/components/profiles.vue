@@ -1,14 +1,4 @@
 <template>
-<<<<<<< HEAD
-    <div>
-        <bookinf>
-        </bookinf>
-        <commoninf></commoninf>
-        <detailinf></detailinf>
-        <inquiryinf></inquiryinf>
-        <navjump></navjump>
-    </div>
-=======
 <div>
     <bookinf></bookinf>
     <inquiryinf></inquiryinf>
@@ -16,7 +6,7 @@
     <detailinf></detailinf>
     <navjump></navjump>
 </div>
->>>>>>> tjf
+
 </template>
 <script>
 import bookinf from "../pages/book_inf";
