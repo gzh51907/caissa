@@ -23,17 +23,17 @@
             </el-form-item>
         
             <el-form-item prop="imgword"  style="position:relative">
-                            <el-input type="text" v-model="ruleForm.imgword" 
-                                placeholder="请输入图片验证码"
-                                prefix-icon='el-icon-picture'
-                                autocomplete="off"
-                                >
-                            </el-input>
-                                <el-button  style="position:absolute;top:0;right:0;color:#fff;letter-spacing:4px;font-size:18px;
-                                background-image: url( https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571114113765&di=43f658c8ad9c19122160582dc057afe0&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Fback_pic%2F03%2F76%2F18%2F0557be763231fb2.jpg);
-                                background-size: contain;
-                                ;
-                                " @click='showcode'>{{imgcode}}</el-button>
+                    <el-input type="text" v-model="ruleForm.imgword" 
+                        placeholder="请输入图片验证码"
+                        prefix-icon='el-icon-picture'
+                        autocomplete="off"
+                        >
+                    </el-input>
+                        <el-button  style="position:absolute;top:0;right:0;color:#fff;letter-spacing:4px;font-size:18px;
+                        background-image: url( https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571114113765&di=43f658c8ad9c19122160582dc057afe0&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Fback_pic%2F03%2F76%2F18%2F0557be763231fb2.jpg);
+                        background-size: contain;
+                        ;
+                        " @click='showcode'>{{imgcode}}</el-button>
             </el-form-item>
 
             <el-form-item prop="pass">
@@ -51,9 +51,8 @@
                 </el-form-item>
                 <el-form-item style="height:20px;margin-top:-15px">
                     <el-checkbox v-model="checked">
-                        <el-link  @click="open">我同意凯撒旅游用户注册条款</el-link></el-checkbox>
+                        <el-link  >我同意凯撒旅游用户注册条款</el-link></el-checkbox>
                 </el-form-item>
-
                 <el-form-item>
                 <el-button type="info" @click="submitForm('ruleForm')" style="width:100%;" 
                 
@@ -150,13 +149,17 @@ export default {
                 this.imgcode = res;
                 // console.log(this.imgcode)
             },
-            async submitForm(formName) {
-                this.$refs[formName].validate((valid) => {
+            submitForm(formName) {
+                this.$refs[formName].validate( async(valid) => {
                 if (valid) {
                 this.buttonstatus =!this.buttonstatus;
                 let {phoneNumber,pass} = this.ruleForm;
+                console.log(phoneNumber,pass)
 
-                let {data} =  this.$axios.post('http://10.3.133.2:4399/user/reg');
+                let {data} = await this.$axios.post('http://10.3.133.2:4399/user/reg',{  
+                    username:phoneNumber,
+                        password:pass
+                    });
                 this.$router.push({name:'log',params:{phoneNumber}})
                 if(data.code===1){
 
@@ -259,8 +262,10 @@ export default {
         watch: {
             valid:function (){
                 this.buttonstatus =!this.buttonstatus;}
-
         },
+        mounted() {
+        this.showcode();
+    },
     }
 </script>
 <style lang="scss">

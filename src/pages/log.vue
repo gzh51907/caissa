@@ -198,6 +198,10 @@ export default {
         }
 
         }
+        ,
+        mounted() {
+        this.showcode();
+        },
     }
 </script>
 <style lang="scss">

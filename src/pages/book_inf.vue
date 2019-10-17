@@ -2,7 +2,8 @@
         <el-card class="box-card">
             <el-row>
                     <div class="grid-content bg-purple-dark" @click="quit">
-                        <i class=" el-icon-switch-button" style="font-size:30px; float:right;color:#ddd"></i>
+                        <el-button class=" el-icon-switch-button"   round  style="font-size:15px; float:right;color:#ddd;background:lightblue"></el-button>
+                        <!-- <i class=" el-icon-switch-button" style="font-size:30px; float:right;color:#ddd"></i> -->
                     </div>
             </el-row>
 
@@ -66,15 +67,21 @@ export default {
             }
         },
             quit() {
+                if(localStorage.getItem("Authorization")){
+                    let res =  confirm('确认退出吗')
+                    if(res){
+                        localStorage.removeItem("Authorization");
+                        console.log(this)
+                        this.$forceUpdate() 
+                    }
+                }else{
+                    this.$router.push("/log")
+                }
                 // this.$confirm('你狠心丢下人家吗, 是否继续?', '提示', {
                 //     confirmButtonText: '确定',
                 //     cancelButtonText: '取消',
                 //     type: 'warning'
                 // }).then(() => {
-                    localStorage.removeItem("Authorization");
-                    console.log(this)
-                    this.$forceUpdate()
-
                 // }).catch(() => {
                 //     this.$message({
                 //     type: 'info',
