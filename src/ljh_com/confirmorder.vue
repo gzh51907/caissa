@@ -41,7 +41,7 @@ export default {
   name: "confirmorder",
   data() {
     return {
-      total: "1000",
+      total: "0",
       // 确认信息
       confirmInf: {}
     };
@@ -59,12 +59,13 @@ export default {
   },
   created() {
     let datas = this.$route.query;
+    this.total = this.$route.query.total;
     this.confirmInf = {
-      orderNo: "11111111111",
-      linkMan: datas.username,
-      linkPhone: datas.tellphone,
-      linkEmail: datas.email,
-      serve: datas.shop
+      orderNo: "11111111111", //订单号
+      linkMan: datas.username, //联系人
+      linkPhone: datas.tellphone, //联系电话
+      linkEmail: datas.email, //联系邮箱
+      serve: datas.shop //服务门店
     };
   },
   components: {

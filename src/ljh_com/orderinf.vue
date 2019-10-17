@@ -128,7 +128,6 @@ export default {
     checkTellphone() {
       let reg = /^1[3-9]\d{9}$/;
       let result = reg.test(this.tellphone);
-      //   console.log(result, this.tellphone);
       if (!this.tellphone) {
         this.msg = "请输入联系电话";
         this.tips = !this.tips;
@@ -189,7 +188,8 @@ export default {
             email: this.email,
             shop: this.shop,
             id: this.id,
-            godate: this.godate
+            godate: this.godate,
+            total: this.total
           }
         });
         // this.$route.query;

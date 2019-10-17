@@ -53,7 +53,7 @@ export default {
       date: "2019-12-01" || this.$route.query.godata,
       people: "成人x1"
     };
-    console.log(datas);
+    // console.log(datas);
   }
 };
 </script>
