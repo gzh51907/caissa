@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <div>
         <bookinf>
         </bookinf>
@@ -7,35 +8,45 @@
         <inquiryinf></inquiryinf>
         <navjump></navjump>
     </div>
+=======
+<div>
+    <bookinf></bookinf>
+    <inquiryinf></inquiryinf>
+    <commoninf></commoninf>
+    <detailinf></detailinf>
+    <navjump></navjump>
+</div>
+>>>>>>> tjf
 </template>
 <script>
-    import bookinf from '../pages/book_inf';
-    import commoninf from '../pages/common_inf';
-    import detailinf from '../pages/detail_inf';
-    import inquiryinf from '../pages/inquiry_inf';
-    import navjump from '../pages/navjump';
+import bookinf from "../pages/book_inf";
+import commoninf from "../pages/common_inf";
+import detailinf from "../pages/detail_inf";
+import inquiryinf from "../pages/inquiry_inf";
+import navjump from "../pages/navjump";
 
 export default {
-    components:{
-    bookinf,
-    commoninf,
-    detailinf,
-    inquiryinf,
-    navjump
-    }
-}
-</script>
-<style >
-el-row{
-        height: 100%;
+    data() {
+        const mixin ={
+    
         }
+        return {
+        }
+    },
+    created() {
 
-    el-footer{
-        position: fixed;
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        z-index: 1000;
-
-    }
+    },
+    components: {
+        bookinf,
+        navjump,
+        commoninf,
+        detailinf,
+        inquiryinf,
+    },
+};
+</script>
+<style lang='scss' >
+*{
+    // background-color:#ccc;
+}
 </style>
