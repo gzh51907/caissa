@@ -90,7 +90,9 @@ export default {
       email: null,
       userStatus: 0, //用户名状态
       phoneStatus: 0, //手机号状态
-      emailStatus: 0 //邮件状态
+      emailStatus: 0, //邮件状态
+      id: null,
+      godate: null
     };
   },
   methods: {
@@ -200,11 +202,15 @@ export default {
   },
   async created() {
     document.documentElement.style = "font-size:400%";
+    this.id = this.$route.query.id;
+    //传来的日期为xx-xx没有年份，所以获取当前年份拼接
+    this.godate = this.$route.query.godate;
     let { data } = await this.$axios.get("http://10.3.133.2:4399/searchlist", {
       params: {
         query: { id: this.id }
       }
     });
+
     this.total = data[0].price;
     // console.log(data);
   },

@@ -52,13 +52,15 @@ export default {
         name: this.confirmInf.linkMan,
         phonenumber: this.confirmInf.linkPhone,
         email: this.confirmInf.linkEmail,
-        serveshop: this.confirmInf.serve
+        serveshop: this.confirmInf.serve,
+        price: this.total
       });
       this.$router.push(key);
     }
   },
   created() {
     document.documentElement.style = "font-size:400%";
+    this.total = this.$route.query.id;
     let datas = this.$route.query;
     this.total = this.$route.query.total;
     this.confirmInf = {

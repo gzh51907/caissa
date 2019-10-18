@@ -24,8 +24,8 @@
         </el-timeline-item>
       </el-timeline>
     </div>
-    <img src="../assets/cate_img/guanyu_20.jpg" alt="">
-    <img src="../assets/cate_img/cai.png" alt="" style="margin-top:20px">
+    <img style="width:100%" src="../assets/cate_img/guanyu_20.jpg" alt="">
+    <img src="../assets/cate_img/cai.png" alt="" style="margin-top:20px;width:100%">
     <ul class="content">
       <li>中国领先的出境旅游服务商</li>
       <li>5A级旅行社</li>
@@ -74,7 +74,11 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "../lib_base/base.css";
+* {
+  box-sizing: border-box;
+}
 .about {
+  width: 100%;
   padding: 10px;
   position: absolute;
   // height: auto;

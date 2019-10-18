@@ -31,13 +31,16 @@
 export default {
   data() {
     return {
-      id: "58", //默认
+      id: "0", //默认
       orderInf: {}
     };
   },
   async created() {
     // query传来的id
     this.id = this.$route.query.id;
+    //传来的日期为xx-xx没有年份，所以获取当前年份拼接
+    let getdate = new Date();
+    let godate = `${getdate.getFullYear()}-${this.$route.query.godate}`;
     let { data } = await this.$axios.get("http://10.3.133.2:4399/searchlist", {
       params: {
         query: { id: this.id }
@@ -50,10 +53,10 @@ export default {
       from: datas.go,
       title: datas.title,
       groupno: "CAI19-PEK0809-1502090",
-      date: "2019-12-01" || this.$route.query.godata,
+      date: godate,
       people: "成人x1"
     };
-    // console.log(datas);
+    console.log(this.$route.query);
   }
 };
 </script>

@@ -1,49 +1,49 @@
 <template>
-    <div class="sales">
-        <header class="top" v-if="isok">
-            <img class="fl logo" src="../assets/cate_img/logo.png">
-            <p class="fl">
-                <em>
-                    凯撒旅游APP
-                </em>
-                <span>您全方位的旅行服务专家</span>
-            </p>
-            <img class="fr close" src="../assets/cate_img/close_btn.png" @click="isok = false">
-        </header>
+  <div class="sales">
+    <header class="top" v-if="isok">
+      <img class="fl logo" src="../assets/cate_img/logo.png">
+      <p class="fl">
+        <em>
+          凯撒旅游APP
+        </em>
+        <span>您全方位的旅行服务专家</span>
+      </p>
+      <img class="fr close" src="../assets/cate_img/close_btn.png" @click="isok = false">
+    </header>
 
-        <div class="imglist">
-            <img style="width:100%;height:2.2133rem" src="../assets/cate_img/201704141610119015946_thumbnail.jpg">
-            <img style="width:100%;height:1.7333rem;padding:0.0533rem" src="../assets/cate_img/201708091452237417063_thumbnail.jpg">
-            <img style="width:100%;height:1.64rem;padding:0.1333rem;border-radius:0.1333rem;" src="../assets/cate_img/201708081208551147203_thumbnail.jpg">
-            <ul>
-                <li v-for="item in imglist" :key="item.imgurl">
-                    <img :src="item.imgurl">
-                </li>
-            </ul>
-            <img style="width:100%;height:1.7333rem;padding:0.0533rem" src="../assets/cate_img/201704141610116827735_thumbnail.jpg">
-        </div>
-        <div class="couponlist">
-            <dl v-for="item in couponlist" :key="item.imgTitle">
-                <dt class="fl">
-                    <img :src="item.cponImgUrl" alt="">
-                    <h6>{{item.imgTitle}}</h6>
-                </dt>
-                <dd class="fr">
-                    <b>{{item.con}}</b>
-                    <span>个别商品除外</span>
-                    <p>
-                        <span v-for="cardItem in item.cards" :key="cardItem.key">{{cardItem.cardslist}}</span>
-                    </p>
-                    <i>仅临柜使用</i>
-                    <em>{{item.discount}}</em>
-                </dd>
-            </dl>
-        </div>
-
-        <div class="backTop" @click="backToTop()">
-            <img src="../assets/cate_img/top.png" alt="">
-        </div>
+    <div class="imglist">
+      <img style="width:100%;height:2.2133rem" src="../assets/cate_img/201704141610119015946_thumbnail.jpg">
+      <img style="width:100%;height:1.7333rem;padding:0.0533rem" src="../assets/cate_img/201708091452237417063_thumbnail.jpg">
+      <img style="width:100%;height:1.64rem;padding:0.1333rem;border-radius:0.1333rem;" src="../assets/cate_img/201708081208551147203_thumbnail.jpg">
+      <ul>
+        <li v-for="item in imglist" :key="item.imgurl">
+          <img :src="item.imgurl">
+        </li>
+      </ul>
+      <img style="width:100%;height:1.7333rem;padding:0.0533rem" src="../assets/cate_img/201704141610116827735_thumbnail.jpg">
     </div>
+    <div class="couponlist">
+      <dl v-for="item in couponlist" :key="item.imgTitle">
+        <dt class="fl">
+          <img :src="item.cponImgUrl" alt="">
+          <h6>{{item.imgTitle}}</h6>
+        </dt>
+        <dd class="fr">
+          <b>{{item.con}}</b>
+          <span>个别商品除外</span>
+          <p>
+            <span v-for="cardItem in item.cards" :key="cardItem.key">{{cardItem.cardslist}}</span>
+          </p>
+          <i>仅临柜使用</i>
+          <em>{{item.discount}}</em>
+        </dd>
+      </dl>
+    </div>
+
+    <div class="backTop" @click="backToTop()">
+      <img src="../assets/cate_img/top.png" alt="">
+    </div>
+  </div>
 </template>
 
 <script>
@@ -206,11 +206,6 @@ export default {
 @import "../lib_base/base.css";
 .sales {
   width: 100%;
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   right: 0;
-  //   bottom: 0;
   background-color: #ccc;
 
   .top {
@@ -244,6 +239,7 @@ export default {
       width: 0.2667rem;
       height: 0.2667rem;
       padding-top: 0.2467rem;
+      box-sizing: content-box;
     }
   }
 
@@ -265,6 +261,10 @@ export default {
         height: 1.6267rem;
         border-radius: 0.1333rem;
         margin-bottom: 0.1333rem;
+        > img {
+          width: 100%;
+          height: 100%;
+        }
       }
     }
   }
@@ -352,6 +352,10 @@ export default {
     position: fixed;
     bottom: 0.4rem;
     right: 0.2667rem;
+    > img {
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 </style>
