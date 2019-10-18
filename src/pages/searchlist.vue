@@ -151,6 +151,7 @@ export default {
         });
         this.count = data//获取数据(一个数组)
         this.datalong=115;
+        document.documentElement.style = "font-size:100%";
     }
 }
 </script>

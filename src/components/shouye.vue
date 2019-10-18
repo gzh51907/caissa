@@ -139,7 +139,6 @@ export default {
   },
    beforeDestroy() {
     window.removeEventListener("scroll",this.scrollToTop);
-    document.documentElement.style = "font-size:100%";
   },
   async created(){
           let {data}=await this.$axios.get('http://localhost:4399/home');

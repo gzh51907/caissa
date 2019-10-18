@@ -78,7 +78,7 @@ router.get('/orders',async(req,res)=>{
     pagenum = pagenum?pagenum:0;
     pages = pages ? true : false;
     try{
-        let result = await mongo.find(colName,{},pagenum*10,null,pages);
+        let result = await mongo.find(colName,{},(pagenum-1)*10,null,pages);
         res.send(formatData({data:result}));
     }catch{
         res.send(formatData({code:0}))

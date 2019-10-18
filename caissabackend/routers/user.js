@@ -9,6 +9,7 @@ const {
     formatData,
     token
 } = require('../utils');
+
 //注册
 router.post('/reg', async (req, res) => {
     let {
@@ -35,26 +36,25 @@ router.post('/reg', async (req, res) => {
 router.get('/check',async (req,res)=>{
     let {
         username
-    }=req.query;
-    let result = await mongo.find(colName,{username});
-    if(result.length){//若存在则返回错误
-        res.send(formatData({code:0}))
-    }else{
+    } = req.query;
+    let result = await mongo.find(colName, { username });
+    if (result.length) { //若存在则返回错误
+        res.send(formatData({ code: 0 }))
+    } else {
         res.send(formatData());
     }
 })
 
 //登录,mdl为数字单位s，免登陆的时间
-router.get('/login',async (req,res)=>{
-    let{
+router.get('/login', async(req, res) => {
+    let {
         username,
         password,
         mdl
-    }=req.query;
-    let result = await mongo.find(colName,{
+    } = req.query;
+    let result = await mongo.find(colName, {
         username,
-        password,
-        pages:true
+        password
     });
     let Authorization
     if(result.length>0){//用户信息匹配正确
@@ -64,7 +64,7 @@ router.get('/login',async (req,res)=>{
       res.send(formatData({data:Authorization}));
     }else{//用户不匹配
         res.send(formatData({
-            code:0
+            code: 0
         }))
     }
 
@@ -78,7 +78,7 @@ router.get('/users',async (req,res)=>{
     pages = pages?true:false
     pagenum = pagenum?pagenum:0;
     try{
-        let result = await mongo.find(colName,{},pagenum*10,null,pages);
+        let result = await mongo.find(colName,{},(pagenum-1)*10,null,pages);
         res.send(formatData({data:result}));
     }catch{
         res.send(formatData({code:0}))

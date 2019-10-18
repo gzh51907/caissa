@@ -186,7 +186,6 @@ dfn, i, em {
     li {
     width: 30%;
     float: left;
-    height: 40px;
     display: inline-block;
     padding: 5px 0px;
     text-align: center;
@@ -250,7 +249,6 @@ li.lj_yd {
         li{
             border-bottom: #e6e9ed solid 1px;
             padding: 10px 0px;
-            height: 26px;
             line-height: 26px;
              p {
                 display: inline-block;
