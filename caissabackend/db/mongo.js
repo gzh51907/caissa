@@ -18,7 +18,6 @@ async function connect() {
             client,
             db
         }
-        
     } catch (err) {
         result = err
     }
@@ -35,7 +34,6 @@ async function create(colName, data) {
         client
     } = await connect(); //开启mongo连接
     let col = db.collection(colName); //获取集合
-    console.log(333);
     let result = await col.insertMany(data); //对集合进行数据插入
     client.close(); //关闭数据库的连接
     return result;
@@ -67,7 +65,7 @@ async function update(colName, query, data) {
         client
     } = await connect(); //连接数据库
     let col = db.collection(colName); //获取集合
-    let result = await col.updateMany(query, data);
+    let result = await col.updateMany(query, {$set:data});
     client.close(); //关闭数据库
     return result;
 }
@@ -75,14 +73,51 @@ async function update(colName, query, data) {
  * 查找数据
  * colName string 执行操作的集合名称
  * query {} 要查找的数据特征
+ * sk number 跳过的数量
  */
-async function find(colName, query = {}) { //补传query就是查找
+async function find(colName, query = {},sk,item,pages) { //补传query就是查找
     let {
         db,
         client
     } = await connect(); //连接数据库
     let col = db.collection(colName); //获取集合
-    let result = await col.find(query).toArray(); //查询的结果，最后转为数组
+    let result;
+    if(colName=='searchlist'){
+        // console.log(33);
+        // if(Object.keys(query).length!=0 ){
+        //     let keyname = Object.keys(query);//获取键名
+        //     let or ="$or"
+        //     let value = query[or]//获取内容（数组）
+        //     let value2 =[]//空数组装新内容
+        //     value.forEach(ele => {
+        //       let obj;
+        //       let keyname2 = `\"${Object.keys(ele)}\"`;//给内容的键名加上引号
+        //     //    obj[keyname2]= ele[Object.keys(ele)];
+        //        console.log(ele[Object.keys(ele)])
+        //        console.log(keyname2)
+        //       obj = {keyname2:ele[Object.keys(ele)]}
+        //        value2.push(obj);
+        //     });
+        //     query={'$or':value2};
+        //   }
+        // let tab = item
+        // query={$or:[{"tab":'/'+item+'/'},{"title":'/'+item+'/'},{"subtitle":'/'+item+'/'}]}
+        if(item){
+            item = new RegExp(item)
+            query={$or:[{tab:item},{title:item},{subtitle:item}]}
+        }else if(Object.keys(query).length!=0){
+            if(JSON.parse(query).id){
+            query={id:JSON.parse(query).id-0}
+        }
+        }
+      result = await col.find(query).skip(sk-0).limit(30).toArray();
+    }else if(!pages){
+        sk=sk?sk:0;
+        result = await col.find(query).skip(sk-0).limit(10).toArray();
+    }
+    else{
+      result = await col.find(query).toArray(); //查询的结果，最后转为数组
+    }
     client.close(); //关闭数据库的连接
     return result;
 }

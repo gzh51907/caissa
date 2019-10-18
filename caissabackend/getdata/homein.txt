@@ -1,795 +1,615 @@
-<div class="hotProListBox">
-		<div class="tabsBox">
-			<div class="tabsTitleBox">
-				<ul style="width: 10.8rem;">
-									<li class="">热门推荐</li>
-									<li class="">芳华无龄</li>
-									<li class="">精彩国内</li>
-									<li class="active">金秋来袭</li>
-									<li class="">为爱侣行</li>
-									<li class="">海岛度假</li>
-								</ul>
-			</div>
-			<!-- 热门推荐 start-->
-							<div class="tabsContent" style="display: none;">
-										<a href="http://m.caissa.com.cn/cruise/detail?id=9131&amp;supplier_id=CAISSA10000">
-					<dl>
-						<dt>
-							<!--<i>游轮</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1758268148685709312_400_500">
-							</div>
-							<span>北京出发</span>
+<div class="warpper">
+				<div id="PullDown" class="scroller-pullDown" style="display: none;">
+	                <span id="pullDown-msg" class="pull-down-msg">下拉刷新</span>
+	            </div>
+														<!--新参-->
+										<dl>
+						<a href="http://m.caissa.com.cn/group/index/details?id=0D0A018EFFB34CB0B29091595613BFCE">
+                        <dt>
+                        <div class="imgBox">
+																				    <img src="http://img8.caissa.com.cn/cloud/image/1263278307765100544_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+                        <var class="mada_span_01">参团游</var>
+                        </div>
 						</dt>
 						<dd>
-							<h2>凯撒自营-一价全含-MSC地中海邮轮“荣耀号”地中海+ 巴黎13日之旅（意大利+法国+西班牙+马耳他） </h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>海上美食</span>
-																			<span>长线精选</span>
-																			<span>精致团</span>
-																								</div>
-							<div class="dateBox">出发日期 10-12</div>
-							<div class="priceBox"><em>¥<t>26999</t></em>起</div>
+							<ul>
+								<li><strong class="title">
+																    英国经典之旅9天7晚																</strong></li>
+								<li><strong class="subtitle">游览英国经典城市+全程4星酒店+爱丁堡+温莎城堡+大英博物馆+比斯特购物村</strong></li>
+								<li><p class="tab">
+												<em class="blue">凯撒自营</em>
+																																																	<span>优质航空</span>
+																																																																																																																																	<span>舒适酒店</span>
+																																																													   </p></li>
+								<li><p>
+																<span>出发日期 01-24</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>18588								</strong>起</p>
+							</div></li>
+							</ul>
 						</dd>
+                        </a>
 					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=C6EB1A14A6F243579C0ADB72F51768AF">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1263278531430555648_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>品味经典—法意瑞乐享之旅13天11晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>蜜月</span>
-																			<span>亲子</span>
-																			<span>文化遗产</span>
-																			<span>夕阳红</span>
-																								</div>
-							<div class="dateBox">出发日期 09-26,09-30,10-01,10-03,10-10,10-23,10-30,11-06,11-08,11-16,11-22,11-27,12-06,12-10,12-18,12-29</div>
-							<div class="priceBox"><em>¥<t>19988</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=19C665156C2A426EAFDAFD157F748A4F">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1291584222041710592_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>一价全含：西班牙葡萄牙绚丽阳光之旅12天10晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>蜜月</span>
-																			<span>亲子</span>
-																			<span>音乐</span>
-																			<span>美食</span>
-																								</div>
-							<div class="dateBox">出发日期 10-18,10-26,11-08,11-29,12-06,12-13</div>
-							<div class="priceBox"><em>¥<t>18999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=f6e8631253c34ce2a862809962e194b2">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1453136708937416704_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>慢品漫游—日本本州之旅（伊豆大室山，京都深度，2日自由，品美食）7天6晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 10-03,10-06,10-11,10-15,10-20,10-24,10-28,11-03,11-07,11-13,11-17,11-21,11-27,12-01,12-05,12-10,12-15,12-19,12-23,12-24</div>
-							<div class="priceBox"><em>¥<t>8999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/cruise/detail?id=6086&amp;supplier_id=CAISSA10000">
-					<dl>
-						<dt>
-							<!--<i>游轮</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1696645362670608384_400_500">
-							</div>
-							<span>天津出发</span>
-						</dt>
-						<dd>
-							<h2>凯撒自营-【天津登船】环游世界53天-南太平洋寻梦之旅</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>长线精选</span>
-																			<span>凯撒包船</span>
-																			<span>环球精选</span>
-																			<span>元旦</span>
-																								</div>
-							<div class="dateBox">出发日期 11-18</div>
-							<div class="priceBox"><em>¥<t>57999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/dj/detail?teamId=f8f662df7d2041a1b696e72150d9b0a8">
-					<dl>
-						<dt>
-							<!--<i>自由行</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1654749361781571584_315_196_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>马尔代夫鲁滨逊努努岛7天5晚自由行（首航直飞+一价全包+3沙2水+内陆飞机+快艇免费接送+私人泳池）</h2>
-							<h3>3晚双人海景房+2晚泳池水上屋（有私人泳池）+可升级水飞上岛+浮潜水域优质</h3>
-							<div class="tipsBox">
-																																								</div>
-							<div class="dateBox">出发日期 09-29,10-11,10-13,10-18,10-20,10-25,10-27</div>
-							<div class="priceBox"><em>¥<t>14888</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-									</div>
-				
-							<div class="tabsContent" style="display: none;">
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=48e42d09ea3a474fa01a9f8ca4ae8fa5">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1790882765605666816_400_500">
-							</div>
-							<span>成都出发</span>
-						</dt>
-						<dd>
-							<h2>芳华无龄—以色列约旦慢享之旅10天7晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>旅拍</span>
-																			<span>观光</span>
-																			<span>艺术</span>
-																			<span>夕阳红</span>
-																								</div>
-							<div class="dateBox">出发日期 11-12,12-17</div>
-							<div class="priceBox"><em>¥<t>22999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=632f4f9e781b404e8b82dacee892f587">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1467705244926042112_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>（预售）芳华无龄—冲绳岛阳光之旅4天3晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>走遍</span>
-																			<span>夕阳红</span>
-																			<span>摄影</span>
-																			<span>海岛</span>
-																								</div>
-							<div class="dateBox">出发日期 10-16,11-13,12-18</div>
-							<div class="priceBox"><em>¥<t>4999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=67050e45178245d2b32fb6b01a6ade33">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1453135214532075520_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>芳华无龄—日本本州印象之旅6天5晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>夕阳红</span>
-																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 10-10,10-16,10-25,11-01,11-07,11-15,12-13,12-21,12-26</div>
-							<div class="priceBox"><em>¥<t>6999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=dcca7f8aa06b4d81af0d0b6a8c67c6af">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1291584213426610176_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>芳华无龄—西班牙葡萄牙绚丽阳光之旅12天10晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>美食</span>
-																			<span>艺术</span>
-																			<span>文化遗产</span>
-																			<span>夕阳红</span>
-																								</div>
-							<div class="dateBox">出发日期 10-12,12-28</div>
-							<div class="priceBox"><em>¥<t>12988</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=a9756e00f1594be794a9632e53ecf28b">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1291587279672549376_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>芳华无龄—埃及尼罗河游轮度假之旅10天7晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>文化遗产</span>
-																			<span>夕阳红</span>
-																			<span>摄影</span>
-																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 10-09,10-19,10-23,11-11,11-27,12-16,12-30</div>
-							<div class="priceBox"><em>¥<t>11999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=632f4f9e781b404e8b82dacee892f587">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1467705244926042112_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>（预售）芳华无龄—冲绳岛阳光之旅4天3晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>走遍</span>
-																			<span>夕阳红</span>
-																			<span>摄影</span>
-																			<span>海岛</span>
-																								</div>
-							<div class="dateBox">出发日期 10-16,11-13,12-18</div>
-							<div class="priceBox"><em>¥<t>4999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-									</div>
-				
-							<div class="tabsContent" style="display: none;">
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=899873f5561b429c86f4245fe6cc47f5">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1973632317835149312_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>故宫以东：情满四合院—隐于胡同深处的学堂人艺史家东四寻礼记1天0晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>美食</span>
-																			<span>观光</span>
-																			<span>国内周边游</span>
-																								</div>
-							<div class="dateBox">出发日期 09-22,09-28,10-19,10-26</div>
-							<div class="priceBox"><em>¥<t>599</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=76c40af7dfec447fb55cb8a40603dde9">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1973597161011249152_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>故宫以东：京味儿食足—非遗美食匠人带您品味古都1天0晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>美食</span>
-																			<span>观光</span>
-																			<span>国内周边游</span>
-																								</div>
-							<div class="dateBox">出发日期 09-21,09-22,09-28,10-03,10-04,10-05,10-06,10-07,10-19,10-20,10-26,10-27</div>
-							<div class="priceBox"><em>¥<t>568</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=0672287bc94f464498195bde583e1256">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1411836969172557824_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>雪域圣源—西藏林芝全景休闲之旅10天9晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>暑期</span>
-																			<span>观光</span>
-																			<span>私人定制</span>
-																								</div>
-							<div class="dateBox">出发日期 09-20,09-27</div>
-							<div class="priceBox"><em>¥<t>8588</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=5e9c8d414fe44c5db8c516c335f52ea9">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1411885928352022528_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>山水画廊—三峡黄金游轮休闲之旅7天6晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>观光</span>
-																			<span>河轮</span>
-																								</div>
-							<div class="dateBox">出发日期 09-26</div>
-							<div class="priceBox"><em>¥<t>3280</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=f06debd2457a43e7b80fa85ba0f9c1f9">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1291576960896180224_400_500">
-							</div>
-							<span>贵阳出发</span>
-						</dt>
-						<dd>
-							<h2>探寻黔东南—贵州黄果树梵净山西江苗寨民俗文化之旅5天4晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>文化遗产</span>
-																			<span>走遍</span>
-																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 09-17,09-18</div>
-							<div class="priceBox"><em>¥<t>3988</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=0dfc8abcdab04e198fe3429f33d7aa39">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1411858195169378304_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>寻味青海—贵德龙羊峡青海湖茶卡塔尔寺美食之旅8天7晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 09-22</div>
-							<div class="priceBox"><em>¥<t>3988</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-									</div>
-				
-							<div class="tabsContent" style="">
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=68ee5ebd200140648648def25fb16d2d">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1291577179109040128_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>神奇宁夏—大漠风情探索之旅4天3晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 09-20,09-27,10-18,10-25</div>
-							<div class="priceBox"><em>¥<t>1688</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=9bfee01021ca41819413ad6c7370458a">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1411207092253728768_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>探寻喀纳斯—新疆解密之旅8天7晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 09-26</div>
-							<div class="priceBox"><em>¥<t>6288</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=e3220d4a9b1e4e6eaa46b0bce422e42a">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1263279295112650752_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>和枫物语—北海道寻爱之旅5天4晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 09-20</div>
-							<div class="priceBox"><em>¥<t>5999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/External/details?is_sale=0&amp;id=21b83592b98546fab3e72190a5ddff9b">
-					<dl>
-						<dt>
-							<!--<i>联合发团</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1948156760012062720_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>巡礼夏洛瓦赏枫列车加拿大东西岸落基山15天13晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>旅拍</span>
-																			<span>观光</span>
-																			<span>摄影</span>
-																								</div>
-							<div class="dateBox">出发日期 10-14</div>
-							<div class="priceBox"><em>¥<t>28780</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=612B9FA732884A1A8131070E75967165">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1291582062436524032_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>加拿大艾伯塔省+落基山四大国家公园清新自然之旅9天7晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>温泉</span>
-																			<span>旅拍</span>
-																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 09-28</div>
-							<div class="priceBox"><em>¥<t>20988</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=4E77DC9B104F4F1FA03B191066BF6138">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1291582088030167040_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>枫中奇缘—加拿大东海岸赏枫之旅10天8晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 09-28,10-04,10-15</div>
-							<div class="priceBox"><em>¥<t>22999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-									</div>
-				
-							<div class="tabsContent" style="display:none;">
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=e313ee4b63934c4dbc7de9f5b95197ab">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1291578764581117952_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>为爱侣行—泰国普吉岛网红海景大秋千+蜜月岛追梦之旅7天5晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>蜜月</span>
-																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 10-11,10-18,11-04,11-18,12-02,12-16</div>
-							<div class="priceBox"><em>¥<t>6599</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=cd01161d690c4713ba60c5c2e923cbbd">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1370633879358767104_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>为爱侣行—印尼巴厘岛漂浮早餐+双人露露SPA+独栋泳池别墅浪漫之旅7天5晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>蜜月</span>
-																			<span>婚礼</span>
-																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 10-03,10-15,10-18,10-23</div>
-							<div class="priceBox"><em>¥<t>6999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=9e993ac40a234a458023ec2fc9eb20f0">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1498136053293998080_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>为爱侣行—马来西亚沙巴美人鱼岛+加雅岛度假村甜蜜定制之旅7天5晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>蜜月</span>
-																			<span>婚礼</span>
-																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 09-14,09-19,09-21,09-26,10-03</div>
-							<div class="priceBox"><em>¥<t>8699</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/dj/detail?teamId=788641d8a5224003bfaace0cc5fd9dba">
-					<dl>
-						<dt>
-							<!--<i>自由行</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1861996347013169152_315_196_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>为爱侣行—毛里求斯鹿饮泉酒店8天5晚半自助甜蜜定制之旅（含情人山谷一日游：茶园（品茶、纪念树种植）、七色土、鸟公园）</h2>
-							<h3>JUNIOR SUITE ；配北京-香港的联运航班（北京-香港-毛里求斯）；含早晚餐，赠送拼车接送机、电话卡、精美写真</h3>
-							<div class="tipsBox">
-																																			<span>蜜月</span>
-																			<span>亲子</span>
-																			<span>摄影</span>
-																			<span>旅拍</span>
-																								</div>
-							<div class="dateBox">出发日期 09-16,09-20,09-23,09-27,09-30,10-04,10-07,10-11,10-14,10-18,10-21,10-25,10-28</div>
-							<div class="priceBox"><em>¥<t>14899</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/dj/detail?teamId=fe0b10be52f54d52aaecafae08684069">
-					<dl>
-						<dt>
-							<!--<i>自由行</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1970029549589323776_315_196_400_500">
-							</div>
-							<span>上海出发</span>
-						</dt>
-						<dd>
-							<h2> 为爱侣行—毛里求斯8日5晚甜蜜之旅（传承太妃酒店海景套房+酒店早晚餐+专车接送机+茶园种树+鸟公园双人四驱车+摄影写真）               </h2>
-							<h3>上海毛航直飞，蜜月定制，5晚连住，蜜月套餐</h3>
-							<div class="tipsBox">
-																																								</div>
-							<div class="dateBox">出发日期 09-16,09-18,09-23,09-25,10-02,10-07,10-09,10-14,10-16,10-21,10-23,10-28,10-30,11-04,11-06,11-11,11-13,11-18,11-20,11-25,11-27,12-02,12-04</div>
-							<div class="priceBox"><em>¥<t>19999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=7ECAB34309ED4AC8BAE2019569F64077">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1834427242429259776_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>为爱侣行—土耳其星月浪漫之旅12天9晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>蜜月</span>
-																			<span>婚礼</span>
-																			<span>海外婚礼</span>
-																			<span>旅拍</span>
-																								</div>
-							<div class="dateBox">出发日期 10-16,11-06,12-04</div>
-							<div class="priceBox"><em>¥<t>19999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-									</div>
-				
-							<div class="tabsContent" style="display:none;">
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=a62f07c194154389be4d8d4dbb5525c5">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1263295621080260608_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>椰林听语—泰国普吉岛+椰子岛悦动之旅7天5晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>蜜月</span>
-																			<span>毕业旅行季</span>
-																								</div>
-							<div class="dateBox">出发日期 09-19,09-22,09-25,09-27,09-28,10-03,10-07,10-14,10-17,10-22,10-28,10-31</div>
-							<div class="priceBox"><em>¥<t>3999</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=75f45903e1cd45a0af217c3d4b1af5a7">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1263279276691267584_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>蓝色魅力—冲绳岛阳光之旅4天3晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 09-25,10-09,10-16,10-23,10-30</div>
-							<div class="priceBox"><em>¥<t>4099</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/dj/detail?teamId=fc162592ea824d12afbd4d3c5007a3ab">
-					<dl>
-						<dt>
-							<!--<i>自由行</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1753163938583511040_315_196_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>塞班卡诺亚主楼海景6天4晚自由行（东航直飞+北部环岛观光+当地中文导游接送）含中秋、国庆</h2>
-							<h3>免签海岛；高性价比；私人沙滩；海上逍遥；</h3>
-							<div class="tipsBox">
-																																			<span>海岛</span>
-																			<span>观光</span>
-																			<span>蜜月</span>
-																			<span>亲子</span>
-																								</div>
-							<div class="dateBox">出发日期 09-24,10-15,10-22</div>
-							<div class="priceBox"><em>¥<t>5688</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/group/index/details?is_sale=0&amp;id=305c9d6e99e54e71b0d047d9a691bee8">
-					<dl>
-						<dt>
-							<!--<i>参团游</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1785867815241875456_400_500">
-							</div>
-							<span>沈阳出发</span>
-						</dt>
-						<dd>
-							<h2>网红圣地—巴厘岛秘境私家团7天5晚</h2>
-							<h3></h3>
-							<div class="tipsBox">
-																																			<span>观光</span>
-																								</div>
-							<div class="dateBox">出发日期 09-19,10-10,10-24,11-07,11-14,11-21,11-28,12-05,12-12,12-19,12-26</div>
-							<div class="priceBox"><em>¥<t>8399</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-										<a href="http://m.caissa.com.cn/dj/detail?teamId=a9379c4117944cb9b037d89b37640346">
-					<dl>
-						<dt>
-							<!--<i>自由行</i>-->
-							<div class="imgBox">
-								<img src="http://img8.caissa.com.cn/cloud/image/1659015126579912704_315_196_400_500">
-							</div>
-							<span>北京出发</span>
-						</dt>
-						<dd>
-							<h2>马尔代夫奥静岛7日5晚自由行-（ 首航直飞+3沙2水+2018新开岛屿+一价全含+日落垂钓）</h2>
-							<h3>2018新开一价全含岛屿，快艇上岛</h3>
-							<div class="tipsBox">
-																																			<span>蜜月</span>
-																			<span>亲子</span>
-																			<span>婚礼</span>
-																			<span>私家团</span>
-																								</div>
-							<div class="dateBox">出发日期 09-27,09-29,10-04,10-06,10-11,10-13,10-18,10-20,10-25,10-27</div>
-							<div class="priceBox"><em>¥<t>17088</t></em>起</div>
-						</dd>
-					</dl>
-					</a>
-									</div>
-				
-			
-			<!-- 热门推荐 end-->
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+					
 
+										<!--新参-->
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+										<dl>
+                        <a href="http://m.caissa.com.cn/group/External/details?id=0dcee1825a5a4fe1a805dd585311639a&amp;team_source=2">
+						<dt>
+                        <div class="imgBox">
+																				<img src="http://img8.caissa.com.cn/cloud/image/1752542558208884736_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+						<strong class="dz"></strong>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																优品英国一地 温莎古堡 温德米尔湖 比斯特（海航直飞）10天7晚																</strong></li>
+								<li><strong class="subtitle">甄选航空 优质酒店</strong></li>
+								<li><p class="tab">
+																								<em class="blue">联合发团</em>
+																																																												<span class="cty_tags">目的地节庆</span>
+																								<span class="cty_tags">美食</span>
+																								<span class="cty_tags">艺术</span>
+																								<span class="cty_tags">婚礼</span>
+																								<span class="cty_tags">体验季</span>
+																								<span class="cty_tags">文化遗产</span>
+																								<span class="cty_tags">亲子</span>
+																								<span class="cty_tags">蜜月</span>
+																								<span class="cty_tags">音乐</span>
+																																																																																																   </p></li>
+								<li><p>
+																<span>出发日期 01-01、02-12、03-18、12-11</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>10980								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+					
 
-			
+										<!--新参-->
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                                            <dl>
+                            <a href="http://m.caissa.com.cn/cruise/detail?id=8107&amp;supplier_id=CAISSA10000">
+                            <dt>
+                                <div class="imgBox">
+                                                                                                                        <img src="http://img8.caissa.com.cn/cloud/image/1324752190309097472_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+                                                                                                                <span>北京出发</span>
+                                <var class="mada_span_01">邮轮</var>
+                                </div>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li><strong class="title">
+                                                    【海钻】探索南极之心-南极+阿根廷15日伟大探险之旅（TK）                                            </strong></li>
+                                    <li><strong class="subtitle"></strong></li>
 
-		</div>
-	</div>
+                                                                            <li><p class="tab">
+                                                                                            <span>凯撒包船</span>                                                                                            <span>长线精选</span>                                                                                            <span>亲子游</span>                                                                                            <span>南极</span>                                                                                                                                                                                                                                                                            </p></li>
+                                    
+                                    <li><p>
+																<span>出发日期 11-28</span>
+								
+																</p>
+								</li>
+								<li>
+                                        <div class="price">
+                                            <p><i>￥</i><strong>72800                                                </strong>起</p>
+                                        </div></li>
+                                </ul>
+                            </dd>
+                            </a>
+                        </dl>
+                    					<!-- 外采 暂不需要 -->
+					
+
+										<!--新参-->
+										<dl>
+						<a href="http://m.caissa.com.cn/group/index/details?id=0B56BCE1F3704CB0B7BCDB086C3DE83E">
+                        <dt>
+                        <div class="imgBox">
+																				    <img src="http://img8.caissa.com.cn/cloud/image/1834255312430530560_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+                        <var class="mada_span_01">参团游</var>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																    凯撒亲子营—英国童趣时光之旅10天8晚																</strong></li>
+								<li><strong class="subtitle">彼得兔+哈利波特影城+大英博物馆（含专业讲解）+牛津大学、剑桥双学府,10天加吉百利巧克力世界</strong></li>
+								<li><p class="tab">
+												<em class="blue">凯撒自营</em>
+																																																		    <em class="yellow">星</em>
+												    													
+												   																																																	<span>优质航空</span>
+																																																																																																																																	<span>舒适酒店</span>
+																																																													   </p></li>
+								<li><p>
+																<span>出发日期 02-07、12-26</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>16988								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+					
+
+										<!--新参-->
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+										<dl>
+                        <a href="http://m.caissa.com.cn/group/External/details?id=c2bc569b1ba646369b045f5f49e5e4c7&amp;team_source=2">
+						<dt>
+                        <div class="imgBox">
+																				<img src="http://img8.caissa.com.cn/cloud/image/1766339092608147456_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+						<strong class="dz"></strong>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																惠游  群英缤纷英比德法意瑞16天14晚																</strong></li>
+								<li><strong class="subtitle">一价全含</strong></li>
+								<li><p class="tab">
+																								<em class="blue">联合发团</em>
+																																																												<span class="cty_tags">文化遗产</span>
+																								<span class="cty_tags">夕阳红</span>
+																								<span class="cty_tags">蜜月</span>
+																								<span class="cty_tags">观光</span>
+																																																																																																   </p></li>
+								<li><p>
+																<span>出发日期 11-16</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>18880								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+					
+
+										<!--新参-->
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                                            <dl>
+                            <a href="http://m.caissa.com.cn/cruise/detail?id=8569&amp;supplier_id=CAISSA10000">
+                            <dt>
+                                <div class="imgBox">
+                                                                                                                        <img src="http://img8.caissa.com.cn/cloud/image/1884518913678204928_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+                                                                                                                <span>北京出发</span>
+                                <var class="mada_span_01">邮轮</var>
+                                </div>
+                            </dt>
+                            <dd>
+                                <ul>
+                                    <li><strong class="title">
+                                                    梦想绽放-公主邮轮"碧海公主号"110日环球之旅2020年                                            </strong></li>
+                                    <li><strong class="subtitle"></strong></li>
+
+                                                                            <li><p class="tab">
+                                                                                            <span>长线精选</span>                                                                                            <span>环球精选</span>                                                                                    </p></li>
+                                    
+                                    <li><p>
+																<span>出发日期 05-10</span>
+								
+																</p>
+								</li>
+								<li>
+                                        <div class="price">
+                                            <p><i>￥</i><strong>179999                                                </strong>起</p>
+                                        </div></li>
+                                </ul>
+                            </dd>
+                            </a>
+                        </dl>
+                    					<!-- 外采 暂不需要 -->
+					
+
+										<!--新参-->
+										<dl>
+						<a href="http://m.caissa.com.cn/group/index/details?id=AB4C92ED5F9441519E4376677D7B1F95">
+                        <dt>
+                        <div class="imgBox">
+																				    <img src="http://img8.caissa.com.cn/cloud/image/1834255312430530560_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+                        <var class="mada_span_01">参团游</var>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																    凯撒亲子营—英国童趣时光之旅9天7晚																</strong></li>
+								<li><strong class="subtitle">彼得兔+哈利波特影城+大英博物馆（含专业讲解）+牛津大学、剑桥双学府,10天加吉百利巧克力世界</strong></li>
+								<li><p class="tab">
+												<em class="blue">凯撒自营</em>
+																																																		    <em class="yellow">星</em>
+												    													
+												   																																																	<span>优质航空</span>
+																																																																																																																																	<span>舒适酒店</span>
+																																																													   </p></li>
+								<li><p>
+																<span>出发日期 01-22</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>18588								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+					
+
+										<!--新参-->
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+										<dl>
+                        <a href="http://m.caissa.com.cn/group/External/details?id=0f7ae7d9bd314abd9d6ea3fe54892bf2&amp;team_source=2">
+						<dt>
+                        <div class="imgBox">
+																				<img src="http://img8.caissa.com.cn/cloud/image/1743909112486010880_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+						<strong class="dz"></strong>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																【盈尚】【一价全含】英国一地KL 曼曼10天8晚																</strong></li>
+								<li><strong class="subtitle">爱丁堡城堡+剑桥撑篙+自由活动</strong></li>
+								<li><p class="tab">
+																								<em class="blue">联合发团</em>
+																																																												<span class="cty_tags">观光</span>
+																								<span class="cty_tags">文化遗产</span>
+																								<span class="cty_tags">走遍</span>
+																																																																																																   </p></li>
+								<li><p>
+																<span>出发日期 01-21</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>16180								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+					
+
+										<!--新参-->
+										<dl>
+						<a href="http://m.caissa.com.cn/group/index/details?id=d75fdee741eb4735a17d0514cbfa139f">
+                        <dt>
+                        <div class="imgBox">
+																				    <img src="http://img8.caissa.com.cn/cloud/image/1727233075001917440_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+                        <var class="mada_span_01">参团游</var>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																    【体育观赛】梦圆英超—英国激情观赛之旅9天7晚																</strong></li>
+								<li><strong class="subtitle">现场观战英超比赛</strong></li>
+								<li><p class="tab">
+												<em class="blue">凯撒自营</em>
+																																																	<span>优质航空</span>
+																																																																																																																																	<span>舒适酒店</span>
+																																																		<span>精致小团</span>
+																																				   </p></li>
+								<li><p>
+																<span>出发日期 12-09</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>18988								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+					
+
+										<!--新参-->
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+										<dl>
+                        <a href="http://m.caissa.com.cn/group/External/details?id=82845c2905c64e2d951ef5e4f367dc80&amp;team_source=2">
+						<dt>
+                        <div class="imgBox">
+																				<img src="http://img8.caissa.com.cn/cloud/image/1752542558208884736_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+						<strong class="dz"></strong>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																英国爱尔兰+冰岛 双温泉 双古堡（巨石阵+巨人堤）15天13晚																</strong></li>
+								<li><strong class="subtitle">国航直飞 优质酒店</strong></li>
+								<li><p class="tab">
+																								<em class="blue">联合发团</em>
+																																																												<span class="cty_tags">目的地节庆</span>
+																								<span class="cty_tags">婚礼</span>
+																								<span class="cty_tags">文化遗产</span>
+																								<span class="cty_tags">走遍</span>
+																								<span class="cty_tags">美食</span>
+																								<span class="cty_tags">亲子</span>
+																								<span class="cty_tags">艺术</span>
+																								<span class="cty_tags">音乐</span>
+																																																																																																   </p></li>
+								<li><p>
+																<span>出发日期 01-21、02-27、03-26、12-26</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>32780								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+					
+
+										<!--新参-->
+										<dl>
+						<a href="http://m.caissa.com.cn/group/index/details?id=D5AE36987666409A8747A6E19AECA7F2">
+                        <dt>
+                        <div class="imgBox">
+																				    <img src="http://img8.caissa.com.cn/cloud/image/1834255312430530560_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+                        <var class="mada_span_01">参团游</var>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																    英国爱尔兰印象之旅12天9晚																</strong></li>
+								<li><strong class="subtitle">伦敦+爱丁堡+贝尔法斯特+都柏林+大英博物馆+温德米尔湖区+英爱</strong></li>
+								<li><p class="tab">
+												<em class="blue">凯撒自营</em>
+																																																	<span>优质航空</span>
+																																																																																																																																																											<span>舒适酒店</span>
+																																																		<span>精致小团</span>
+																																				   </p></li>
+								<li><p>
+																<span>出发日期 01-22、11-18、12-11</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>11988								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+					
+
+										<!--新参-->
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+										<dl>
+                        <a href="http://m.caissa.com.cn/group/External/details?id=177af3a3e67a4502b7db4215d62502cf&amp;team_source=2">
+						<dt>
+                        <div class="imgBox">
+																				<img src="http://img8.caissa.com.cn/cloud/image/1744329368861900800_260_200">
+																			<span>北京出发</span>
+						<strong class="dz"></strong>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																[英爱板块][尊悦][王牌]英爱ca 大兴机场版13天11晚																</strong></li>
+								<li><strong class="subtitle">巨石阵 莫赫悬崖 品酒 名校</strong></li>
+								<li><p class="tab">
+																								<em class="blue">联合发团</em>
+																																																												<span class="cty_tags">观光</span>
+																								<span class="cty_tags">走遍</span>
+																								<span class="cty_tags">品酒</span>
+																																																																																																   </p></li>
+								<li><p>
+																<span>出发日期 01-08、01-22、02-14、02-29、03-13、03-27、11-29、12-27</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>19780								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+					
+
+										<!--新参-->
+										<dl>
+						<a href="http://m.caissa.com.cn/group/index/details?id=6FEA90C7C0C6494481A9DF50501C152A">
+                        <dt>
+                        <div class="imgBox">
+																				    <img src="http://img8.caissa.com.cn/cloud/image/1291581466937630720_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+                        <var class="mada_span_01">参团游</var>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																    英国风情之旅9天7晚																</strong></li>
+								<li><strong class="subtitle">游览英国经典城市，全程3-4星酒店+爱丁堡+温莎城堡+大英博物馆+比斯特购物村+英式美食</strong></li>
+								<li><p class="tab">
+												<em class="blue">凯撒自营</em>
+																																																	<span>优质航空</span>
+																																																																																																																																																											<span>舒适酒店</span>
+																																																													   </p></li>
+								<li><p>
+																<span>出发日期 02-15、12-15、12-28</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>10988								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+					
+
+										<!--新参-->
+										<dl>
+						<a href="http://m.caissa.com.cn/group/index/details?id=799F98C39CAB484988B4FD88A9B344A6">
+                        <dt>
+                        <div class="imgBox">
+																				    <img src="http://img8.caissa.com.cn/cloud/image/1291581466937630720_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+                        <var class="mada_span_01">参团游</var>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																    英国风情之旅10天7晚																</strong></li>
+								<li><strong class="subtitle">游览英国经典城市，全程3-4星酒店+爱丁堡+温莎城堡+大英博物馆+比斯特购物村+英式美食</strong></li>
+								<li><p class="tab">
+												<em class="blue">凯撒自营</em>
+																																																	<span>优质航空</span>
+																																																																																																																																																											<span>舒适酒店</span>
+																																																													   </p></li>
+								<li><p>
+																<span>出发日期 01-27</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>12988								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+					
+
+										<!--新参-->
+										<dl>
+						<a href="http://m.caissa.com.cn/group/index/details?id=EAA03F125A69467986EAB3853793C91A">
+                        <dt>
+                        <div class="imgBox">
+																				    <img src="http://img8.caissa.com.cn/cloud/image/1291581466937630720_260_200" onerror="src='http://m.caissa.com.cn/static/img/h5/detail_smallpicnone.jpg'">
+																			<span>北京出发</span>
+                        <var class="mada_span_01">参团游</var>
+                        </div>
+						</dt>
+						<dd>
+							<ul>
+								<li><strong class="title">
+																    （预售）英国风情之旅9天7晚																</strong></li>
+								<li><strong class="subtitle">入内爱丁堡城堡、温莎城堡、大英博物馆，全程入住当地三到四星级酒店，游览剑桥牛津双学府，畅游伦敦</strong></li>
+								<li><p class="tab">
+												<em class="blue">凯撒自营</em>
+																																																	<span>优质航空</span>
+																																																																																																																																																											<span>舒适酒店</span>
+																																																													   </p></li>
+								<li><p>
+																<span>出发日期 01-09、02-15、03-15</span>
+								
+																</p>
+								</li>
+								<li>
+								<div class="price">								<p><i>￥</i><strong>10988								</strong>起</p>
+							</div></li>
+							</ul>
+						</dd>
+                        </a>
+					</dl>
+										<!--老参-->
+										<!--新自由行-->
+					                    <!-- 自由行 -->
+                                        <!-- 邮轮 -->
+                    					<!-- 外采 暂不需要 -->
+					
+
+										
+                <a href="http://m.caissa.com.cn/group/index/details?id=1081952B136941D18B9CA3F5EBC983A0"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1291581614904287232_130_100"><span>北京出发</span><var class="mada_span_01">参团游</var></div></dt><dd><ul><li><strong class="title">英国风尚之旅12天10晚</strong></li><li><strong class="subtitle">伦敦市区酒店+丘吉尔庄园+莎翁故居+古罗马浴场+大英博物馆讲解+比斯特+伦敦自由活动</strong></li><li><p class="tab"><em class="blue">凯撒自营</em><em class="yellow">星</em><span>优质航空</span><span>免费wifi</span><span>蜜月</span><span>亲子</span><span>夕阳红</span><span>世界遗产</span><span>观光</span></p></li><li><p><span>出发日期 11-27</span></p><div class="price"><p><i>￥</i><strong>19999</strong>起</p></div></li></ul></dd></dl></a><a href="http://m.caissa.com.cn/group/index/details?id=60A689906A2D4ED6AEF234BFBD09BB34"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1291581466937630720_130_100"><span>北京出发</span><var class="mada_span_01">参团游</var></div></dt><dd><ul><li><strong class="title">一价全含：英国经典之旅9天7晚</strong></li><li><strong class="subtitle">一价全含+伦敦+剑桥+约克+爱丁堡+温德米尔湖区+曼彻斯特+牛津+比斯特购物村+炸鱼薯条+下午茶</strong></li><li><p class="tab"><em class="blue">凯撒自营</em><span>优质航空</span><span>蜜月</span><span>夕阳红</span><span>旅拍</span><span>观光</span><span>世界遗产</span></p></li><li><p><span>出发日期 01-11、01-23、01-25、02-15、03-28、11-16、11-27、12-15</span></p><div class="price"><p><i>￥</i><strong>14988</strong>起</p></div></li></ul></dd></dl></a><a href="http://m.caissa.com.cn/group/index/details?id=ec1f5f61cab84e3990baf477efe7ffd8"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1291585832822218752_130_100"><span>北京出发</span><var class="mada_span_01">参团游</var></div></dt><dd><ul><li><strong class="title">【体育观赛】梦圆欧冠—英国豪门双赛之旅8天6晚</strong></li><li><strong class="subtitle">现场观战两大豪门欧冠主场比赛</strong></li><li><p class="tab"><em class="blue">凯撒自营</em><span>优质航空</span><span>摄影</span><span>旅拍</span><span>观光</span><span>体育</span><span>蜜月</span><span>亲子</span><span>暑期</span><span>观赛</span><span>体验季</span></p></li><li><p><span>出发日期 01-11、01-23、01-25、02-15、03-28、11-16、11-24、11-27、12-15</span></p><div class="price"><p><i>￥</i><strong>18988</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=fe45ab2977c842578975db9da691546c&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1766343836777029632_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[英国深度][一价全含] 英国一地海航 曼城~曼城</strong></li><li><strong class="subtitle">爱丁堡城堡+剑桥+伦敦自由活动</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-11、01-15、01-23、01-25、02-12、02-15、02-26、03-11、03-25、03-28、11-16、11-24、11-27、12-11、12-15、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>13480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=75eb408f2493437db14fdcc5451b74ae&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1841637310287536128_130_100"><span>北京出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">[北京出发]【一家一团】英国10日6人私家小团一家一团英国10日10天8晚</strong></li><li><strong class="subtitle">国航直飞可各地联运全程四星酒店</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>艺术</span><span>观光</span><span>私家团</span><span>探索</span><span>文化遗产</span><span>亲子</span><span>毕业旅行季</span><span>暑期</span><span>私人定制</span><span>旅拍</span></p></li><li><p><span>出发日期 01-11、01-15、01-23、01-25、02-12、02-15、02-26、03-11、03-25、03-28、11-14、11-16、11-24、11-27、12-01、12-11、12-15、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>22490</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=aff9964396d746cdbd71b94d8823a2c3&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1752542561136500736_130_100"><span>北京出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">尊品五星英国一地 巨石阵+英伦双堡+制作小熊（国航直飞）</strong></li><li><strong class="subtitle">甄选航空 优质酒店</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>体验季</span><span>文化遗产</span><span>蜜月</span><span>音乐</span><span>目的地节庆</span><span>亲子</span><span>婚礼</span><span>艺术</span><span>美食</span></p></li><li><p><span>出发日期 01-11、01-15、01-19、01-21、01-23、01-25、01-26、02-12、02-15、02-24、02-26、03-11、03-16、03-23、03-25、03-28、11-14、11-16、11-18、11-24、11-27、12-01、12-11、12-15、12-20、12-23、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>16790</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=6a5b3e8d15a54c79abc67070c4123a9d&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1744327928915394560_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[北京出发][英爱板块][盈尚][秒杀]英国一地HU 海航 英一地10天7晚</strong></li><li><strong class="subtitle">牛津 剑桥 伦敦一天自由活动</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>走遍</span></p></li><li><p><span>出发日期 01-11、01-15、01-19、01-21、01-23、01-25、01-26、01-29、02-12、02-15、02-19、02-24、02-26、03-11、03-16、03-18、03-23、03-25、03-28、11-14、11-16、11-18、11-20、11-24、11-27、12-01、12-11、12-15、12-18、12-20、12-23、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>10580</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=d4fc0292a5164583b9b759616a1dbaa2&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1847338823479697408_130_100"><span>北京出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">[英爱板块]英国+爱尔兰大全景ca 伦敦</strong></li><li><strong class="subtitle">全景大英爱</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span><span>走遍</span></p></li><li><p><span>出发日期 01-11、01-15、01-19、01-21、01-23、01-25、01-26、01-29、02-12、02-15、02-19、02-24、02-26、03-11、03-16、03-18、03-20、03-23、03-25、03-28、11-14、11-16、11-18、11-20、11-24、11-27、12-01、12-09、12-11、12-15、12-18、12-20、12-23、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>22790</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=a3431b231f3c4908a533db597e19044d&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1752542558208884736_130_100"><span>北京出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">【优严选】一价全含 尊品英国爱尔兰</strong></li><li><strong class="subtitle">甄选航空 四五星酒店</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>婚礼</span><span>体验季</span><span>艺术</span><span>蜜月</span><span>目的地节庆</span><span>音乐</span><span>文化遗产</span><span>亲子</span><span>美食</span></p></li><li><p><span>出发日期 01-11、01-15、01-19、01-20、01-21、01-23、01-25、01-26、01-29、02-12、02-14、02-15、02-19、02-24、02-26、03-11、03-16、03-18、03-20、03-23、03-25、03-28、11-14、11-16、11-18、11-20、11-24、11-27、12-01、12-09、12-11、12-14、12-15、12-18、12-20、12-23、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>27790</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=78dc8a5eefdc464a8464736cb959b6c4&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1884939821387587584_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[秒杀][英爱][盈尚]英国爱尔兰HU 曼曼13天</strong></li><li><strong class="subtitle">英国+爱尔兰 巨人堤+英国特色餐</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>美食</span><span>婚礼</span><span>暑期</span><span>走遍</span><span>艺术</span></p></li><li><p><span>出发日期 01-11、01-15、01-19、01-20、01-21、01-23、01-24、01-25、01-26、01-29、02-12、02-14、02-15、02-19、02-21、02-24、02-26、03-11、03-16、03-18、03-20、03-23、03-25、03-28、11-14、11-16、11-18、11-20、11-24、11-27、12-01、12-09、12-11、12-14、12-15、12-18、12-20、12-23、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>12980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=27f45af01be54579bacce5bd8006a737&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1933711961645342720_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">【悦选英爱】英国+爱尔兰环游</strong></li><li><strong class="subtitle">温莎堡莎翁故乡逃婚小镇巨人堤比斯</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>旅拍</span><span>观光</span><span>摄影</span><span>艺术</span><span>走遍</span></p></li><li><p><span>出发日期 01-06、01-11、01-15、01-19、01-20、01-21、01-23、01-24、01-25、01-26、01-29、02-12、02-14、02-15、02-17、02-19、02-21、02-24、02-26、03-11、03-16、03-18、03-20、03-23、03-25、03-28、11-14、11-16、11-18、11-20、11-24、11-27、12-01、12-02、12-09、12-11、12-14、12-15、12-18、12-20、12-23、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>9980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=f0af5ba528a944b6b26cec2ce396dedd&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1898234576569597952_130_100"><span>北京出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">【一家一团】英国苏格兰2国2至6人小团游</strong></li><li><strong class="subtitle">哈利波特大搜罗魔法世界市区四星</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>毕业旅行季</span><span>亲子</span><span>体验季</span><span>私家团</span><span>走遍</span><span>艺术</span><span>探索</span></p></li><li><p><span>出发日期 01-06、01-11、01-15、01-19、01-20、01-21、01-23、01-24、01-25、01-26、01-29、02-12、02-14、02-15、02-17、02-19、02-21、02-24、02-26、03-11、03-16、03-18、03-20、03-23、03-25、03-28、11-14、11-16、11-18、11-20、11-24、11-27、12-01、12-02、12-09、12-11、12-14、12-15、12-18、12-20、12-23、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>25790</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=71b110dbed3a4b0ea0490a55c6006739&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1752542559710453760_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">英国爱尔兰全景 巨石阵 尼斯湖 七姐妹白崖（国航直飞）</strong></li><li><strong class="subtitle">真选航空 三四星酒店</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>艺术</span><span>目的地节庆</span><span>文化遗产</span><span>音乐</span><span>婚礼</span><span>蜜月</span><span>美食</span></p></li><li><p><span>出发日期 01-06、01-11、01-15、01-19、01-20、01-21、01-23、01-24、01-25、01-26、01-29、02-12、02-14、02-15、02-17、02-19、02-21、02-24、02-26、03-11、03-16、03-18、03-20、03-23、03-25、03-28、11-14、11-16、11-18、11-20、11-21、11-24、11-27、12-01、12-02、12-09、12-11、12-14、12-15、12-18、12-20、12-23、12-25、12-26</span></p></li><li><div class="price"><p><i>￥</i><strong>16780</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=5b7d942efec04d3f9f261d3bf577ec2c&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1828639907167035392_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[英爱板块][盈尚][秒杀]英国+爱尔兰HU 曼曼 13天</strong></li><li><strong class="subtitle">巨人堤+购物村+英国特色餐</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>亲子</span><span>走遍</span><span>文化遗产</span><span>艺术</span></p></li><li><p><span>出发日期 01-06、01-11、01-15、01-19、01-20、01-21、01-23、01-24、01-25、01-26、01-29、02-12、02-14、02-15、02-17、02-19、02-21、02-24、02-26、03-11、03-16、03-18、03-20、03-23、03-25、03-28、11-14、11-16、11-18、11-20、11-21、11-24、11-27、12-01、12-02、12-09、12-11、12-14、12-15、12-18、12-20、12-23、12-25、12-26</span></p></li><li><div class="price"><p><i>￥</i><strong>12980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=50d9c40092d34ebbb38a521f13e58e09&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1752542558208884736_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">优品英国一地 温莎古堡 温德米尔湖 比斯特（国航直飞）</strong></li><li><strong class="subtitle">甄选航空 优质酒店</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>目的地节庆</span><span>美食</span><span>艺术</span><span>婚礼</span><span>体验季</span><span>文化遗产</span><span>亲子</span><span>蜜月</span><span>音乐</span></p></li><li><p><span>出发日期 01-06、01-11、01-15、01-19、01-20、01-21、01-23、01-24、01-25、01-26、01-29、02-12、02-14、02-15、02-17、02-19、02-21、02-24、02-26、03-01、03-11、03-16、03-18、03-20、03-23、03-25、03-28、11-14、11-16、11-18、11-20、11-21、11-24、11-27、12-01、12-02、12-09、12-11、12-14、12-15、12-18、12-20、12-23、12-25、12-26</span></p></li><li><div class="price"><p><i>￥</i><strong>12780</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=faf624578aae43fc842a3ad3f886dd6b&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1752542559710453760_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">英国爱尔兰全景 巨石阵 尼斯湖 七姐妹白崖（英航直飞）</strong></li><li><strong class="subtitle">真选航空 三四星酒店</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>艺术</span><span>目的地节庆</span><span>文化遗产</span><span>音乐</span><span>婚礼</span><span>蜜月</span><span>美食</span></p></li><li><p><span>出发日期 11-14</span></p></li><li><div class="price"><p><i>￥</i><strong>16780</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=af5252d1a6ac490486056a308b647b53&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1822820565447827456_130_100"><span>北京出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">英国+爱尔兰[全景大英爱 ]CA 伦敦</strong></li><li><strong class="subtitle">尼斯湖游船 安格尔西岛 巨石阵</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>走遍</span><span>观光</span><span>文化遗产</span></p></li><li><p><span>出发日期 01-20、11-14</span></p></li><li><div class="price"><p><i>￥</i><strong>24790</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=44f5134b90aa4c5891434bc11a15ba39&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1848888305300234240_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">【纯玩无购物】乐活英国一地半自由行（暖冬超值版）</strong></li><li><strong class="subtitle">芬兰航空 甄选酒店</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>艺术</span><span>蜜月</span><span>目的地节庆</span><span>文化遗产</span><span>婚礼</span><span>亲子</span><span>音乐</span><span>美食</span></p></li><li><p><span>出发日期 01-20、02-18、11-14</span></p></li><li><div class="price"><p><i>￥</i><strong>8980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=b3ee169c6222415e8c82e2395fb789b4&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1990915337487081472_130_100"><span>北京出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">【诗酒趁年华】春节英国+爱尔兰全景</strong></li><li><strong class="subtitle">三大世界遗产+巨石阵+英伦双堡</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>亲子</span><span>寒假</span><span>美食</span><span>海外过大年</span><span>探索</span><span>艺术</span></p></li><li><p><span>出发日期 01-20、01-25、02-18、11-14</span></p></li><li><div class="price"><p><i>￥</i><strong>19990</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=33277a2530754e58872423de0c7f34ee&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1744325065002688512_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[北京出发][英爱板块][秒杀]英国一地HU 曼城 曼城10天7晚</strong></li><li><strong class="subtitle">牛津 剑桥 伦敦一天自由活动</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>走遍</span></p></li><li><p><span>出发日期 01-20、01-25、02-18、11-14、11-20</span></p></li><li><div class="price"><p><i>￥</i><strong>10580</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=aa42cf724bd34313a029d4d429219504&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1743909112486010880_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[北京出发]【盈尚】【一价全含】英国一地海航 曼城~曼城10天7晚</strong></li><li><strong class="subtitle">爱丁堡城堡+剑桥撑篙+自由活动</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>文化遗产</span><span>走遍</span></p></li><li><p><span>出发日期 01-20、01-25、02-18、03-25、11-14、11-20</span></p></li><li><div class="price"><p><i>￥</i><strong>13480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=b884d41b7f1143918e07451db8479e99&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1743909113232580608_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[英爱板块][盈尚][一价全含]英国+爱尔兰HU 曼曼</strong></li><li><strong class="subtitle">一价全含 爱丁堡城堡</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-20、01-25、02-18、03-25、03-27、11-14、11-20</span></p></li><li><div class="price"><p><i>￥</i><strong>15480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=48a8f7bd0efa4aef89d1f752a9178880&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1751601854448099328_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[北京出发]英国+爱尔兰：双学府+双小镇+巨人堤+奥莱海航 曼城往返12天9晚</strong></li><li><strong class="subtitle">全天自由活动，往返直飞拒签全退</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>摄影</span><span>亲子</span></p></li><li><p><span>出发日期 01-20、01-25、02-18、03-18、03-25、03-27、11-14、11-20</span></p></li><li><div class="price"><p><i>￥</i><strong>11980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=59b27ae43a0c46f986c803aa756d680e&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1743917236894785536_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[英爱板块][盈尚][一价全含]英国+爱尔兰HU 曼曼</strong></li><li><strong class="subtitle">一价全含 爱丁堡城堡</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>走遍</span><span>文化遗产</span><span>观光</span></p></li><li><p><span>出发日期 01-20、01-25、02-18、03-18、03-25、03-27、11-14、11-20</span></p></li><li><div class="price"><p><i>￥</i><strong>15480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=de10df8f312b44dfb036a7cf1a2c190e&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1743909113232580608_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[英爱板块][盈尚][一价全含]英国+爱尔兰KL 曼曼</strong></li><li><strong class="subtitle">一价全含 爱丁堡城堡</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-20、01-23、01-25、02-18、03-18、03-25、03-27、11-14、11-20</span></p></li><li><div class="price"><p><i>￥</i><strong>18180</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=74809bc804c24322a6c0adda98551a63&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1976442153245310976_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">2020英伦公立学校研学</strong></li><li><strong class="subtitle">12天圣玛丽莫德林学院游学研学</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>游学</span><span>研学</span><span>亲子</span><span>艺术</span></p></li><li><p><span>出发日期 01-11、01-20、01-23、01-25、02-01、02-18、03-18、03-25、03-27、11-14、11-20</span></p></li><li><div class="price"><p><i>￥</i><strong>18880</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=26cc057e90cf422d85ac579fba268fec&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1766339093774180352_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[北京出发]惠游  群英缤纷英比德法意瑞16天14晚</strong></li><li><strong class="subtitle">一价全含</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>夕阳红</span><span>蜜月</span><span>观光</span></p></li><li><p><span>出发日期 01-11、01-20、01-23、01-25、02-01、02-18、03-18、03-25、03-27、11-14、11-20、12-05、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>18880</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=ab110c25f90e414e8ef08eb52a32b49e&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1766339093774180352_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">惠游  群英缤纷英比荷德法意瑞</strong></li><li><strong class="subtitle">一价全含</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>夕阳红</span><span>蜜月</span><span>观光</span></p></li><li><p><span>出发日期 01-11、01-20、01-23、01-25、02-01、02-18、03-18、03-25、03-27、11-14、11-20、11-27、12-05、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>18880</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=2dd5ed34e18c41879163656939a17b87&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1788036922800316416_130_100"><span>北京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[北京出发]慢游  英伦礼遇 英格兰苏格兰威尔士英航10天8晚</strong></li><li><strong class="subtitle">一价全含 赠送wifi</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span><span>观光</span><span>文化遗产</span></p></li><li><p><span>出发日期 01-11、01-20、01-23、01-25、02-01、02-18、03-18、03-25、03-27、11-14、11-20、11-27、11-28、12-05、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>19880</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=d16b716d078c4e30b8d44e528685bf58&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1744329339594055680_130_100"><span>北京出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">[英爱板块][一价全含]王牌英爱BA 大兴机场</strong></li><li><strong class="subtitle">巨石阵 莫赫悬崖 品酒 名校</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>品酒</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-11、01-20、01-23、01-25、02-01、02-18、03-18、03-25、03-27、11-14、11-20、11-27、11-28、12-05、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>19790</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=142c17c0bc86486d9e79ffb6cddeb7fe&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1999632054388219904_130_100"><span>北京出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">现场观看英超强强对话曼联vs热刺</strong></li><li><strong class="subtitle">自费可选曼城vs曼联</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>体育</span><span>观赛</span></p></li><li><p><span>出发日期 12-02</span></p></li><li><div class="price"><p><i>￥</i><strong>26790</strong>起</p></div></li></ul></dd></dl></a><a href="http://m.caissa.com.cn/group/index/details?id=7818FE128AAA4D858C70BE180977D31E"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1291581466937630720_130_100"><span>青岛出发</span><var class="mada_span_01">参团游</var></div></dt><dd><ul><li><strong class="title">（预售）英国风情之旅9天7晚</strong></li><li><strong class="subtitle">入内爱丁堡城堡、温莎城堡、大英博物馆，全程入住当地三到四星级酒店，游览剑桥牛津双学府，畅游伦敦</strong></li><li><p class="tab"><em class="blue">凯撒自营</em><span>夕阳红</span><span>观光</span><span>文化遗产</span></p></li><li><p><span>出发日期 01-24、02-07、03-06、12-02、12-06、12-27</span></p><div class="price"><p><i>￥</i><strong>11988</strong>起</p></div></li></ul></dd></dl></a><a href="http://m.caissa.com.cn/group/index/details?id=1C6D1D478074458DB03D22449650075A"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1263278307765100544_130_100"><span>香港出发</span><var class="mada_span_01">参团游</var></div></dt><dd><ul><li><strong class="title">英国经典之旅9天6晚</strong></li><li><strong class="subtitle">游览英国经典城市+全程4星酒店+爱丁堡+温莎城堡+大英博物馆+比斯特购物村</strong></li><li><p class="tab"><em class="blue">凯撒自营</em><span>蜜月</span><span>夕阳红</span><span>观光</span><span>世界遗产</span></p></li><li><p><span>出发日期 01-24、01-25、02-07、03-06、12-02、12-06、12-27</span></p><div class="price"><p><i>￥</i><strong>15999</strong>起</p></div></li></ul></dd></dl></a><a href="http://m.caissa.com.cn/group/index/details?id=A0F3AFCDE56440979A3EC2CDA2A0798E"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1263278207177302016_130_100"><span>广州出发</span><var class="mada_span_01">参团游</var></div></dt><dd><ul><li><strong class="title">巨人之路—英国爱尔兰探奇之旅12天9晚</strong></li><li><strong class="subtitle">全程四星酒店+英国+爱尔兰+英爱+伦敦+都柏林+贝尔法斯特</strong></li><li><p class="tab"><em class="blue">凯撒自营</em><span>免费wifi</span><span>蜜月</span><span>亲子</span><span>婚礼</span><span>艺术</span><span>文化遗产</span><span>暑期</span><span>摄影</span><span>观光</span></p></li><li><p><span>出发日期 01-24、01-25、02-07、02-20、03-06、12-02、12-06、12-27</span></p><div class="price"><p><i>￥</i><strong>13999</strong>起</p></div></li></ul></dd></dl></a><a href="http://m.caissa.com.cn/group/index/details?id=6C4B0DC83C4445FBA3FD4EC7339F20E0"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1834255312430530560_130_100"><span>上海出发</span><var class="mada_span_01">参团游</var></div></dt><dd><ul><li><strong class="title">英国爱尔兰印象之旅12天10晚</strong></li><li><strong class="subtitle">伦敦+爱丁堡+贝尔法斯特+都柏林+大英博物馆+温德米尔湖区+英爱</strong></li><li><p class="tab"><em class="blue">凯撒自营</em><span>优质航空</span><span>蜜月</span><span>夕阳红</span><span>摄影</span><span>旅拍</span><span>观光</span><span>世界遗产</span></p></li><li><p><span>出发日期 01-24、01-25、02-07、02-20、03-06、04-16、05-20、12-02、12-06、12-27</span></p><div class="price"><p><i>￥</i><strong>14999</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=4218c89ce56b4128960748012fcc1fd1&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/2001123203011534848_130_100"><span>沈阳出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">沈阳汉莎英国+爱尔兰第四季度英爱</strong></li><li><strong class="subtitle">英国爱尔兰12天巨人堤购物村</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span></p></li><li><p><span>出发日期 01-08、01-24、01-25、01-29、02-05、02-07、02-20、03-06、03-18、04-16、05-20、11-20、12-02、12-04、12-06、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>13480</strong>起</p></div></li></ul></dd></dl></a><a href="http://m.caissa.com.cn/group/index/details?id=7382A44E7966453395118E7CCEED41A8"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1263278308041924608_130_100"><span>上海出发</span><var class="mada_span_01">参团游</var></div></dt><dd><ul><li><strong class="title">英国爱尔兰风尚之旅14天12晚</strong></li><li><strong class="subtitle">英爱+温莎爱丁堡双古堡+巴斯罗马浴场+爱尔兰表演晚餐+全程四星升级一晚五星</strong></li><li><p class="tab"><em class="blue">凯撒自营</em><span>免费wifi</span><span>蜜月</span><span>亲子</span><span>文化遗产</span><span>走遍</span><span>夕阳红</span><span>暑期</span><span>摄影</span><span>观光</span></p></li><li><p><span>出发日期 01-08、01-24、01-25、01-29、02-05、02-07、02-20、03-06、03-18、04-16、04-22、05-20、05-26、06-12、11-20、12-02、12-04、12-06、12-27</span></p><div class="price"><p><i>￥</i><strong>22599</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=89018f835f4a46e68140d963c8211b8e&amp;is_sale=0&amp;team_source=3"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1761174401388871680_130_100"><span>伦敦出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[伦敦出发]境外省心游—英国全景深度游之旅7天6晚</strong></li><li><strong class="subtitle">给身体与心灵一次彻底的放松</strong></li><li><p class="tab"><span>夕阳红</span><span>摄影</span><span>探索</span><span>走遍</span><span>文化遗产</span><span>亲子</span><span>蜜月</span><span>观光</span></p></li><li><p><span>出发日期 01-08、01-24、01-25、01-29、02-05、02-07、02-20、03-06、03-18、04-16、04-22、05-20、05-26、06-12、10-25、10-28、11-01、11-04、11-08、11-11、11-15、11-18、11-20、11-22、11-25、11-29、12-02、12-04、12-06、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>3380</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=0d6318c167ba43eeb71ab9ed16fa607d&amp;is_sale=0&amp;team_source=3"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1761174402512953344_130_100"><span>伦敦出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">英国纵横五日精华游之旅</strong></li><li><strong class="subtitle">感受英伦的文化情怀</strong></li><li><p class="tab"><span>观光</span><span>走遍</span><span>文化遗产</span><span>亲子</span><span>蜜月</span><span>摄影</span><span>夕阳红</span></p></li><li><p><span>出发日期 01-08、01-24、01-25、01-29、02-05、02-07、02-20、03-06、03-18、04-16、04-22、05-20、05-26、06-12、10-24、10-25、10-28、10-31、11-01、11-04、11-07、11-08、11-11、11-14、11-15、11-18、11-20、11-21、11-22、11-25、11-28、11-29、12-02、12-04、12-05、12-06、12-12、12-19、12-26、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>2380</strong>起</p></div></li></ul></dd></dl></a><a href="http://m.caissa.com.cn/group/index/details?id=41D13B7394104F2AB59F950E583D1530"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1291581334045302784_130_100"><span>上海出发</span><var class="mada_span_01">参团游</var></div></dt><dd><ul><li><strong class="title">英伦集萃之旅10天7晚</strong></li><li><strong class="subtitle">全年热卖+超高性价比+全国联运+美丽乡村小镇+伦敦一整天自由活动+哈利波特取景地+比斯特购物村</strong></li><li><p class="tab"><em class="blue">凯撒自营</em><em class="yellow">星</em><em class="new">新</em><span>优质航空</span><span>蜜月</span><span>亲子</span><span>文化遗产</span><span>观光</span><span>世界遗产</span><span>夕阳红</span></p></li><li><p><span>出发日期 01-08、01-24、01-25、01-29、02-05、02-07、02-20、03-06、03-18、04-16、04-22、05-20、05-26、06-12、10-24、10-25、10-28、10-31、11-01、11-04、11-07、11-08、11-11、11-14、11-15、11-18、11-20、11-21、11-22、11-25、11-28、11-29、12-02、12-04、12-05、12-06、12-12、12-19、12-26、12-27</span></p><div class="price"><p><i>￥</i><strong>8888</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=edb5189c9b184843a2947d677b5e26d7&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1821966708652081152_130_100"><span>广州出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">英国爱尔兰全景CZ南方航空</strong></li><li><strong class="subtitle">英国爱尔兰</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>走遍</span><span>观光</span><span>亲子</span></p></li><li><p><span>出发日期 01-04、01-08、01-11、01-18、01-24、01-25、01-29、02-01、02-05、02-07、02-08、02-15、02-20、02-22、02-29、03-06、03-07、03-18、04-16、04-22、05-20、05-26、06-12、10-24、10-25、10-28、10-31、11-01、11-04、11-07、11-08、11-11、11-14、11-15、11-16、11-18、11-20、11-21、11-22、11-25、11-28、11-29、11-30、12-02、12-04、12-05、12-06、12-07、12-12、12-14、12-19、12-21、12-26、12-27、12-28</span></p></li><li><div class="price"><p><i>￥</i><strong>9980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=158111d2249b41b29ba5c84343ad5651&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1760373642451705856_130_100"><span>深圳出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">一往情“绅” 英国一地双大学湖区深圳航空ZH</strong></li><li><strong class="subtitle">英国一地双大学湖区</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-04、01-08、01-11、01-16、01-18、01-21、01-24、01-25、01-29、02-01、02-05、02-07、02-08、02-15、02-20、02-22、02-27、02-29、03-05、03-06、03-07、03-12、03-18、03-19、04-16、04-22、05-20、05-26、06-12、10-24、10-25、10-28、10-31、11-01、11-04、11-07、11-08、11-11、11-14、11-15、11-16、11-18、11-20、11-21、11-22、11-25、11-28、11-29、11-30、12-02、12-04、12-05、12-06、12-07、12-12、12-14、12-19、12-21、12-26、12-27、12-28</span></p></li><li><div class="price"><p><i>￥</i><strong>7490</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=0012daa7e9dc433bbed8b4af1f862e67&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1821958620389793792_130_100"><span>广州出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">一往情“绅” 英国一地双大学湖区CZ南方航空</strong></li><li><strong class="subtitle">英国一地双大学湖区</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>亲子</span><span>走遍</span></p></li><li><p><span>出发日期 01-04、01-08、01-11、01-12、01-16、01-18、01-21、01-24、01-25、01-26、01-29、02-01、02-05、02-07、02-08、02-09、02-15、02-20、02-22、02-23、02-27、02-29、03-05、03-06、03-07、03-08、03-12、03-18、03-19、03-22、04-16、04-22、05-20、05-26、06-12、10-24、10-25、10-28、10-31、11-01、11-04、11-07、11-08、11-11、11-14、11-15、11-16、11-17、11-18、11-20、11-21、11-22、11-25、11-28、11-29、11-30、12-01、12-02、12-04、12-05、12-06、12-07、12-12、12-14、12-15、12-19、12-21、12-26、12-27、12-28</span></p></li><li><div class="price"><p><i>￥</i><strong>7990</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=f461122b019545eaa978244e96e69a6d&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1853122917845131264_130_100"><span>深圳出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">[深圳出发]金装 英国一地冬季11~3月EY10天7晚</strong></li><li><strong class="subtitle">含签小WIIFI广佛莞送深圳往返</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>旅拍</span><span>文化遗产</span><span>摄影</span><span>观光</span><span>亲子</span><span>走遍</span><span>探索</span></p></li><li><p><span>出发日期 01-04、01-06、01-08、01-11、01-12、01-16、01-18、01-21、01-24、01-25、01-26、01-29、02-01、02-05、02-07、02-08、02-09、02-15、02-20、02-22、02-23、02-27、02-29、03-03、03-05、03-06、03-07、03-08、03-12、03-13、03-18、03-19、03-22、04-16、04-22、05-20、05-26、06-12、10-24、10-25、10-28、10-31、11-01、11-04、11-07、11-08、11-11、11-14、11-15、11-16、11-17、11-18、11-20、11-21、11-22、11-25、11-26、11-28、11-29、11-30、12-01、12-02、12-04、12-05、12-06、12-07、12-11、12-12、12-14、12-15、12-19、12-21、12-26、12-27、12-28</span></p></li><li><div class="price"><p><i>￥</i><strong>16690</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=c5bd5e6e00624de9801767e86759ce62&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1773418436031651840_130_100"><span>深圳出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">[深圳出发]金装 英国+爱尔兰11月~3月EY往返11天8晚</strong></li><li><strong class="subtitle">含签小WIFI广佛莞送深圳往返</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>观光</span><span>摄影</span><span>走遍</span><span>蜜月</span><span>探索</span><span>旅拍</span></p></li><li><p><span>出发日期 01-04、01-06、01-07、01-08、01-11、01-12、01-16、01-18、01-21、01-24、01-25、01-26、01-29、02-01、02-05、02-07、02-08、02-09、02-11、02-15、02-20、02-22、02-23、02-27、02-29、03-02、03-03、03-05、03-06、03-07、03-08、03-12、03-13、03-18、03-19、03-21、03-22、04-16、04-22、05-20、05-26、06-12、10-24、10-25、10-28、10-31、11-01、11-04、11-07、11-08、11-11、11-14、11-15、11-16、11-17、11-18、11-20、11-21、11-22、11-25、11-26、11-28、11-29、11-30、12-01、12-02、12-04、12-05、12-06、12-07、12-11、12-12、12-14、12-15、12-19、12-21、12-26、12-27、12-28、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>17890</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=649c4506c9c44b37aea8c366485c5596&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1760292698818568192_130_100"><span>深圳出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">英国爱尔兰全景ZH深圳航空</strong></li><li><strong class="subtitle">英国爱尔兰</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>走遍</span><span>观光</span><span>亲子</span></p></li><li><p><span>出发日期 01-05、02-23、03-01、03-15、11-17、12-01、12-22</span></p></li><li><div class="price"><p><i>￥</i><strong>9980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=603a89b65f6e47b5a65869ebf22ccd39&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1975217925154119680_130_100"><span>深圳出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">翡翠英国爱尔兰一价全包</strong></li><li><strong class="subtitle">英爱一价全包</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>体验季</span><span>观光</span><span>探索</span><span>走遍</span></p></li><li><p><span>出发日期 01-05、01-10、02-07、02-23、03-01、03-06、03-15、03-20、11-15、11-17、11-29、12-01、12-22、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>13780</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=792742ec2473416f8736d6e359f51a9d&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1854592666139598848_130_100"><span>上海出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">超值游  英国+爱尔兰【MU】3至4星 伦伦</strong></li><li><strong class="subtitle">穿越大不列颠群岛</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>摄影</span><span>文化遗产</span><span>观光</span></p></li><li><p><span>出发日期 01-05、01-10、02-07、02-23、03-01、03-06、03-15、03-20、11-15、11-17、11-19、11-29、12-01、12-03、12-17、12-22、12-24、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>10980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=49cc4fbb30b84b3f9f2481ec5cf0feb6&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1975202151517626368_130_100"><span>深圳出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">翡翠英国爱尔兰10天</strong></li><li><strong class="subtitle">英爱特惠</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>走遍</span><span>体验季</span><span>探索</span></p></li><li><p><span>出发日期 01-05、01-10、02-07、02-23、03-01、03-06、03-13、03-15、03-17、03-20、11-15、11-17、11-19、11-29、12-01、12-03、12-17、12-22、12-24、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>8980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=a5696ccae73d42a7a99907f495e5ffa1&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1770628397610524672_130_100"><span>成都出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">嘉景英国爱尔兰国航直飞 伦敦升级4星 双大学含小费酒店税，巨人堤</strong></li><li><strong class="subtitle">温德米尔湖 剑桥牛津</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>蜜月</span><span>夕阳红</span></p></li><li><p><span>出发日期 01-05、01-10、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、11-15、11-17、11-19、11-29、12-01、12-03、12-17、12-22、12-24、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>12480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=2662f164753140cb9b0571005fa58bf9&amp;is_sale=0&amp;team_source=3"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1953995882605805568_130_100"><span>伦敦出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[伦敦出发][伦敦出发] 境外省心游—巨石阵.巴斯一日游一日游</strong></li><li><strong class="subtitle">探访最神秘的史前 遗迹——巨石阵</strong></li><li><p class="tab"><span>走遍</span><span>摄影</span><span>蜜月</span></p></li><li><p><span>出发日期 01-05、01-10、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、10-20、10-22、10-25、10-27、10-29、11-01、11-05、11-08、11-12、11-15、11-17、11-19、11-22、11-26、11-29、12-01、12-03、12-06、12-10、12-13、12-17、12-20、12-22、12-24、12-27、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>280</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=1971436fbb1d4a51ab1c2665cf893ec3&amp;is_sale=0&amp;team_source=3"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1761297264028655616_130_100"><span>巴黎出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">境外省心游—英伦贵族之旅(英格兰+苏格兰)</strong></li><li><strong class="subtitle">英格兰+苏格兰经典游览线路</strong></li><li><p class="tab"><span>夕阳红</span><span>摄影</span><span>蜜月</span><span>观光</span><span>文化遗产</span><span>走遍</span><span>亲子</span></p></li><li><p><span>出发日期 01-05、01-10、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、10-20、10-22、10-25、10-26、10-27、10-29、11-01、11-02、11-05、11-08、11-09、11-12、11-15、11-16、11-17、11-19、11-22、11-23、11-26、11-29、11-30、12-01、12-03、12-06、12-07、12-10、12-13、12-14、12-17、12-20、12-21、12-22、12-24、12-27、12-28、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>4380</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=9dacaff1e8cd45a0a26a42f63bf93ea2&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1854592666139598848_130_100"><span>上海出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">惠玩精致游  英国+爱尔兰【BA】4星 伦都</strong></li><li><strong class="subtitle">穿越大不列颠群岛</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>观光</span><span>摄影</span></p></li><li><p><span>出发日期 01-05、01-10、01-16、01-19、01-26、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、10-20、10-22、10-25、10-26、10-27、10-29、11-01、11-02、11-05、11-08、11-09、11-12、11-15、11-16、11-17、11-19、11-22、11-23、11-26、11-29、11-30、12-01、12-03、12-06、12-07、12-10、12-13、12-14、12-17、12-20、12-21、12-22、12-24、12-27、12-28、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>18480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=1d2fdbf73199425dbb9482b8c071aa5d&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1975124406141943808_130_100"><span>武汉出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[武汉出发]英你而爱：英国+爱尔兰+苏格兰+自由活动12天10晚</strong></li><li><strong class="subtitle">无购物，含签证wifi，全国联运</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>毕业旅行季</span><span>走遍</span><span>蜜月</span><span>体验季</span><span>探索</span><span>观光</span><span>目的地节庆</span><span>文化遗产</span><span>研学</span></p></li><li><p><span>出发日期 01-05、01-10、01-16、01-19、01-26、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、10-20、10-22、10-25、10-26、10-27、10-29、11-01、11-02、11-05、11-08、11-09、11-12、11-15、11-16、11-17、11-19、11-22、11-23、11-26、11-29、11-30、12-01、12-03、12-06、12-07、12-10、12-13、12-14、12-17、12-20、12-21、12-22、12-24、12-27、12-28、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>12980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=0cd0febe4e0f46d7bde5c724930dabc2&amp;is_sale=0&amp;team_source=3"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1761196524572475392_130_100"><span>伦敦出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[伦敦出发]境外省心游—英伦贵族之旅(英格兰+苏格兰)5天4晚</strong></li><li><strong class="subtitle">经典游览线路</strong></li><li><p class="tab"><span>摄影</span><span>走遍</span><span>观光</span><span>蜜月</span><span>文化遗产</span><span>亲子</span></p></li><li><p><span>出发日期 01-05、01-10、01-16、01-19、01-26、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、10-20、10-22、10-25、10-26、10-27、10-29、10-30、11-01、11-02、11-03、11-05、11-06、11-08、11-09、11-10、11-12、11-13、11-15、11-16、11-17、11-19、11-20、11-22、11-23、11-24、11-26、11-27、11-29、11-30、12-01、12-03、12-04、12-06、12-07、12-08、12-10、12-11、12-13、12-14、12-15、12-17、12-18、12-20、12-21、12-22、12-24、12-25、12-27、12-28、12-29、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>3080</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=1334a343157f4250bc95a8a7e53a6770&amp;is_sale=0&amp;team_source=3"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1954029315335872512_130_100"><span>伦敦出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[伦敦出发]境外省心游—牛津.温莎城堡一日游一日游</strong></li><li><strong class="subtitle">探看最古老的温莎城堡</strong></li><li><p class="tab"><span>摄影</span><span>蜜月</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-05、01-10、01-16、01-19、01-26、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、10-20、10-22、10-24、10-25、10-26、10-27、10-29、10-30、10-31、11-01、11-02、11-03、11-05、11-06、11-08、11-09、11-10、11-12、11-13、11-15、11-16、11-17、11-19、11-20、11-22、11-23、11-24、11-26、11-27、11-29、11-30、12-01、12-03、12-04、12-06、12-07、12-08、12-10、12-11、12-13、12-14、12-15、12-17、12-18、12-20、12-21、12-22、12-24、12-25、12-27、12-28、12-29、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>280</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=1ab7ef93a9d241909f36f713a7cbfa20&amp;is_sale=0&amp;team_source=3"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/2007144105255862272_130_100"><span>伦敦出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">境外省心游—巴斯巨石阵</strong></li><li><strong class="subtitle">探索史前神秘遗址饱览古典优雅小镇</strong></li><li><p class="tab"><span>观光</span><span>温泉</span><span>私人定制</span><span>亲子</span><span>艺术</span><span>夕阳红</span><span>文化遗产</span></p></li><li><p><span>出发日期 01-05、01-10、01-16、01-19、01-26、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、10-20、10-22、10-24、10-25、10-26、10-27、10-29、10-30、10-31、11-01、11-02、11-03、11-05、11-06、11-08、11-09、11-10、11-12、11-13、11-15、11-16、11-17、11-19、11-20、11-22、11-23、11-24、11-26、11-27、11-29、11-30、12-01、12-03、12-04、12-06、12-07、12-08、12-10、12-11、12-13、12-14、12-15、12-17、12-18、12-20、12-21、12-22、12-24、12-25、12-27、12-28、12-29、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>280</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=f1ccf29045b74d3fad8825dee31a8f08&amp;is_sale=0&amp;team_source=3"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/2007203071147089920_130_100"><span>伦敦出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">境外省心游—温莎城堡科兹沃尔德小镇</strong></li><li><strong class="subtitle">温莎城堡+英国最美村庄</strong></li><li><p class="tab"><span>摄影</span><span>旅拍</span><span>亲子</span><span>观光</span><span>骑行</span><span>婚礼</span><span>文化遗产</span></p></li><li><p><span>出发日期 01-05、01-10、01-16、01-19、01-26、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、10-20、10-22、10-24、10-25、10-26、10-27、10-29、10-30、10-31、11-01、11-02、11-03、11-05、11-06、11-08、11-09、11-10、11-12、11-13、11-15、11-16、11-17、11-19、11-20、11-22、11-23、11-24、11-26、11-27、11-29、11-30、12-01、12-03、12-04、12-06、12-07、12-08、12-10、12-11、12-13、12-14、12-15、12-17、12-18、12-20、12-21、12-22、12-24、12-25、12-27、12-28、12-29、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=0b70212a306e4348b0e9c06c2dbad418&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1960343154356609024_130_100"><span>上海出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">英国一地【VS】质品4钻</strong></li><li><strong class="subtitle">双城堡丘吉尔庄园</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>体验季</span></p></li><li><p><span>出发日期 01-05、01-10、01-16、01-19、01-26、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、10-20、10-22、10-24、10-25、10-26、10-27、10-29、10-30、10-31、11-01、11-02、11-03、11-05、11-06、11-08、11-09、11-10、11-12、11-13、11-15、11-16、11-17、11-19、11-20、11-22、11-23、11-24、11-26、11-27、11-29、11-30、12-01、12-03、12-04、12-06、12-07、12-08、12-10、12-11、12-13、12-14、12-15、12-17、12-18、12-20、12-21、12-22、12-24、12-25、12-27、12-28、12-29、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>14290</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=185ad826670e4d719641ad26b7499a09&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1854592666139598848_130_100"><span>上海出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">惠玩精致游  英国+爱尔兰【BA】4星  伦都</strong></li><li><strong class="subtitle">穿越大不列颠群岛</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>观光</span><span>摄影</span></p></li><li><p><span>出发日期 01-05、01-10、01-16、01-19、01-26、02-04、02-07、02-23、02-25、03-01、03-06、03-12、03-13、03-15、03-17、03-19、03-20、10-20、10-22、10-24、10-25、10-26、10-27、10-29、10-30、10-31、11-01、11-02、11-03、11-05、11-06、11-08、11-09、11-10、11-12、11-13、11-15、11-16、11-17、11-19、11-20、11-22、11-23、11-24、11-26、11-27、11-29、11-30、12-01、12-03、12-04、12-06、12-07、12-08、12-10、12-11、12-13、12-14、12-15、12-17、12-18、12-20、12-21、12-22、12-24、12-25、12-27、12-28、12-29、12-31</span></p></li><li><div class="price"><p><i>￥</i><strong>16480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=9704d4f8ae194271be5e020a33a6d4c4&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1854592664889688064_130_100"><span>上海出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">品质精致游  英国一地【VS】4至5星 伦伦</strong></li><li><strong class="subtitle">英伦传世风华</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>摄影</span><span>文化遗产</span><span>观光</span></p></li><li><p><span>出发日期 01-20、01-22</span></p></li><li><div class="price"><p><i>￥</i><strong>20480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=6d58ac05ce6f4a918fd780ac7ee4c0bd&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1975228384540336128_130_100"><span>深圳出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">非凡英国纯玩CX</strong></li><li><strong class="subtitle">非凡英国</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>走遍</span><span>观光</span><span>体验季</span><span>探索</span></p></li><li><p><span>出发日期 01-19、01-20、01-22、01-27</span></p></li><li><div class="price"><p><i>￥</i><strong>19490</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=36082e4fc98c44a58fc809a1fabe1944&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1908350576795287552_130_100"><span>武汉出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[武汉出发]一价全含：英国一地+访剑桥牛津大学+自由活动9天7晚</strong></li><li><strong class="subtitle">庄园酒店，全国联运，无购物</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>体验季</span><span>文化遗产</span><span>毕业旅行季</span><span>游学</span><span>蜜月</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-19、01-20、01-22、01-27、12-04、12-18</span></p></li><li><div class="price"><p><i>￥</i><strong>11980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=f436f4a303d849979d2a610d29d59c0a&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1854592663019020288_130_100"><span>上海出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">惠玩精致游  英国+爱尔兰【VS+EI】4星 伦都</strong></li><li><strong class="subtitle">穿越大不列颠群岛</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>文化遗产</span><span>摄影</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-27、01-30、12-04、12-18</span></p></li><li><div class="price"><p><i>￥</i><strong>16980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=6dd6694fc6a742ff8109cad3fe465b2d&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1935109765328494592_130_100"><span>重庆出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">畅游GS英国爱尔兰</strong></li><li><strong class="subtitle">一价全含</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>蜜月</span><span>观光</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-27、01-30、12-04、12-18、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>14880</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=48b18952767d40fca545febcceeb35b1&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1849679247083003904_130_100"><span>西安出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">天津航空 盈尚系列英爱而行 英国爱尔兰</strong></li><li><strong class="subtitle">两国深度 英伦风情 世遗之旅</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>摄影</span><span>文化遗产</span><span>旅拍</span><span>游学</span><span>美食</span><span>艺术</span><span>蜜月</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-24、01-27、01-30、12-04、12-18、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>14480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=7c9eac4faedf497cb36ccc3bebf1885d&amp;is_sale=0&amp;team_source=3"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/2007891846646956032_130_100"><span>伦敦出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[伦敦出发]境外省心游——温莎+剑桥学府一日游</strong></li><li><strong class="subtitle">感受世界知名学府的文化氛围</strong></li><li><p class="tab"><span>夏令营</span><span>亲子</span><span>观光</span><span>走遍</span><span>徒步</span><span>游学</span><span>文化遗产</span><span>骑行</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-24、01-27、01-30、10-26、11-02、11-09、11-16、11-23、11-30、12-04、12-18、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=2f6bb95609854fd3ad4972199546fdfd&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1818528677777596416_130_100"><span>成都出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">国庆 英国一地 伦敦自由活动 比斯特</strong></li><li><strong class="subtitle">牛津剑桥双学府 科茨沃尔德</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>摄影</span><span>走遍</span><span>亲子</span><span>文化遗产</span><span>观光</span><span>目的地节庆</span><span>婚礼</span><span>夕阳红</span><span>研学</span><span>旅拍</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-24、01-27、01-30、10-26、11-02、11-09、11-16、11-23、11-28、11-30、12-04、12-18、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>10980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=507cc34573a1497eb93e6ffb8fe71ced&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1760373642451705856_130_100"><span>深圳出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">一往情“绅” 英国一地双大学湖区ZH深圳航空</strong></li><li><strong class="subtitle">英国一地双大学湖区</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-24、01-27、01-30、03-26、10-26、11-02、11-09、11-16、11-23、11-28、11-30、12-04、12-18、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>7490</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=420f8f2d5a6240d9ad6328207564ae8f&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1821966708652081152_130_100"><span>香港出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">英国爱尔兰全景荷兰航空KL</strong></li><li><strong class="subtitle">英国爱尔兰</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-24、01-27、01-30、03-12、03-26、10-26、11-02、11-09、11-16、11-23、11-28、11-30、12-04、12-18、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>9980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=969ec56c067e42418cc6253768a60bcf&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1965615183276244992_130_100"><span>成都出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[成都出发]英国+爱尔兰+英格兰+苏格兰+威尔士大全景14天12晚</strong></li><li><strong class="subtitle">尼斯湖 双学府 双游船 双古堡</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>游学</span><span>摄影</span><span>体验季</span><span>探索</span><span>蜜月</span><span>文化遗产</span><span>海外婚礼</span><span>旅拍</span><span>研学</span><span>亲子</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-24、01-27、01-30、03-12、03-26、10-26、11-02、11-09、11-16、11-23、11-28、11-30、12-04、12-18、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>15980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=e9dfd874a45d463d89a45972a8f69dfc&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1760292698818568192_130_100"><span>深圳出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">英国爱尔兰全景ZH深航</strong></li><li><strong class="subtitle">英国爱尔兰</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>走遍</span><span>观光</span><span>亲子</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-24、01-27、01-30、03-12、03-22、03-26、10-26、11-02、11-09、11-16、11-23、11-28、11-30、12-04、12-18、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>9980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=8c7f283ac3db427eb0bbec3ecbdb0531&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1854592666139598848_130_100"><span>上海出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">惠玩精致游  英国+爱尔兰【BA】4星  伦都</strong></li><li><strong class="subtitle">穿越大不列颠群岛</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>观光</span><span>摄影</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-24、01-27、01-30、03-12、03-22、03-26、10-26、11-02、11-09、11-16、11-22、11-23、11-28、11-30、12-04、12-18、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>16480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=43a637ef5e394bffaad425dc4f8646fd&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1938664154383212544_130_100"><span>成都出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[成都出发]英国+爱尔兰 黑暗树篱 巨人堤 拉斯小镇曼联球场一晚庄园酒店13天11晚</strong></li><li><strong class="subtitle">罗蒙湖 曼联足球场 牛津剑桥</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>健康体检</span><span>亲子</span><span>游学</span><span>体验季</span><span>旅拍</span><span>研学</span><span>文化遗产</span><span>毕业旅行季</span><span>暑期</span><span>摄影</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-24、01-27、01-30、03-12、03-22、03-26、10-26、11-02、11-09、11-16、11-19、11-22、11-23、11-28、11-30、12-04、12-18、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>14580</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=522649c6c4cf450a919189ef55eb1729&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1854592666139598848_130_100"><span>南京出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">超值游  英国+爱尔兰【AY】3至4星  伦都</strong></li><li><strong class="subtitle">穿越大不列颠群岛</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>文化遗产</span><span>摄影</span></p></li><li><p><span>出发日期 01-19、01-20、01-21、01-22、01-24、01-27、01-30、03-12、03-22、03-26、10-26、11-02、11-09、11-13、11-16、11-19、11-22、11-23、11-28、11-30、12-04、12-18、12-20、12-25</span></p></li><li><div class="price"><p><i>￥</i><strong>11480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=1ed7c18183ad40eba93c13c8c0bf4fe7&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1768321298574573568_130_100"><span>深圳出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">豪华英国一价全包</strong></li><li><strong class="subtitle">豪华英国</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>探索</span><span>体验季</span><span>观光</span><span>走遍</span></p></li><li><p><span>出发日期 01-21</span></p></li><li><div class="price"><p><i>￥</i><strong>16990</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=9cf2ad5f02604b2fbd606ca266743282&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1869906829254549504_130_100"><span>沈阳出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[沈阳出发]英国一地9天沈阳指纹伦敦自由活动9天7晚</strong></li><li><strong class="subtitle">各地起止沈阳按指纹</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span></p></li><li><p><span>出发日期 01-21、12-11</span></p></li><li><div class="price"><p><i>￥</i><strong>10980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=a5d8d6cfeb6d424580e90bdfb10e5e01&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1975228384540336128_130_100"><span>深圳出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">非凡英国纯玩BA</strong></li><li><strong class="subtitle">非凡英国</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>走遍</span><span>观光</span><span>体验季</span><span>探索</span></p></li><li><p><span>出发日期 01-21、12-11</span></p></li><li><div class="price"><p><i>￥</i><strong>20990</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=38dc9f832407471bb482fd6c1dce5301&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1849007926112124928_130_100"><span>上海出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">超值游  英国+爱尔兰【CA】3至4星  伦伦</strong></li><li><strong class="subtitle">穿越大不列颠群岛</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>摄影</span><span>观光</span></p></li><li><p><span>出发日期 01-21、03-21、12-11</span></p></li><li><div class="price"><p><i>￥</i><strong>10980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=12a3874b6bc94b35878842348c23c203&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1649637842005753856_130_100"><span>长沙出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">盈尚系列英国复古之旅</strong></li><li><strong class="subtitle">长沙直飞</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>摄影</span></p></li><li><p><span>出发日期 01-21、03-21、12-11</span></p></li><li><div class="price"><p><i>￥</i><strong>9980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=e178ab5798fc4dc19a739523589b7fba&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1854592666139598848_130_100"><span>上海出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">惠玩精致游  英国+爱尔兰【BA】4星  伦都</strong></li><li><strong class="subtitle">穿越大不列颠群岛</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>文化遗产</span><span>观光</span><span>摄影</span></p></li><li><p><span>出发日期 01-21、03-13、03-21、12-11</span></p></li><li><div class="price"><p><i>￥</i><strong>15980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=b638a78491304a038a33be29cc5086af&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1742213645951787008_130_100"><span>青岛出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[青岛出发]英国+爱尔兰悠享之旅12天10晚</strong></li><li><strong class="subtitle">青岛起止，济南录指纹</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span><span>观光</span></p></li><li><p><span>出发日期 01-21、03-13、03-21、12-11、12-20</span></p></li><li><div class="price"><p><i>￥</i><strong>13480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=dd7bc0b94ba34da39c4d67ac488ded70&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1829323837708935168_130_100"><span>成都出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">天籁风尚 一价全含英国 爱尔兰直飞0自费 哈里波特</strong></li><li><strong class="subtitle">0自费 伦敦2晚四星酒店 购物村</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>蜜月</span><span>夕阳红</span></p></li><li><p><span>出发日期 01-21、01-23、03-13、03-21、12-11、12-20</span></p></li><li><div class="price"><p><i>￥</i><strong>17680</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=89cae1cb8f964fac85655db4ba523b93&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1829323837708935168_130_100"><span>成都出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">天籁风尚 一价全含英国 爱尔兰直飞 0自费 音乐剧</strong></li><li><strong class="subtitle">0自费 伦敦2晚四星酒店 购物村</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>亲子</span><span>蜜月</span><span>夕阳红</span></p></li><li><p><span>出发日期 01-21、01-23、03-13、03-21、12-11、12-20</span></p></li><li><div class="price"><p><i>￥</i><strong>17680</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=a24049c9ed314cfdaae1b4ea1c3c6ad3&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1854592663019020288_130_100"><span>上海出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">惠玩精致游  英国+爱尔兰【VS+EI】4星 伦都</strong></li><li><strong class="subtitle">穿越大不列颠群岛</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>文化遗产</span><span>摄影</span></p></li><li><p><span>出发日期 01-21、01-23、02-21、03-13、03-21、12-11、12-20</span></p></li><li><div class="price"><p><i>￥</i><strong>15980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=f5babfe8046648768d93b53d1b489277&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1760373534297382912_130_100"><span>深圳出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">费尔蒙悬崖酒店——英格兰+苏格兰深度ZH深圳航空</strong></li><li><strong class="subtitle">四—五星一价全包</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span><span>走遍</span><span>观光</span><span>亲子</span></p></li><li><p><span>出发日期 01-19、01-21、01-23、02-21、03-08、03-13、03-21、12-11、12-15、12-20、12-24、12-29</span></p></li><li><div class="price"><p><i>￥</i><strong>15490</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=8ba84721df5a431bb662ec6ea06e7824&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1925566526019821568_130_100"><span>武汉出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[武汉出发][盈尚]南航 英格兰+苏格兰+爱尔兰大全景伦敦进出12天10晚</strong></li><li><strong class="subtitle">直飞，宝尔势格庄园，特色餐</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>暑期</span><span>蜜月</span><span>亲子</span><span>文化遗产</span></p></li><li><p><span>出发日期 01-19、01-21、01-23、02-21、03-08、03-13、03-21、03-27、12-11、12-15、12-20、12-24、12-29</span></p></li><li><div class="price"><p><i>￥</i><strong>13480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=fd4ef2ba58a84f1884b5b67bc1050c52&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1966304429695787008_130_100"><span>厦门出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">非凡旅程英德法意瑞KL</strong></li><li><strong class="subtitle">非凡英德法意瑞一价全包</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span><span>摄影</span><span>亲子</span><span>观光</span><span>艺术</span><span>文化遗产</span></p></li><li><p><span>出发日期 01-19、01-21、01-23、02-21、03-08、03-13、03-21、03-27、11-11、11-22、12-06、12-11、12-15、12-16、12-20、12-24、12-29</span></p></li><li><div class="price"><p><i>￥</i><strong>18980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=11050c4ec4bb40adb1640023bb96d369&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1975202151517626368_130_100"><span>深圳出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">纵览 英德法荷比卢瑞列奥意十国</strong></li><li><strong class="subtitle">英+西欧十国</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>游学</span><span>走遍</span><span>旅拍</span><span>探索</span></p></li><li><p><span>出发日期 01-19、01-21、01-23、02-21、03-08、03-13、03-20、03-21、03-27、11-11、11-22、11-29、12-06、12-11、12-15、12-16、12-20、12-24、12-27、12-29</span></p></li><li><div class="price"><p><i>￥</i><strong>14480</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=41564b6c057c4b878bce62ab7c33dd28&amp;is_sale=0&amp;team_source=3"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1945277158361112576_130_100"><span>伦敦出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">境外省心游—英格兰+苏格兰+爱尔兰+北爱尔兰</strong></li><li><strong class="subtitle">含跨海游轮，畅览北爱尔兰壮丽河山</strong></li><li><p class="tab"><span>观光</span><span>蜜月</span><span>走遍</span><span>摄影</span><span>亲子</span></p></li><li><p><span>出发日期 01-19、01-21、01-23、02-21、03-08、03-13、03-20、03-21、03-27、10-22、10-29、11-11、11-22、11-29、12-06、12-11、12-15、12-16、12-20、12-24、12-27、12-29</span></p></li><li><div class="price"><p><i>￥</i><strong>3880</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=dce5029ff3de4cdfb88f0b2ff4d065dd&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1770628396822011904_130_100"><span>成都出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[成都出发]伦敦一地自由行7天5晚</strong></li><li><strong class="subtitle">三星 伦敦5天自由活动</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span><span>走遍</span></p></li><li><p><span>出发日期 11-09、11-28、12-07</span></p></li><li><div class="price"><p><i>￥</i><strong>8880</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=fce603366aa445abb95778812e6d22f4&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1821368610473074688_130_100"><span>香港出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">非凡英德法意瑞四五星一价全包KL荷兰航空</strong></li><li><strong class="subtitle">非凡英德法意瑞四五星一价全包</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span><span>走遍</span><span>观光</span><span>亲子</span></p></li><li><p><span>出发日期 01-22、11-09、11-14、11-26、11-28、12-07</span></p></li><li><div class="price"><p><i>￥</i><strong>14990</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=bc6500269302411f85c9c914be179566&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1760373534297382912_130_100"><span>广州出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">费尔蒙悬崖酒店——英格兰+苏格兰深度CZ南方航空</strong></li><li><strong class="subtitle">四—五星一价全包</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span><span>观光</span><span>亲子</span><span>走遍</span></p></li><li><p><span>出发日期 01-22、03-14、03-21、11-09、11-14、11-26、11-28、12-07</span></p></li><li><div class="price"><p><i>￥</i><strong>16990</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=5ad1848319ed41469ed66a08d8f21f9e&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1766338544899170304_130_100"><span>厦门出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">因爱而行一价全包英爱KL</strong></li><li><strong class="subtitle">因爱而行英国+爱尔兰</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>毕业旅行季</span><span>摄影</span><span>蜜月</span><span>亲子</span><span>暑期</span><span>艺术</span><span>观光</span></p></li><li><p><span>出发日期 01-22、03-14、03-21、11-09、11-14、11-18、11-26、11-28、12-07、12-16</span></p></li><li><div class="price"><p><i>￥</i><strong>20980</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=c8c3f582b37e49779d07b01f051de2b5&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1821368610473074688_130_100"><span>香港出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">非凡英德法意瑞四五星一价全包KL荷兰</strong></li><li><strong class="subtitle">非凡英德法意瑞四五星一价全包</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span><span>走遍</span><span>观光</span><span>亲子</span></p></li><li><p><span>出发日期 01-22、03-14、03-21、11-09、11-14、11-18、11-26、11-28、12-07、12-11、12-16、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>14990</strong>起</p></div></li></ul></dd></dl></a><a href="http://m.caissa.com.cn/cruise/detail?id=10199"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1988796329749094400_130_100"><span>深圳出发</span><var class="mada_span_01">邮轮</var></div></dt><dd><ul><li><strong class="title">南澳大利亚B</strong></li><li><strong class="subtitle"></strong></li><li><p class="tab"><span>长线精选</span><span>精致团</span></p></li><li><p><span>出发日期 01-22、01-23、03-14、03-21、11-09、11-14、11-18、11-26、11-28、12-07、12-11、12-16、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>21800</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=816f0862889047a2956ac29244ff84c2&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1940188754585821184_130_100"><span>上海出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">[上海出发]【U惠】英德法意瑞【MU】3~4星铁力士峰14天12晚</strong></li><li><strong class="subtitle">两周游遍欧洲名城</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span></p></li><li><p><span>出发日期 01-22、01-23、03-14、03-21、11-09、11-14、11-18、11-25、11-26、11-28、12-07、12-11、12-16、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>14780</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=a19cae63b8e54bf69f8188d5ccb1e8ee&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1760373534297382912_130_100"><span>深圳出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">费尔蒙悬崖酒店——英格兰+苏格兰深度ZH深航</strong></li><li><strong class="subtitle">四—五星一价全包</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>蜜月</span><span>走遍</span><span>观光</span><span>亲子</span></p></li><li><p><span>出发日期 01-22、01-23、03-14、03-21、03-29、11-09、11-14、11-18、11-25、11-26、11-28、12-07、12-11、12-16、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>16990</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=bbd09253c8524027a00afb1ce8ae00a5&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1975202151517626368_130_100"><span>香港出发</span><strong class="dz"></strong></div></dt><dd><ul><li><strong class="title">魅力王国 比利时深度+英德法瑞意</strong></li><li><strong class="subtitle">英+西欧比利时深度</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>体验季</span><span>旅拍</span><span>观赛</span><span>探索</span><span>观光</span></p></li><li><p><span>出发日期 01-22、01-23、03-14、03-21、03-29、11-09、11-14、11-18、11-25、11-26、11-28、12-07、12-11、12-16、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>13780</strong>起</p></div></li></ul></dd></dl></a><a href="/group/External/details?id=c4cba6b6790646029c5e81daea688a1f&amp;is_sale=0&amp;team_source=2"><dl><dt><div class="imgBox"><img src="http://img8.caissa.com.cn/cloud/image/1975202145872084992_130_100"><span>香港出发</span><strong class="jx"></strong></div></dt><dd><ul><li><strong class="title">玩味欧罗巴 英西欧德法瑞意四五星一价全含</strong></li><li><strong class="subtitle">英+西欧一价全包</strong></li><li><p class="tab"><em class="blue">联合发团</em><span>观光</span><span>旅拍</span><span>体验季</span><span>游学</span><span>探索</span></p></li><li><p><span>出发日期 01-22、01-23、01-24、03-14、03-21、03-29、11-09、11-14、11-18、11-25、11-26、11-28、12-07、12-11、12-16、12-27</span></p></li><li><div class="price"><p><i>￥</i><strong>19790</strong>起</p></div></li></ul></dd></dl></a><div id="PullUp" class="scroller-pullUp" style="text-align: center; display: block;">没有更多产品啦</div>
+				</div>

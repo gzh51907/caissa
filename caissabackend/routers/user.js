@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const ObjectId = require('mongodb').ObjectID;
 const {
     mongo
 } = require('../db');
@@ -16,10 +17,11 @@ router.post('/reg', async (req, res) => {
     } = req.body;
     let result;
     try {
+        let date = new Date()
        await mongo.create(colName, [{
             username,
             password,
-            regtime: new Date()
+            regtime: date.toLocaleDateString()+" "+date.toLocaleTimeString()
         }]);
         result = formatData();
     } catch (err){
@@ -51,8 +53,10 @@ router.get('/login',async (req,res)=>{
     }=req.query;
     let result = await mongo.find(colName,{
         username,
-        password
+        password,
+        pages:true
     });
+    let Authorization
     if(result.length>0){//用户信息匹配正确
       if(mdl){//如果要免登陆
      Authorization = token.create(username,mdl);
@@ -64,5 +68,51 @@ router.get('/login',async (req,res)=>{
         }))
     }
 
+})
+//获取对应页数的用户信息
+router.get('/users',async (req,res)=>{
+    let{
+        pagenum,
+        pages
+    }=req.query;
+    pages = pages?true:false
+    pagenum = pagenum?pagenum:0;
+    try{
+        let result = await mongo.find(colName,{},pagenum*10,null,pages);
+        res.send(formatData({data:result}));
+    }catch{
+        res.send(formatData({code:0}))
+    }
+   
+})
+//删除用户,传过来的username为一个数组
+router.get('/delete',async (req,res)=>{
+    let{
+        username
+    }=req.query;
+    username = JSON.parse(username);
+    let array = [];
+    username.forEach(ele => {
+        array.push({"username":ele+''})
+    });
+    try{
+        mongo.remove(colName,{$or:array});
+        res.send(formatData())
+    } catch{
+        res.send(formatData({code:0}));
+    }
+})
+//根据_id修改用户信息,updatedata为修改信息对象
+router.post('/update',async (req,res)=>{
+    let{
+        id,
+        updatedata,
+    }=req.body;
+    try{
+   mongo.update(colName,{_id:ObjectId(id)},updatedata);
+   res.send(formatData())
+    }catch{
+      res.send(formatData({code:0}))
+    }
 })
 module.exports = router;

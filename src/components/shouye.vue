@@ -1,11 +1,11 @@
 <template>
     <el-container>
-  <el-header>
+  <el-header ref="head" class="" style="padding: .25rem .2rem">
       <div class="cityBox">广州市</div>
       <div class="inputBox"><input type="text" placeholder="搜索目的地国家/城市/关键词"></div>
-      <div class="serveBox"><i></i><p>在线客服</p></div>
+      <div class="serveBox"><i :style="'background-image:'+serveimg"></i><p>在线客服</p></div>
       </el-header>
-  <el-main style="padding:0">
+  <el-main style="padding:0;margin: 0 0 1.2rem">
       <div class="block">
     <el-carousel height="4rem">
       <el-carousel-item v-for="(item,index) in data.lunbo " :key="index" >
@@ -38,30 +38,78 @@
   <div class="lineBox">
       <dl><dd><a v-for="(item,index) in data.linkbox2" :key="index"><img :src="item" alt=""></a></dd></dl>
   </div>
-  <div class="destinationBox"><h2><span>发现精彩目的地</span><a >更多</a></h2>
-  <div class="tabsBox">
-    <el-tabs v-model="activeName" @tab-click="handleClick">
-    <el-tab-pane
-     v-for="item in data.destinationBox.tabsBox"
+  <div class="destinationBox">
+      <h2><span>发现精彩目的地</span><a >更多</a></h2>
+    <div class="tabsBox">
+    <div class="tabTitleBox">
+    <ul><li 
+    v-for="(item,index) in data.destinationBox.tabsBox" 
     :key="item.tabtitle"
-     :label="item.tabtitle" 
-     :name="item.tabtitle" >
-     <div class="tabsContent" v-for="item2 in item.tabscontent" 
-         :key="item2.h3">
-         <div 
-         :style="'background-image:url('+item2.backimgurl+')'">
+    @click="tabs(index)"
+    class=""
+    >{{item.tabtitle}}</li></ul>
+    </div>
+    <div class="tabsContent"
+    v-for="item in data.destinationBox.tabsBox" 
+    :key="item.tabtitle"
+    @click="gosearchlist"
+    >
+    <div 
+     v-for="item2 in item.tabscontent" 
+    :key="item2.h3"
+    :style="'background-image:'+item2.backimgurl">
+     <a>
          <div class="textBox">
              <h3>{{item2.h3}}</h3>
              <p>{{item2.p}}</p>
          </div>
-         </div>
-     </div>
-     </el-tab-pane>
-  </el-tabs>
+     </a>
+    </div>
+    </div>
   </div>
   </div>
+  <div class="destinationBox lifeBox">
+      <h2><span>旅行生活</span><a >更多</a></h2>
+      <div class="proListBox">
+          <div v-for="item in data.lifebox.content"
+           :key="item.title"
+           :style="'background-image:'+item.backimg"
+           >
+              <a>
+                  <div class="textBox">
+                      <h3>{{item.title}}</h3>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </div>
+  <div class="hotProListBox">
+      <div class="tabsBox">
+          <div class="tabsTitleBox">
+              <ul><li v-for="(item,index) in data.hotProListBox"
+              :key="item.tabtitle" class="" @click="hottabs(index)">{{item.tabtitle}}</li></ul>
+          </div>
+          <div class="tabsContent" v-for="item in data.hotProListBox" :key="item.tabtitle">
+              <a v-for="(item2,index) in item.tabscontent"
+              :key="index">
+              <dl>
+                  <dt>
+                    <div class="imgBox"><img :src="item2.imgurl"></div>
+                    <span>{{item2.go}}</span>
+                  </dt>
+                  <dd>
+                      <h2>{{item2.title}}</h2>
+                      <div class="dateBox">{{item2.date}}</div>
+                      <div class="priceBox"><em>￥<b>{{item2.price}}</b></em>起</div>
+                  </dd>
+                </dl></a>
+          </div>
+      </div>
+  </div>
+  <footer><img :src="footer" ></footer>
   </el-main>
- <navjump></navjump>
+  <navjump></navjump>
+ 
 </el-container>
 </template>
 <script>
@@ -71,26 +119,185 @@ export default {
      return {
              data:{
                  entranceBox:{},
-                 destinationBox:{}
+                 destinationBox:{},
+                 lifebox:{},
+                 hotProListBox:{}
              },
-             activeName: '欧洲'
+             activeName: '欧洲',
+             serve:'url('+require('../assets/server.png')+')',
+             serve1:'url('+require('../assets/server1.png')+')',
+             serveimg:'',
+             footer:require('../assets/bot_pic.jpg')
             }
           },
   components:{
       navjump
   },
+  mounted(){
+      window.addEventListener('scroll',this.scrollToTop);
+      this.serveimg=this.serve;
+  },
+   beforeDestroy() {
+    window.removeEventListener("scroll",this.scrollToTop);
+    document.documentElement.style = "font-size:100%";
+  },
   async created(){
-          let {data} =await this.$axios.get('http://localhost:4399/home');
-          this.data = data[0];
+          let {data}=await this.$axios.get('http://localhost:4399/home');
+          this.data=data[0];
+          document.documentElement.style = "font-size:400%";
+  },
+  updated(){
+      document.querySelectorAll('.destinationBox ul li').forEach((item,index)=>{
+          item.className='';
+           document.querySelectorAll('.destinationBox .tabsContent')[index].style.display="none";
+          if(item.innerHTML == '欧洲'){
+               document.querySelectorAll('.destinationBox .tabsContent')[index].style.display = "flex";
+              item.className = 'active';
+          }
+      });
+      document.querySelectorAll('.hotProListBox .tabsTitleBox li').forEach((item,index)=>{
+          item.className ='';
+          document.querySelectorAll('.hotProListBox .tabsContent')[index].style.display='none';
+          if(index == 0){
+              item.className='active';
+              document.querySelectorAll('.hotProListBox .tabsContent')[index].style.display='block';
+          }
+      })
   },
   methods:{
-      handleClick(tab, event) {
-        console.log(tab, event);
+      gosearchlist(){
+          this.$router.push('/searchlist');
+      },
+      tabs(idx){
+       document.querySelectorAll('.destinationBox ul li').forEach((item,index)=>{
+          item.className='';
+           document.querySelectorAll('.destinationBox .tabsContent')[index].style.display="none";
+          if(index == idx){
+               document.querySelectorAll('.destinationBox .tabsContent')[index].style.display = "flex";
+              item.className = 'active';
+          }
+      });
+      },
+      hottabs(idx){
+          document.querySelectorAll('.hotProListBox .tabsTitleBox li').forEach((item,index)=>{
+          item.className ='';
+          document.querySelectorAll('.hotProListBox .tabsContent')[index].style.display='none';
+          if(index == idx){
+              item.className='active';
+              document.querySelectorAll('.hotProListBox .tabsContent')[index].style.display='block';
+          }
+      })
+      },
+      scrollToTop(){
+       var scrollTop = (window.pageYOffset||document.documentElement.scrollTop||document.body.scrollTop);
+  　　 if(scrollTop > 0){
+       this.$refs.head.$el.classList.add('indexFixedBox');
+       this.serveimg = this.serve1;
+       }else{
+       this.$refs.head.$el.classList.remove('indexFixedBox');
+       this.serveimg=this.serve
+  }
       }
   }
 }
+
 </script>
 <style lang="scss" scoped>
+  html{
+    font-size: 400%;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.hotProListBox dl {
+    font-size: .28rem;
+    display: flex;
+    margin: .3rem;
+    dt{
+        width: 2.5rem;
+    position: relative;
+    .imgBox {
+    overflow: hidden;
+    width: 2.5rem;
+    height: 1.56rem;
+    border-radius: .05rem .05rem 0 0;
+    img{
+        display: block;
+        width: 100%;
+    }
+}
+span {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: .24rem;
+    background: #f0efe8;
+    line-height: .4rem;
+    border-radius: 0px 0px .1rem .1rem;
+}
+    }
+    dd{
+        flex: 1;
+    margin-left: .2rem;
+    overflow: hidden;
+     h2 {
+    font-size: .32rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.dateBox {
+    text-overflow: ellipsis;
+    color: #666;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+.priceBox {
+    text-align: right;
+    color: #999;
+    font-size: .26rem;
+     em {
+    font-style: normal;
+    color: #ff6b01;
+    font-size: .24rem;
+        }
+ b {
+        font-size: .38rem;
+    }
+}
+    }
+}
+.tabsTitleBox {
+    overflow-x: auto;
+    ul{
+        width: 10.8rem;
+        li{
+            width: 1.8rem;
+            float: left;
+            line-height: 1.2rem;
+            text-align: center;
+            font-size: .28rem;
+            position: relative;
+        }
+        li.active{
+            font-size: .34rem;
+        }
+        li.active:after {
+            content: '';
+            height: .1rem;
+            border-radius: .1rem;
+            background: #ffaa00;
+            display: block;
+            position: absolute;
+            left: .6rem;
+            right: .6rem; 
+            bottom: .1rem;
+        }
+    }
+}
 ul,li{
     list-style: none;
 }
@@ -136,7 +343,7 @@ ul,li{
             display: block;
             width: .27rem;
             height: .3rem;
-            background: url(../assets/server.png) no-repeat center;
+            background: no-repeat center;
             background-size: 100%;
             margin: 0 auto;
         }
@@ -166,7 +373,8 @@ margin: 0 auto;
     overflow: hidden;
     border-bottom: .02rem solid #fff;
     li{
-        width: 2.42rem;
+        // width: 2.42rem;
+        flex: 1;
     text-align: center;
     height: .9rem;
     margin-left: .02rem;
@@ -243,7 +451,8 @@ margin: 0 auto;
             display: flex;
             a{
                 display: block;
-                width: 1.46rem;
+                // width: 1.46rem;
+                flex: 1;
                 text-align: center;
                 text-decoration: none;
                 font-size: .22rem;
@@ -331,9 +540,144 @@ margin: 0 auto;
             vertical-align: middle;
         }
 }
-.destinationBox .tabsContent {
-    margin: .2rem .1rem 0 .3rem;
+.destinationBox{
+     .tabsContent {
+     margin: .2rem .1rem 0 .3rem;
     flex-wrap: wrap;
     display: flex;
+    div:last-child {
+    margin-right: 0px;
+    }
+     div:first-child {
+    width: 4.53rem;
+    }
+    div{
+        width: 2.17rem;
+    margin-right: .2rem;
+    margin-bottom: .2rem;
+    border-radius: .1rem;
+    height: 3.1rem;
+    overflow: hidden;
+    color: #fff;
+    font-size: .32rem;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    .textBox {
+    width: auto;
+    position: absolute;
+    bottom: 0px;
+    left: .2rem;
+    right: .2rem;
+    z-index: 1;
+    height: auto;
+    }  
+     a:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+    }
+     p{
+        overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    }
+    }
+   
+}
+.tabTitleBox {
+    margin: 0 .6rem;
+    overflow-y: auto;
+   
+}
+ul{
+    width: 10rem;
+    overflow: hidden;
+    li{
+        float: left;
+    font-size: .28rem;
+    width: 2.1rem;
+    text-align: center;
+    color: #666;
+    position: relative;
+    padding-bottom: .4rem;
+    }
+    li.active {
+    color: #333;
+    font-size: .34rem;
+}
+    li.active:after {
+    content: '';
+    height: .1rem;
+    border-radius: .1rem;
+    background: #ffaa00;
+    display: block;
+    position: absolute;
+    left: .8rem;
+    right: .8rem;
+    bottom: .1rem;
+}
+}
+}
+.lifeBox .proListBox{
+       div:first-child {
+    width: 6.9rem;
+    margin: 0 .3rem .2rem .3rem;
+}
+ div:last-child {
+    margin-left: .2rem;
+}
+    div{
+        width: 3.35rem;
+    height: 2.4rem;
+    float: left;
+    margin-bottom: .2rem;
+    border-radius: .1rem;
+    overflow: hidden;
+    color: #fff;
+    font-size: .32rem;
+    position: relative;
+    margin-left: .3rem;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+        .textBox {
+    width: auto;
+    position: absolute;
+    bottom: 0px;
+    left: .2rem;
+    right: .2rem;
+    z-index: 1;
+    height: auto;
+}
+h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+a:after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+}
+    }
+ 
+} 
+.indexFixedBox {
+    background: rgba(255,255,255,.9);
+     .cityBox{
+    color: #575758;
+         }
+    .serveBox{
+     color: #575758;
+    }
 }
 </style>
