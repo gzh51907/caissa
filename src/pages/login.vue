@@ -13,7 +13,7 @@
         </div>
     </header>
     <section>
-        <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
+        <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm"  class="demo-ruleForm" style="padding-left:20px;padding-right:20px;margin-top:30px">
             <el-form-item prop="phoneNumber" >
                         <el-input type="text" v-model="ruleForm.phoneNumber" 
                             prefix-icon='el-icon-mobile-phone'
@@ -268,7 +268,7 @@ export default {
     },
     }
 </script>
-<style lang="scss" scoped>
+<style lang="scss" scoped >
     .ban-top{
         padding: 10px 15px 0px 6px;
         background-color: #00b0ec;
@@ -321,6 +321,9 @@ export default {
     }
     section{
         *{margin-left:0 !important; }
+        el-form-item >>> .el-form-item__content{
+            margin-left:0 !important;
+        }
 
     }
 </style>

@@ -2,12 +2,12 @@
         <el-card class="box-card">
             <el-row>
                     <div class="grid-content bg-purple-dark" @click="quit">
-                        <el-button class=" el-icon-switch-button"   round  style="font-size:15px; float:right;color:#ddd;background:lightblue"></el-button>
+                        <el-button class=" el-icon-switch-button"   round  style="font-size:15px; float:right;color:#ddd;background:gray"></el-button>
                         <!-- <i class=" el-icon-switch-button" style="font-size:30px; float:right;color:#ddd"></i> -->
                     </div>
             </el-row>
 
-            <el-row type='flex' justify='start' align='top'>
+            <el-row type='flex' justify='start' align='top' :gutter="20">
                 <el-col :span="6" @click.native="gohome">
                     <div class="block"><el-avatar shape="circle" size="large" style="width:84px;height:84px"
                     src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg">

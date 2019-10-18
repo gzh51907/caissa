@@ -200,7 +200,13 @@ export default {
         ,
         mounted() {
         this.showcode();
+        console.log( document.getElementsByClassName("el-form-item__content"))
+        let arr = document.getElementsByClassName("el-form-item__content");
+        for(let i = 0;i<arr.length;i++){
+            arr[i].style="margin-left:0;"
+        }
         },
+
     }
 </script>
 <style lang="scss" scoped>
@@ -230,7 +236,7 @@ export default {
         padding: 20px 15px 10px;
         display:flex;
         flex-direction:column;
-        
+
         .switchLogin{
             width:100%;
             display:flex;
@@ -263,6 +269,9 @@ export default {
             el-form-item{
                 display:flex;
             }
+            el-form-item >>> .el-form-item__content{
+            margin-left:0 !important;
+        }
         }
     }
 
