@@ -56,7 +56,6 @@ export default {
       date: godate,
       people: "成人x1"
     };
-    console.log(this.$route.query);
   }
 };
 </script>
