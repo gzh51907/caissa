@@ -89,7 +89,7 @@ export default {
     };
   },
   async created() {
-    let data = await this.$axios.get("http://10.3.133.2:4399/cate");
+    let data = await this.$instance.get("/cate");
     let datas = data.data[0].data.modules;
     document.documentElement.style = "font-size:400%";
     // 除了主题游外的信息

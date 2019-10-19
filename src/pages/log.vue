@@ -150,8 +150,8 @@ export default {
             if (valid) {
                 let { username, password} = this.ruleForm;
                 //发起请求
-                let { data } = await this.$axios.get(
-                    "http://10.3.133.2:4399/user/login",
+                let { data } = await this.$instance.get(
+                    "/user/login",
                     {
                     params: {
                         username,

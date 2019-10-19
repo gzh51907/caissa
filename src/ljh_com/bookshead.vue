@@ -40,8 +40,8 @@ export default {
     this.id = this.$route.query.id;
     //传来的日期为xx-xx没有年份，所以获取当前年份拼接
     let getdate = new Date();
-    let godate = `${getdate.getFullYear()}-${this.$route.query.godate}`;
-    let { data } = await this.$axios.get("http://10.3.133.2:4399/searchlist", {
+    let godate = `${getdate.getFullYear()}-${this.$store.state.godate}`;
+    let { data } = await this.$instance.get("/searchlist", {
       params: {
         query: { id: this.id }
       }

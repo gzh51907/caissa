@@ -124,7 +124,7 @@ export default {
     };
   },
   async created() {
-    let { data } = await this.$axios.get("http://10.3.133.2:4399/searchlist/", {
+    let { data } = await this.$instance.get("/searchlist/", {
       params: {
         query: {
           id: this.$route.query.id
@@ -158,8 +158,9 @@ export default {
         //有登陆
         this.$router.push({
           path: "/orderinf",
-          query: { id: this.data.id, godate: this.godate }
+          query: { id: this.data.id }
         });
+        this.$store.state.godate=this.godate
       } else {
         //没登录
         this.$router.push("/log");

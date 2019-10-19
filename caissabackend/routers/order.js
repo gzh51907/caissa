@@ -15,7 +15,8 @@ router.post('/pay',async (req,res)=>{
     name,
     phonenumber,
     email,
-    serveshop
+    serveshop,
+    price
     } = req.body;
     let result;
     try{
@@ -26,6 +27,7 @@ router.post('/pay',async (req,res)=>{
                 phonenumber,
                 email,
                 serveshop,
+                price,
                 ordertime:date.toLocaleDateString()+" "+date.toLocaleTimeString()
             }
         ])

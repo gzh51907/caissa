@@ -141,7 +141,7 @@ export default {
     window.removeEventListener("scroll",this.scrollToTop);
   },
   async created(){
-          let {data}=await this.$axios.get('http://10.3.133.2:4399/home');
+          let {data}=await this.$instance.get('/home');
           this.data=data[0];
           document.documentElement.style = "font-size:400%";
   },

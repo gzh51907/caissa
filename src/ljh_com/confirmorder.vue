@@ -48,7 +48,7 @@ export default {
   },
   methods: {
     async goto(key) {
-      await this.$axios.post("http://10.3.133.2:4399/order/pay", {
+      await this.$instance.post("/order/pay", {
         name: this.confirmInf.linkMan,
         phonenumber: this.confirmInf.linkPhone,
         email: this.confirmInf.linkEmail,

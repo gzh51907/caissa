@@ -93,7 +93,7 @@ export default {
         };
         const checkUsername = async (rule, value, callback) => {
 
-        let {data} = await this.$axios.get('http://10.3.133.2:4399/user/check',{
+        let {data} = await this.$instance.get('/user/check',{
             params:{
             username:this.ruleForm.phoneNumber
             }
@@ -156,7 +156,7 @@ export default {
                 let {phoneNumber,pass} = this.ruleForm;
                 console.log(phoneNumber,pass)
 
-                let {data} = await this.$axios.post('http://10.3.133.2:4399/user/reg',{  
+                let {data} = await this.$$instance.post('/user/reg',{  
                     username:phoneNumber,
                         password:pass
                     });

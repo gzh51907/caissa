@@ -4,7 +4,7 @@
             <div class="hear_all">
                 <i class="hear_cs" @click="goto"></i>
                 <div class="search_input">
-                    <input type="search" v-model="iput" placeholder="搜索目的地国家/城市/关键词">
+                    <input type="search" @keydown.13="request(iput)"  v-model="iput" placeholder="搜索目的地国家/城市/关键词">
                     <img src="../assets/search.png" @click="request(iput)">
                 </div>
             </div>
@@ -106,7 +106,7 @@ export default {
     },
     dataload() {
       //懒加载请求数据
-      if (this.count.length <= this.datalong) {
+      if (this.count.length < this.datalong) {
         var scrollTop =
           window.pageYOffset ||
           document.documentElement.scrollTop ||
@@ -119,8 +119,8 @@ export default {
           setTimeout(
             async function() {
               //再次请求数据
-              let { data } = await this.$axios.get(
-                "http://10.3.133.2:4399/searchlist/",
+              let { data } = await this.$instance.get(
+                "/searchlist/",
                 {
                   params: { num: this.count.length }
                 }
@@ -137,8 +137,8 @@ export default {
     },
     async request(item) {
       //根据条件请求数据,query是个对象，里面是条件
-
-      if (item == "价格从低到高") {
+      if(item.trim()){
+ if (item == "价格从低到高") {
         this.count.sort((a, b) => {
           return a.price - b.price;
         });
@@ -148,8 +148,8 @@ export default {
         });
       } else if (item == "默认综合排序") {
         this.count = []; //清空
-        let { data } = await this.$axios.get(
-          "http://10.3.133.2:4399/searchlist/",
+        let { data } = await this.$instance.get(
+          "/searchlist/",
           {
             params: { num: 0 }
           }
@@ -158,8 +158,8 @@ export default {
         this.datalong = 115;
       } else {
         //条件查询
-        let { data } = await this.$axios.get(
-          "http://10.3.133.2:4399/searchlist/",
+        let { data } = await this.$instance.get(
+          "/searchlist/",
           {
             params: {
               num: 0,
@@ -170,11 +170,15 @@ export default {
         this.count = data;
         this.datalong = data.length;
       }
-    }
+    }else{
+        alert("请你输入关键字，将为您免费进行搜索")
+      }
+      }
+     
   },
   async created() {
     //第一次请求30个数据跳过0ge
-    let { data } = await this.$axios.get("http://10.3.133.2:4399/searchlist/", {
+    let { data } = await this.$instance.get("/searchlist/", {
       params: { num: 0 }
     });
     this.count = data; //获取数据(一个数组)
