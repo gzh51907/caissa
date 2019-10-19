@@ -71,8 +71,7 @@ export default {
                     let res =  confirm('确认退出吗')
                     if(res){
                         localStorage.removeItem("Authorization");
-                        console.log(this)
-                        this.$forceUpdate() 
+                        history.go(0)
                     }
                 }else{
                     this.$router.push("/log")
