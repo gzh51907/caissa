@@ -33,17 +33,16 @@ import searchlist from '../pages/searchlist.vue';
 import detail from '../pages/detail.vue';
 
 let router = new VueRouter({
-    routes: [
-        {
+    routes: [{
             name: 'shouye',
             path: "/shouye",
             component: shouye
         },
         //详情页
         {
-            name:'detail',
-            path:'/detail',
-            component:detail
+            name: 'detail',
+            path: '/detail',
+            component: detail
         },
         {
             path: "/",
@@ -58,17 +57,17 @@ let router = new VueRouter({
             name: 'profiles',
             path: "/profiles",
             component: profiles,
-
         },
         {
             name: 'log',
             path: "/log",
-            component: logs
+            component: logs,
+
         },
         {
             name: 'login',
             path: "/login",
-            component: login
+            component: login,
         },
         {
             name: 'loading',
@@ -165,9 +164,9 @@ let router = new VueRouter({
         },
         //列表页
         {
-            name:'searchlist',
-            path:'/searchlist',
-            component:searchlist
+            name: 'searchlist',
+            path: '/searchlist',
+            component: searchlist
         }
     ]
 })
