@@ -33,6 +33,7 @@ import searchlist from '../pages/searchlist.vue';
 import detail from '../pages/detail.vue';
 
 let router = new VueRouter({
+    mode:'history',
     routes: [
         {
             name: 'shouye',

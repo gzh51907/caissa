@@ -156,7 +156,7 @@ export default {
                 let {phoneNumber,pass} = this.ruleForm;
                 console.log(phoneNumber,pass)
 
-                let {data} = await this.$$instance.post('/user/reg',{  
+                let {data} = await this.$instance.post('/user/reg',{  
                     username:phoneNumber,
                         password:pass
                     });
