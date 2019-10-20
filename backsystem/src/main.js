@@ -4,7 +4,10 @@ import App from './App.vue'
 Vue.config.productionTip = false
 import router from './routers/index';
 import axios from 'axios';
-Vue.prototype.$axios = axios;
+const instance = axios.create({
+    baseURL: "http://47.98.245.185:4399",
+})
+Vue.prototype.$instance = instance;
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';

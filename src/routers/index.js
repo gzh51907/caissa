@@ -33,9 +33,14 @@ import searchlist from '../pages/searchlist.vue';
 import detail from '../pages/detail.vue';
 
 let router = new VueRouter({
+<<<<<<< HEAD
     mode:'history',
     routes: [
         {
+=======
+    mode: 'history',
+    routes: [{
+>>>>>>> edf7ea1a4b557f062b87bfbaf15bddd114cd2d3e
             name: 'shouye',
             path: "/shouye",
             component: shouye

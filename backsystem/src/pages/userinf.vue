@@ -96,7 +96,7 @@ export default {
         methods: {
         async handleEdit(index, id ,name,password) {
             console.log(index, id ,name,password)
-        let {data} =await this.$axios.post('http://10.3.133.2:4399/user/update',{
+        let {data} =await this.$instance.post('/user/update',{
                     id,
                     updatedata:{
                         username:name,
@@ -111,7 +111,7 @@ export default {
             }else{
                 alert("修改失败!")
             }
-            console.log(data)
+            // console.log(data)
         },
         popo(scope){
         this.inputshow = ! this.inputshow;
@@ -119,7 +119,7 @@ export default {
         //删除功能
         async handleDelete(index, row,id,username) {
             this.tableData.splice(index,1);
-            let {data} =await this.$axios.get('http://10.3.133.2:4399/user/delete',{
+            let {data} =await this.$instance.get('/user/delete',{
                 params:{
                     username:`[${username}]`
                 }}
@@ -131,7 +131,7 @@ export default {
         async deleteall(){
             let arr = this.arrdelete = this.tableData.map(item=>item.username) ;
             this.tableData =[];
-            let {data} =await this.$axios.get('http://10.3.133.2:4399/user/delete',{
+            let {data} =await this.$instance.get('/user/delete',{
                 params:{
                     username:JSON.stringify(arr)
                 }}
@@ -140,7 +140,7 @@ export default {
         },
         //上一页
         async preChange(val){
-        let {data} =await this.$axios.get('http://10.3.133.2:4399/user/users',{
+        let {data} =await this.$instance.get('/user/users',{
                 params:{
                     pagenum: val
                 }}
@@ -152,31 +152,31 @@ export default {
 
         //下一页
         async nextChange(val){
-        let {data} =await this.$axios.get('http://10.3.133.2:4399/user/users',{
+        let {data} =await this.$instance.get('/user/users',{
                 params:{
                     pagenum:val
                 }}
             );
-                console.log("e",data.data)
+                // console.log("e",data.data)
                 this.tableData = data.data;
                 this.$forceUpdate();
         },
          //pageSize变化事件
         handleSizeChange(val) {
-            console.log(val)
+            // console.log(val)
             // this.$emit("sizeChange", val);
         },
 
         //pageNum变化事件
         async handleCurrentChange(val) {
-            console.log(val)
+            // console.log(val)
             // this.$emit("pageNumCheng");
-            let {data} =await this.$axios.get('http://10.3.133.2:4399/user/users',{
+            let {data} =await this.$instance.get('/user/users',{
                 params:{
                     pagenum: val
                 }}
             );
-            console.log("e",data)
+            // console.log("e",data)
             this.tableData = data.data;
             this.$forceUpdate();
         },
@@ -194,20 +194,20 @@ export default {
         }
         },
         async created(){
-                let {data} =await this.$axios.get('http://10.3.133.2:4399/user/users',{
+                let {data} =await this.$instance.get('/user/users',{
                     params:{ pages:true
                     }
                 });
-                console.log("e",data.data)
+                // console.log("e",data.data)
                 this.tableData = data.data; 
                 this.tableData = this.tableData.slice(0,10)
-                console.log(this.tableData)
+                // console.log(this.tableData)
                 this.datalength = data.data.length; 
                 // console.log(this.datalength)
         },
         // computed:{
         //     async tableData(){
-        //         let {data} =await this.$axios.get('http://10.3.133.2:4399/user/users');
+        //         let {data} =await this.$instance.get('/user/users');
         //         console.log("e",data.data)
         //         return data.data 
         //     }

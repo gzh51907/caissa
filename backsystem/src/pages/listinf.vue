@@ -145,8 +145,8 @@
     },
     methods: {
         async handleEdit(id, name, phonenumber, email, price, serveshop) {
-        let { data } = await this.$axios.post(
-            "http://10.3.133.2:4399/order/update",
+        let { data } = await this.$instance.post(
+            "/order/update",
             {
             id,
             updatedata: JSON.stringify({
@@ -181,8 +181,8 @@
         //删除功能
         async handleDelete(index, row, id, username) {
         this.tableData.splice(index, 1);
-        let { data } = await this.$axios.get(
-            "http://10.3.133.2:4399/order/delete",
+        let { data } = await this.$instance.get(
+            "/order/delete",
             {
             params: {
                 id: id
@@ -193,8 +193,8 @@
         },
         //上一页
         async preChange(val) {
-        let { data } = await this.$axios.get(
-            "http://10.3.133.2:4399/order/orders",
+        let { data } = await this.$instance.get(
+            "/order/orders",
             {
             params: {
                 pagenum: val
@@ -208,8 +208,8 @@
 
         //下一页
         async nextChange(val) {
-        let { data } = await this.$axios.get(
-            "http://10.3.133.2:4399/order/orders",
+        let { data } = await this.$instance.get(
+            "/order/orders",
             {
             params: {
                 pagenum: val
@@ -225,8 +225,8 @@
 
         //pageNum变化事件
         async handleCurrentChange(val) {
-        let { data } = await this.$axios.get(
-            "http://10.3.133.2:4399/order/orders",
+        let { data } = await this.$instance.get(
+            "/order/orders",
             {
             params: {
                 pagenum: val
@@ -250,8 +250,8 @@
         }
     },
     async created() {
-        let { data } = await this.$axios.get(
-        "http://10.3.133.2:4399/order/orders",
+        let { data } = await this.$instance.get(
+        "/order/orders",
         {
             params: { pages: true }
         }
