@@ -69,10 +69,10 @@ export default {
     async submitForm(formName) {
         this.$refs[formName].validate( async(valid) => {
             let {account,password}= this.ruleForm;
-            // console.log(username,password)
-            // let {data} = await this.$axios.get({},{username,password})
+            console.log(account,password)
+            // let {data} = await this.$instance.get({},{username,password})
         if (valid) {
-            let {data} =await this.$axios.get('http://10.3.133.2:4399/ad/login',{
+            let {data} =await this.$instance.get('/ad/login',{
                 params:{
                     adname:account,
                     password,

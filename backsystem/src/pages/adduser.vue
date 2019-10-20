@@ -57,8 +57,8 @@
             this.$refs[formName].validate(async (valid) => {
             if (valid) {
                 let{user,password} = this.ruleForm;
-                console.log(user,password)
-                let {data} =await this.$axios.post('http://10.3.133.2:4399/user/reg',{
+                // console.log(user,password)
+                let {data} =await this.$instance.post('/user/reg',{
                         username:user,
                         password
                 });
@@ -72,7 +72,7 @@
                     alert('failed!!!')
                 }
             } else {
-                console.log('error submit!!');
+                // console.log('error submit!!');
                 return false;
             }
             });

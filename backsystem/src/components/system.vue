@@ -102,7 +102,7 @@ export default {
     },
     methods: {
         handleSelect(key, keyPath) {
-        console.log(key, keyPath);
+        // console.log(key, keyPath);
         },
         show(item){
             item.tabshow = !item.tabshow;
@@ -122,7 +122,7 @@ export default {
     mounted(){
         if(localStorage.getItem('account')){
             let account = localStorage.getItem('account')
-            console.log(account)
+            // console.log(account)
             this.username = account;
         }else{
 
