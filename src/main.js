@@ -9,11 +9,7 @@ import store from './store';
 import './assets/icon/iconfont.css';
 import axios from 'axios';
 const instance = axios.create({
-<<<<<<< HEAD
     baseURL:"http://47.98.245.185:4399",
-=======
-    baseURL: "http://10.3.133.2:4399",
->>>>>>> 4a3c0fecd5a06917ba8f3782218fd6467c6b3281
 })
 Vue.prototype.$instance = instance;
 
