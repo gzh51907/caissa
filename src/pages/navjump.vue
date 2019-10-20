@@ -54,12 +54,8 @@ export default {
             ]
         }
     },
-    created(){
-    
-    },
     methods:{
         changeactive(index){
-
        this.menus.forEach(item => {
            item.active = false;
            if(item.id == index){

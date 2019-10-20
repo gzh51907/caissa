@@ -5,8 +5,11 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 // 2.使用(安装)vue-router（VueRouter是作为插件增强Vue的功能）
+const originalPush = VueRouter.prototype.push;
+VueRouter.prototype.push = function push(location) {
+    return originalPush.call(this, location).catch(err => err);
+};
 Vue.use(VueRouter);
-
 // 引入页面组件
 import shouye from '../components/shouye.vue';
 import cate from '../components/cate.vue';
@@ -33,14 +36,9 @@ import searchlist from '../pages/searchlist.vue';
 import detail from '../pages/detail.vue';
 
 let router = new VueRouter({
-<<<<<<< HEAD
     mode:'history',
     routes: [
         {
-=======
-    mode: 'history',
-    routes: [{
->>>>>>> edf7ea1a4b557f062b87bfbaf15bddd114cd2d3e
             name: 'shouye',
             path: "/shouye",
             component: shouye
