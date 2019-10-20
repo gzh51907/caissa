@@ -104,6 +104,8 @@ export default {
         };
         return {
             tabStatus:true,
+            // fromname:"",
+            tologin:true,
             imgcode:"rey8",
             ruleForm: {
             password: '',
@@ -125,9 +127,8 @@ export default {
             ],
             imgword: [{ required: true, message: "请输入图片验证码", trigger: "blur" },
                 { required: true, trigger: 'blur', validator: validatePass }]
-            }, 
             }
-
+            }
         },
         methods: {
         changetabs(){
@@ -143,8 +144,7 @@ export default {
 			}
             this.imgcode = res;
             // console.log(this.imgcode)
-        }
-        ,
+        },
         submitForm(formName) {
             this.$refs[formName].validate(async (valid) => {
             if (valid) {
@@ -159,6 +159,8 @@ export default {
                     }
                     }
                 );
+                // lwyhxt
+                // qf#58bc58
                 if (data.code === 1) {
                     let { targetUrl } = this.$route.query;
                     // 把token写入localstorage
@@ -167,7 +169,12 @@ export default {
                     // this.$router.replace({path:'/mine',params:{username}})
                     setTimeout(()=>{
                         if(localStorage.getItem("Authorization")){
+                            if(this.tologin){
+                            this.$router.go(-2);
+                            }else{
                             this.$router.go(-1);
+                            }
+                            
                         }else{
                             this.$router.replace('/profiles');
                         }
@@ -193,19 +200,30 @@ export default {
         }
         ,
         gologin(){
-            this.$router.push("/login")
+            // console.log(111)
+
+            this.$router.replace("/login")
         }
 
         }
         ,
         mounted() {
         this.showcode();
-        console.log( document.getElementsByClassName("el-form-item__content"))
+        // console.log( document.getElementsByClassName("el-form-item__content"))
         let arr = document.getElementsByClassName("el-form-item__content");
         for(let i = 0;i<arr.length;i++){
             arr[i].style="margin-left:0;"
         }
         },
+        beforeRouteLeave (to, from, next) {
+            if(to.name=="login"){
+                this.tologin = false;
+                next();
+            }else{
+                this.tologin = true;
+                next();
+            }
+        }
 
     }
 </script>

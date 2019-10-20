@@ -65,6 +65,7 @@
 <script>
 export default {
     data() {
+        //校验规则
         var validatePass = (rule, value, callback) => {
         if (value === '') {
         callback(new Error('请输入密码'));
@@ -154,20 +155,20 @@ export default {
                 if (valid) {
                 this.buttonstatus =!this.buttonstatus;
                 let {phoneNumber,pass} = this.ruleForm;
-                console.log(phoneNumber,pass)
+                // console.log(phoneNumber,pass)
 
                 let {data} = await this.$instance.post('/user/reg',{  
                     username:phoneNumber,
                         password:pass
                     });
-                this.$router.push({name:'log',params:{phoneNumber}})
+                    console.log(data)
                 if(data.code===1){
-
+                    this.$router.push({name:'log',params:{phoneNumber}})
                 }else{
                 alert('注册失败');
                 }
                 } else {
-                    console.log('error submit!!');
+                    // console.log('error submit!!');
                     return false;
                 }
                 });
