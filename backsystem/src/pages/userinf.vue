@@ -129,14 +129,22 @@ export default {
 
         //全部删除
         async deleteall(){
-            let arr = this.arrdelete = this.tableData.map(item=>item.username) ;
-            this.tableData =[];
+            let arr =this.$refs.multipleTable.selection.map(item=>item.username) ;
+            console.log(arr)
+            this.tableData = this.tableData.filter(item=>arr.map(eve => eve==item));
+               console.log(this.tableData)
             let {data} =await this.$instance.get('/user/delete',{
                 params:{
                     username:JSON.stringify(arr)
                 }}
             );
             this.$forceUpdate();
+            if(data.code ===1){
+                history.go(0);
+            }
+     
+            
+
         },
         //上一页
         async preChange(val){

@@ -140,7 +140,7 @@
         getRowKeys(row) {
             return row.id;
         },
-        expands: [1, 2, 3, , 4, 5]
+        // expands: [1, 2, 3, , 4, 5]
         };
     },
     methods: {
@@ -166,16 +166,16 @@
             alert("修改失败!");
         }
         },
-        hopo(scope) {
+        hopo() {
         this.inputshow1 = !this.inputshow1;
         },
-        popo(scope) {
+        popo() {
         this.inputshow = !this.inputshow;
         },
-        dopo(scope) {
+        dopo() {
         this.inputshow2 = !this.inputshow2;
         },
-        topo(scope) {
+        topo() {
         this.inputshow3 = !this.inputshow3;
         },
         //删除功能

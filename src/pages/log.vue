@@ -113,7 +113,9 @@ export default {
             },
             rules: {
             username: [
-                { required: true, message: "亲，用户名必须填写哟", trigger: "blur" },
+                { required: true, message: "亲，手机号必须填写哟", trigger: "blur" },
+                { pattern: /^1[34578]\d{9}$/, message: '请输入正确的手机号码' }
+
             ],
             password: [{ required: true, message: "请输入密码", trigger: "blur" }]
             },
