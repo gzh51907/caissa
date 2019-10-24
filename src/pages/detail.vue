@@ -10,7 +10,7 @@
                     </div>
                 </div>
                 <div class="detail_banner">
-                    <img :src="data.img">
+                    <img :src="require(data.img)">
                 </div>
                 <div class="pro_info mar_bot10">
                     <ul>

@@ -74,6 +74,7 @@ async function update(colName, query, data) {
  * colName string 执行操作的集合名称
  * query {} 要查找的数据特征
  * sk number 跳过的数量
+ * item 正则查找
  */
 async function find(colName, query = {},sk,item,pages) { //补传query就是查找
     let {
@@ -111,6 +112,7 @@ async function find(colName, query = {},sk,item,pages) { //补传query就是查�
         }
         }
       result = await col.find(query).skip(sk-0).limit(30).toArray();
+      if(pages){ result = await col.find(query).toArray();}//如果searchlist的pages为true就查全部
     }else if(!pages){
         sk=sk?sk:0;
         result = await col.find(query).skip(sk-0).limit(10).toArray();

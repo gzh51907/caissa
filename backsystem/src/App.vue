@@ -1,14 +1,16 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <!-- <router-view></router-view> -->
+    <tour></tour>
   </div>
 </template>
 
 <script>
-
+import tour from './pages/addtour';
 export default {
   name: 'app',
   components: {
+    tour
   }
 }
 </script>
