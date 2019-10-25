@@ -132,7 +132,7 @@ export default {
             let arr =this.$refs.multipleTable.selection.map(item=>item.username) ;
             console.log(arr)
             this.tableData = this.tableData.filter(item=>arr.map(eve => eve==item));
-               console.log(this.tableData)
+                // console.log(this.tableData)
             let {data} =await this.$instance.get('/user/delete',{
                 params:{
                     username:JSON.stringify(arr)
@@ -142,8 +142,6 @@ export default {
             if(data.code ===1){
                 history.go(0);
             }
-     
-            
 
         },
         //上一页

@@ -113,7 +113,7 @@
         </el-table-column>
         </el-table>
         <el-pagination
-        style="margin-top:80px;float:right; margin-right:200px"
+        style="margin-top:30px;float:right; margin-right:200px"
         @size-change="handleSizeChange"
         @current-change="handleCurrentChange"
         @prev-click="preChange"
@@ -161,7 +161,8 @@
 
         if (data.code === 1) {
             alert("SUCCESS");
-            this.$forceUpdate();
+            // this.$forceUpdate();
+            this.$router.go(0);
         } else {
             alert("修改失败!");
         }

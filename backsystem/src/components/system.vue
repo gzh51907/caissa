@@ -1,19 +1,22 @@
 <template>
     <div class="syswrap" style="width:100%">
-        <header style="padding:0 !important; background:#545c64;height:100px !imoortant">
+        <header style="padding:0 !important; background:#545c64;">
             <el-row >
-                <el-col :span="15"><div class="grid-content bg-purple" style="  background-image: url(https://baike.baidu.com/pic/%E5%87%AF%E6%92%92%E6%97%85%E6%B8%B8/3684573/0/728da9773912b31b814f36858c18367adab4e17f?fr=lemma&ct=single#aid=0&pic=242dd42a2834349b17db1bc8c9ea15ce37d3be99)">
+                <el-col :span="15"><div class="grid-content bg-purple" style="height:60px !important;background-image: url(https://baike.baidu.com/pic/%E5%87%AF%E6%92%92%E6%97%85%E6%B8%B8/3684573/0/728da9773912b31b814f36858c18367adab4e17f?fr=lemma&ct=single#aid=0&pic=242dd42a2834349b17db1bc8c9ea15ce37d3be99)">
                     <h1 style="color:#fff;font-weight:normal;height:60px;font: Microsoft YaHei,Arial;
-                    line-height:60px;float:left;padding-left:50px;font-size:30px">凯撒旅游</h1></div></el-col>
+                    line-height:60px;
+                    float:left;padding-left:50px;font-size:30px;
+                    padding-top:10px">凯撒旅游</h1></div></el-col>
                     
-                <el-col :span="6"><div class="grid-content bg-purple" style="" >
+                <el-col :span="6"><div class="grid-content bg-purple" style=" height: 80px;padding-top:0px" >
                     <el-input
-                        style="text-align:center;padding-top:5px;float:right"
+                        style="text-align:center;padding-top:5px;float:right;height:60px; padding-top:20px"
                         placeholder="请输入内容"
                         prefix-icon="el-icon-search"
                         >
                     </el-input></div></el-col>     
-                <el-col :span="3"><div class="grid-content bg-purple-light" style="float:right">
+                <el-col :span="3"><div class="grid-content bg-purple-light" style="float:right; height: 60px;margin-top:20px;
+                padding-left:10px">
                     <el-menu
                         :default-active="activeIndex2"
                         class="el-menu-demo"
@@ -95,6 +98,18 @@ export default {
                         icon:"el-icon-s-custom",
                         path:"listinf"
                     }]
+                },
+                {
+                    id:3,
+                    text:"景点信息",
+                    tabshow:false,
+                    icon:'el-icon-position',
+                    childli:[{
+                        idx:1,
+                        text:"景点信息增添",
+                        icon:"el-icon-odometer",
+                        path:"addtour"
+                    }]
                 }
             ],
             
@@ -131,7 +146,19 @@ export default {
     }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .el-form-item__label {
+        color: aliceblue !important;
+        font-size: 20px;
+        padding-top: 10px
+    }
+    .el-input__inner{
+            height:50px !important;line-height:50px
+    }
     html, body{
         margin: 0;
         padding: 0;
@@ -143,11 +170,11 @@ export default {
         width: 100%;
         height: 100%;
         header{
-            height: 60px;
+            height: 80px;
         }
         .navPart{
             width: 100%;
-            height: calc(100% - 60px);
+            height: calc(100% - 80px);
             // background-color: #546 !important;
             display: flex;
 
@@ -165,6 +192,7 @@ export default {
                         // background-color: #ccc;
                         display: flex;
                         flex-direction: column;
+                        margin-bottom:10px;
                         p{ 
                             width: 100%; 
                             height: 50px;
@@ -200,6 +228,7 @@ export default {
                                 font-size: 20px;
                                 display: flex;
                                 align-items: center;
+                                margin-bottom:5px;
                                 // router-link{
                                 // display: flex;
                                 // flex-direction: column;

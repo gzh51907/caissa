@@ -1,15 +1,16 @@
 <template>
-<div id="box" style="color:#000">
+<div id="box" style="color:#000;float:left;margin-left:50px;margin-top:40px;width:60%">
     <el-form 
     ref="form" 
     :model="sizeForm" 
-    label-width="80px"
-     size="mini">
+    label-width="120px"
+     size="large">
   <el-form-item
    label="旅游标题"
    prop="title"
   :rules="{ required: true, message: '旅游标题不能为空'}">
-    <el-input type="title" v-model="sizeForm.title"></el-input>
+    <el-input type="title" v-model="sizeForm.title"
+    style="margin-left:5px;"></el-input>
   </el-form-item>
    <el-form-item 
    label="旅游副标题"
@@ -67,7 +68,7 @@ export default {
     mounted(){
         let lb=document.getElementsByClassName('el-form-item__label');
            for(var i =0;i<lb.length;i++){
-             lb[i].style='color:#000;padding:0';
+             lb[i].style='color:#000;padding:0;font-size:14px';
             //  lb[i].classList.remove('el-form-item__label');
            }
        
@@ -120,6 +121,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+    .el-input__inner{
+            height:50px !important;line-height:50px
+    }
  #box{
      margin:1.25rem;
  }
