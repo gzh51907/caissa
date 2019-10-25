@@ -1,117 +1,134 @@
 <template>
-    <div class="wrap_main">
-        <section>
-            <div class="detail_main">
-                <div class="fahui">
-                    <div class="fahui_h3 clear">
-                        <a class="fan_img" @click="goback">
-                            <img src="../assets/fanhui.png">
-                        </a>
-                    </div>
+  <div class="wrap_main">
+    <section>
+      <div class="detail_main">
+        <div class="fahui">
+          <div class="fahui_h3 clear">
+            <a
+              class="fan_img"
+              @click="goback"
+            >
+              <img src="../assets/fanhui.png">
+            </a>
+          </div>
+        </div>
+        <div class="detail_banner">
+          <img :src="data.img">
+        </div>
+        <div class="pro_info mar_bot10">
+          <ul>
+            <li>
+              <p class="big_title">
+                <span>{{data.title}}</span>
+              </p>
+            </li>
+            <li>
+              <span class="sma_title">
+                {{data.subtitle}}
+              </span>
+            </li>
+            <li>
+              <p class="price">
+                <i>￥</i>
+                <span class="pri">
+                  {{data.price}}
+                </span>
+                起
+              </p>
+            </li>
+            <li>
+              <label>产品亮点</label>
+              <p class="tab">
+                <strong
+                  v-for="item in data.tab"
+                  :key="item"
+                >{{item}}</strong>
+              </p>
+            </li>
+            <li class="show_coupon">
+              <label>优惠券</label>
+              <div>
+                <span>
+                  <i>30元代金券</i>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="dataBox mar_bot10">
+          <div class="dataTitleBox">出发日期</div>
+          <div class="dataListBox">
+            <ul>
+              <li
+                v-for="(item,index) in date"
+                @click="active(index)"
+                ref="dates"
+                :key="index"
+              >
+                <span>惠</span>
+                <div>{{item}}</div>
+                <div class="priceBox">
+                  ￥{{data.price}}
                 </div>
-                <div class="detail_banner">
-                    <img :src="require(data.img)">
-                </div>
-                <div class="pro_info mar_bot10">
-                    <ul>
-                        <li>
-                            <p class="big_title">
-                                <span>{{data.title}}</span>
-                            </p>
-                        </li>
-                        <li>
-                            <span class="sma_title">
-                                {{data.subtitle}}
-                            </span>
-                        </li>
-                        <li>
-                            <p class="price">
-                                <i>￥</i>
-                                <span class="pri">
-                                    {{data.price}}
-                                </span>
-                                起
-                            </p>
-                        </li>
-                        <li>
-                            <label>产品亮点</label>
-                            <p class="tab">
-                                <strong v-for="item in data.tab" :key="item">{{item}}</strong>
-                            </p>
-                        </li>
-                        <li class="show_coupon">
-                            <label>优惠券</label>
-                            <div>
-                                <span>
-                                    <i>30元代金券</i>
-                                </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dataBox mar_bot10">
-                    <div class="dataTitleBox">出发日期</div>
-                    <div class="dataListBox">
-                        <ul>
-                            <li v-for="(item,index) in date" @click="active(index)" ref="dates" :key="index">
-                                <span>惠</span>
-                                <div>{{item}}</div>
-                                <div class="priceBox">
-                                    ￥{{data.price}}
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="part_info mar_bot10" style="margin-bottom:50px">
-                    <ul>
-                        <li>
-                            <span class="cfd">出发地</span>
-                            <p>
-                                <em>{{data.go}}</em>
-                            </p>
-                        </li>
-                        <li>
-                            <span class="endDate">报名截止</span>
-                            <p>
-                                <em>{{date[datelength-1]}}</em>
-                            </p>
-                        </li>
-                        <li>
-                            <span class="tdgm">团队规模</span>
-                            <p>
-                                <em>团队总人数{{datelength}}</em>
-                            </p>
-                        </li>
-                        <li>
-                            <span class="cprq">产品人气</span>
-                            <p>
-                                <i class="num">{{data.id}}</i>
-                                <em>人想去</em>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="bot_nav">
-                <ul>
-                    <li @click="wantgo">
-                        <strong class="want_go"></strong>
-                        <span ref="wg">想去</span>
-                    </li>
-                    <li>
-                        <strong class="phone"></strong>
-                        <span>
-                            <a>电话咨询</a>
-                        </span>
-                    </li>
-                    <li class="lj_yd" @click="islogin">
-                        <p>立即预订</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="part_info mar_bot10"
+          style="margin-bottom:50px"
+        >
+          <ul>
+            <li>
+              <span class="cfd">出发地</span>
+              <p>
+                <em>{{data.go}}</em>
+              </p>
+            </li>
+            <li>
+              <span class="endDate">报名截止</span>
+              <p>
+                <em>{{date[datelength-1]}}</em>
+              </p>
+            </li>
+            <li>
+              <span class="tdgm">团队规模</span>
+              <p>
+                <em>团队总人数{{datelength}}</em>
+              </p>
+            </li>
+            <li>
+              <span class="cprq">产品人气</span>
+              <p>
+                <i class="num">{{data.id}}</i>
+                <em>人想去</em>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bot_nav">
+        <ul>
+          <li @click="wantgo">
+            <strong class="want_go"></strong>
+            <span ref="wg">想去</span>
+          </li>
+          <li>
+            <strong class="phone"></strong>
+            <span>
+              <a>电话咨询</a>
+            </span>
+          </li>
+          <li
+            class="lj_yd"
+            @click="islogin"
+          >
+            <p>立即预订</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
 </template>
 <script>
 export default {
@@ -160,7 +177,7 @@ export default {
           path: "/orderinf",
           query: { id: this.data.id }
         });
-        this.$store.state.godate=this.godate
+        this.$store.state.godate = this.godate;
       } else {
         //没登录
         this.$router.push("/log");
