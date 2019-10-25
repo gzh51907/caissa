@@ -1,7 +1,38 @@
 <template>
+<<<<<<< HEAD
   <div
     id="box"
     style="color:#000"
+=======
+<div id="box" style="color:#000;float:left;margin-left:50px;margin-top:40px;width:60%">
+    <el-form 
+    ref="form" 
+    :model="sizeForm" 
+    label-width="120px"
+     size="large">
+  <el-form-item
+   label="旅游标题"
+   prop="title"
+  :rules="{ required: true, message: '旅游标题不能为空'}">
+    <el-input type="title" v-model="sizeForm.title"
+    style="margin-left:5px;"></el-input>
+  </el-form-item>
+   <el-form-item 
+   label="旅游副标题"
+    prop="subtitle"
+  :rules="{ required: true, message: '旅游副标题不能为空'}">
+    <el-input type="subtitle" v-model="sizeForm.subtitle"></el-input>
+  </el-form-item>
+   <el-form-item label="出发地点" 
+    prop="go"
+  :rules="{ required: true, message: '出发地点不能为空'}">
+    <el-input type="go" v-model="sizeForm.go"></el-input>
+  </el-form-item>
+<el-form-item
+    label="价格"
+    prop="price"
+     :rules="{ required: true, message: '价格不能为空'}"
+>>>>>>> c2c3f5a42e49d347bf0a1daccaea3363fa6cc57e
   >
     <el-form
       ref="form"
@@ -104,6 +135,7 @@
 </template>
 <script>
 export default {
+<<<<<<< HEAD
   mounted() {
     let lb = document.getElementsByClassName("el-form-item__label");
     for (var i = 0; i < lb.length; i++) {
@@ -140,6 +172,39 @@ export default {
         let result = await this.$instance.get("/tour/addtour", {
           params: {
             sizeForm
+=======
+    mounted(){
+        let lb=document.getElementsByClassName('el-form-item__label');
+           for(var i =0;i<lb.length;i++){
+             lb[i].style='color:#000;padding:0;font-size:14px';
+            //  lb[i].classList.remove('el-form-item__label');
+           }
+       
+    },
+ data() {
+      return {
+        sizeForm: {
+          title: '',
+          subtitle: '',
+          img: '',
+          go: '',
+          price:'',
+          tab:[]
+        },
+        canSumit:'',
+        canSumit2:''
+      };
+    },
+    methods: {
+      async onSubmit() {
+          let sizeForm = this.sizeForm;
+          for (var i in sizeForm){
+              if(sizeForm[i]==''){
+                  this.canSumit2='false';
+              }else{
+                  this.canSumit2='success';
+              }
+>>>>>>> c2c3f5a42e49d347bf0a1daccaea3363fa6cc57e
           }
         });
         if (result.data.code == 1) {
@@ -162,7 +227,16 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+<<<<<<< HEAD
 #box {
   margin: 1.25rem;
 }
+=======
+    .el-input__inner{
+            height:50px !important;line-height:50px
+    }
+ #box{
+     margin:1.25rem;
+ }
+>>>>>>> c2c3f5a42e49d347bf0a1daccaea3363fa6cc57e
 </style>

@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <!-- <router-view></router-view> -->
-    <tour></tour>
+    <!--    <tour></tour> -->
+    <router-view></router-view>
+
   </div>
 </template>
 
@@ -10,7 +11,7 @@ import tour from './pages/addtour';
 export default {
   name: 'app',
   components: {
-    tour
+    // tour
   }
 }
 </script>
