@@ -29,7 +29,7 @@ router.post('/', multer({
     } else {
         let file = req.file;
         let fileInfo = {};
-        fs.renameSync('./static/' + file.filename, '../../src/assets/' + file.originalname);//这里修改文件名字，比较随意。
+        fs.renameSync('./static/' + file.filename, './static/' + file.originalname);//这里修改文件名字，比较随意。
         // 获取文件信息
         fileInfo.mimetype = file.mimetype;
         fileInfo.originalname = file.originalname;
@@ -39,7 +39,7 @@ router.post('/', multer({
         res.set({
             'content-type': 'application/json; charset=utf-8'
         });
-        res.send('../assets/' + fileInfo.originalname);
+        res.send('http://47.98.245.185:4399/static/' + fileInfo.originalname);
     }
 })
 module.exports = router;
